@@ -1,0 +1,60 @@
+---
+title: "Indian Population Data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd("~/Desktop/DAV/India_Geodata/india-census/")
+library(tidyverse)
+library(rgdal)        #Geospatial library for R
+library(ggplot2)
+library(wesanderson)
+library(RColorBrewer)
+library(ggmap)
+```
+
+```{r}
+popdata= read.csv('india-districts-census-2011.csv', header=TRUE, sep=',')
+head(popdata)
+```
+
+```{r}
+popdata=popdata[,1:6]
+popdata=popdata[,-1]
+#head(popdata)
+states= unique(popdata[,1])
+districts= unique(popdata[,2])
+
+ind_adm2_data=read.csv('IND_adm2.csv',header=TRUE,sep=',')
+ind_adm2_data %>%
+  rename(State.name=NAME_1,
+         District.name=NAME_2)
+
+```
+```{r}
+maindir="~/Desktop/DAV/India_Geodata"
+ind_adm_2= readOGR(paste(maindir,'/IND_adm',sep=''),'IND_adm2')
+ind_df= fortify(ind_adm_2, region = "NAME_2")
+
+head(ind_df)
+```
+### merge data 
+
+```{r}
+merged_data = merge(ind_df,popdata, by.x='id',by.y='District.name')
+head(merged_data)
+```
+## OH MY GOD! THIS WORKED! WHAT?! 
+```{r}
+# plotting again 
+Total= sum(popdata$Population)
+ind_adm_0= readOGR(paste(maindir,'/IND_adm',sep=''),'IND_adm0')
+ggplot() + 
+  geom_polygon(data=ind_adm_0,aes(x=long, y=lat,group=group), fill='white', col=rgb(0,0,0.3,alpha = 0.3)) +
+  geom_polygon(data=merged_data, aes(x = long, y = lat, group = group, color= merged_data$Population), size = 0.25)  + 
+  coord_fixed() +
+  labs(title=' Indian population data', x='',y='') +
+  theme_void()
+```
+
