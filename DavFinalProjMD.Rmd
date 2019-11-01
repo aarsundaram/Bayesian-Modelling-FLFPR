@@ -5,4 +5,62 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+#libraries
+library(tidyverse)
+library(rgdal)        
+library(ggplot2)
+library(wesanderson)
+library(RColorBrewer)
+library(ggmap)
+
 ```
+
+Problem Understanding: 
+Until now gender statistics have been region neutral- they show LFPR, wage gaps etc country-wise or region-wise, but without any exploration into causal relationships behind trends. If there is a huge difference in the manner in which fertility rates & labor force participation rates are related in sub-saharan africa as opposed to norwegian countries, we don't pause to wonder why that could be. Throwing light into causal relationships if any, into how women belonging to different regions react to maternity policies can give us insights on how to improve labor force participation rates with strategic interventions depending on the regions. 
+
+Graphic1: that shows how every indicator across the world has improved for women, except for LFPR
+
+Graphic 2: (aim is to stress need to address this issue urgently. So, Before Graphic3, show how world economic growth has been slowing down and overlap this with a fall in LFPR as well)
+
+Graphic3: that shows current GDP @ current LFPR vs GDP with LFPR at full potential
+
+Graphic 4: Plot Rate of fall of LFPR in different zones: North America, Sub-Saharan Africa, South Asia, Western Europe, East Asia
+
+Research Q: it is evident from Graphic3 that increasing women LFPR is vital to global economic interests. Why then, despite increasing standard of living, healthcare, opportunities and laws for ensuring safety, does LFPR fall? How different are the scenarios between developed and developing countries? Using bayesian modeling, we try to explore causalities between FLFPR and other development indicators: maternity leave, per capita income, education levels, fertility rates, percentage of wage compensated during maternity leave etc. 
+Using our inference, we provide policy recommendations for possible interventions. 
+
+###########################################################################        
+Graphic1 : 
+major indicators: female literacy, maternal mortality, female life-expectancy, Net primary enrollment rate (%), Net secondary enrollment rate (%), 
+
+```{r}
+setwd("~/Documents/GitHub/dav_final")
+
+#graphic1
+#LITERACY
+YouthLiteracy=read.csv('GenderStatsData/graphic1/youth_literacy_15_24.csv',header = TRUE, sep=',')
+length(unique(YouthLiteracy$Country)) #number of countries
+
+#female literacy in 1995 
+mean(YouthLiteracy[(YouthLiteracy$Year==min(YouthLiteracy$Year))&(YouthLiteracy$Sex=='Female'),]$Value)
+#female literacy in 2016 
+mean(YouthLiteracy[(YouthLiteracy$Year==max(YouthLiteracy$Year))&(YouthLiteracy$Sex=='Female'),]$Value)
+
+#MATERNAL MORTALITY per 100,000 births
+mortality=read.csv('GenderStatsData/graphic1/maternal_mortality.csv',header = TRUE, sep=',')
+#in 1995 
+mean(mortality[(mortality$Year==1995)&(mortality$Sex=='Female'),]$Value)
+#in 2015 
+mean(mortality[(mortality$Year==2015)&(mortality$Sex=='Female'),]$Value)
+
+#EDUCATION 25+ 
+uppersecondary=read.csv('GenderStatsData/graphic1/education_uppersecondary_25plus.csv',header = TRUE, sep=',')
+#in 1995 
+mean(uppersecondary[(uppersecondary$Year==1995)&(uppersecondary$Sex=='Female'),]$Value)
+#in 2015 
+mean(uppersecondary[(uppersecondary$Year==2015)&(uppersecondary$Sex=='Female'),]$Value)
+
+x <- data.frame("" = 1:2, "Age" = c(21,15), "Name" = c("John","Dora"))
+```
+
+

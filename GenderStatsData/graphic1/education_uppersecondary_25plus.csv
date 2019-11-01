@@ -1,0 +1,2241 @@
+Region,Country Code,Country,Year,Sex,Value,LowerBound,UpperBound
+Southern Asia,50,Bangladesh,2001,Female,13.36,-,-
+Southern Asia,50,Bangladesh,2001,Male,20.82,-,-
+Southern Asia,50,Bangladesh,2001,Both sexes,17.13,-,-
+Southern Asia,64,Bhutan,2012,Female,2.93,-,-
+Southern Asia,64,Bhutan,2012,Male,8.17,-,-
+Southern Asia,64,Bhutan,2012,Both sexes,5.51,-,-
+Southern Asia,144,Sri Lanka,2001,Female,55.61,-,-
+Southern Asia,144,Sri Lanka,2001,Male,56.62,-,-
+Southern Asia,144,Sri Lanka,2001,Both sexes,56.1,-,-
+Southern Asia,356,India,2011,Female,19.43,-,-
+Southern Asia,356,India,2011,Male,34.15,-,-
+Southern Asia,356,India,2011,Both sexes,26.89,-,-
+Southern Asia,364,Iran (Islamic Republic of),2008,Female,37.87,-,-
+Southern Asia,364,Iran (Islamic Republic of),2008,Male,40.19,-,-
+Southern Asia,364,Iran (Islamic Republic of),2008,Both sexes,39.13,-,-
+Southern Asia,364,Iran (Islamic Republic of),2010,Female,42.2,-,-
+Southern Asia,364,Iran (Islamic Republic of),2010,Male,42.73,-,-
+Southern Asia,364,Iran (Islamic Republic of),2010,Both sexes,42.49,-,-
+Southern Asia,364,Iran (Islamic Republic of),2006,Female,40.67,-,-
+Southern Asia,364,Iran (Islamic Republic of),2006,Male,45.53,-,-
+Southern Asia,364,Iran (Islamic Republic of),2006,Both sexes,43.35,-,-
+Southern Asia,364,Iran (Islamic Republic of),2012,Female,43.57,-,-
+Southern Asia,364,Iran (Islamic Republic of),2012,Male,44.82,-,-
+Southern Asia,364,Iran (Islamic Republic of),2012,Both sexes,44.24,-,-
+Southern Asia,364,Iran (Islamic Republic of),2013,Female,46.05,-,-
+Southern Asia,364,Iran (Islamic Republic of),2013,Male,46.54,-,-
+Southern Asia,364,Iran (Islamic Republic of),2013,Both sexes,46.31,-,-
+Southern Asia,364,Iran (Islamic Republic of),2014,Female,47.14,-,-
+Southern Asia,364,Iran (Islamic Republic of),2014,Male,46.79,-,-
+Southern Asia,364,Iran (Islamic Republic of),2014,Both sexes,46.95,-,-
+Southern Asia,462,Maldives,2006,Female,4.07,-,-
+Southern Asia,462,Maldives,2006,Male,6.42,-,-
+Southern Asia,462,Maldives,2006,Both sexes,5.23,-,-
+Southern Asia,524,Nepal,2011,Female,30.67,-,-
+Southern Asia,524,Nepal,2011,Male,38,-,-
+Southern Asia,524,Nepal,2011,Both sexes,35.2,-,-
+Southern Asia,586,Pakistan,2008,Female,13.28,-,-
+Southern Asia,586,Pakistan,2008,Male,31.11,-,-
+Southern Asia,586,Pakistan,2008,Both sexes,22.58,-,-
+Southern Asia,586,Pakistan,2005,Female,3.78,-,-
+Southern Asia,586,Pakistan,2005,Male,9.89,-,-
+Southern Asia,586,Pakistan,2005,Both sexes,6.76,-,-
+Southern Asia,586,Pakistan,2009,Female,14.62,-,-
+Southern Asia,586,Pakistan,2009,Male,31.28,-,-
+Southern Asia,586,Pakistan,2009,Both sexes,23.3,-,-
+Southern Asia,586,Pakistan,2010,Female,14.91,-,-
+Southern Asia,586,Pakistan,2010,Male,32.01,-,-
+Southern Asia,586,Pakistan,2010,Both sexes,23.88,-,-
+Southern Asia,586,Pakistan,2006,Female,14.59,-,-
+Southern Asia,586,Pakistan,2006,Male,31.44,-,-
+Southern Asia,586,Pakistan,2006,Both sexes,23.35,-,-
+Southern Asia,586,Pakistan,2011,Female,14.24,-,-
+Southern Asia,586,Pakistan,2011,Male,33.3,-,-
+Southern Asia,586,Pakistan,2011,Both sexes,24.15,-,-
+Southern Asia,586,Pakistan,2012,Female,18.69,-,-
+Southern Asia,586,Pakistan,2012,Male,32.31,-,-
+Southern Asia,586,Pakistan,2012,Both sexes,25.65,-,-
+Southern Asia,586,Pakistan,2013,Female,19.33,-,-
+Southern Asia,586,Pakistan,2013,Male,32.53,-,-
+Southern Asia,586,Pakistan,2013,Both sexes,26.07,-,-
+Southern Asia,586,Pakistan,2014,Female,20.97,-,-
+Southern Asia,586,Pakistan,2014,Male,34.18,-,-
+Southern Asia,586,Pakistan,2014,Both sexes,27.72,-,-
+Developed regions,8,Albania,2008,Female,35.29,-,-
+Developed regions,8,Albania,2008,Male,44.99,-,-
+Developed regions,8,Albania,2008,Both sexes,39.89,-,-
+Developed regions,8,Albania,2001,Female,32.12,-,-
+Developed regions,8,Albania,2001,Male,42.07,-,-
+Developed regions,8,Albania,2001,Both sexes,37.04,-,-
+Developed regions,8,Albania,2011,Female,38.73,-,-
+Developed regions,8,Albania,2011,Male,48.43,-,-
+Developed regions,8,Albania,2011,Both sexes,43.49,-,-
+Developed regions,8,Albania,2012,Female,44.49,-,-
+Developed regions,8,Albania,2012,Male,46.15,-,-
+Developed regions,8,Albania,2012,Both sexes,45.28,-,-
+Developed regions,20,Andorra,2014,Female,47.59,-,-
+Developed regions,20,Andorra,2014,Male,48.08,-,-
+Developed regions,20,Andorra,2014,Both sexes,47.84,-,-
+Developed regions,20,Andorra,2015,Female,47.28,-,-
+Developed regions,20,Andorra,2015,Male,47.81,-,-
+Developed regions,20,Andorra,2015,Both sexes,47.55,-,-
+Developed regions,36,Australia,2008,Female,67.18,-,-
+Developed regions,36,Australia,2008,Male,73.05,-,-
+Developed regions,36,Australia,2008,Both sexes,70.09,-,-
+Developed regions,36,Australia,2005,Female,60.29,-,-
+Developed regions,36,Australia,2005,Male,69.87,-,-
+Developed regions,36,Australia,2005,Both sexes,65.03,-,-
+Developed regions,36,Australia,2007,Female,64.18,-,-
+Developed regions,36,Australia,2007,Male,72.25,-,-
+Developed regions,36,Australia,2007,Both sexes,68.19,-,-
+Developed regions,36,Australia,2009,Female,68.23,-,-
+Developed regions,36,Australia,2009,Male,73.49,-,-
+Developed regions,36,Australia,2009,Both sexes,70.86,-,-
+Developed regions,36,Australia,2010,Female,70.6,-,-
+Developed regions,36,Australia,2010,Male,74.99,-,-
+Developed regions,36,Australia,2010,Both sexes,72.8,-,-
+Developed regions,36,Australia,2004,Female,58.63,-,-
+Developed regions,36,Australia,2004,Male,69.73,-,-
+Developed regions,36,Australia,2004,Both sexes,64.12,-,-
+Developed regions,36,Australia,2006,Female,62.58,-,-
+Developed regions,36,Australia,2006,Male,70.93,-,-
+Developed regions,36,Australia,2006,Both sexes,66.71,-,-
+Developed regions,36,Australia,2011,Female,72.64,-,-
+Developed regions,36,Australia,2011,Male,75.51,-,-
+Developed regions,36,Australia,2011,Both sexes,74.06,-,-
+Developed regions,36,Australia,2012,Female,75,-,-
+Developed regions,36,Australia,2012,Male,77.99,-,-
+Developed regions,36,Australia,2012,Both sexes,76.48,-,-
+Developed regions,36,Australia,2013,Female,70.12,-,-
+Developed regions,36,Australia,2013,Male,73.99,-,-
+Developed regions,36,Australia,2013,Both sexes,72.04,-,-
+Developed regions,36,Australia,2014,Female,69.81,-,-
+Developed regions,36,Australia,2014,Male,72.67,-,-
+Developed regions,36,Australia,2014,Both sexes,71.23,-,-
+Developed regions,36,Australia,2015,Female,73.35,-,-
+Developed regions,36,Australia,2015,Male,77.82,-,-
+Developed regions,36,Australia,2015,Both sexes,75.56,-,-
+Developed regions,40,Austria,2008,Female,62.96,-,-
+Developed regions,40,Austria,2008,Male,83.55,-,-
+Developed regions,40,Austria,2008,Both sexes,72.47,-,-
+Developed regions,40,Austria,2005,Female,66.92,-,-
+Developed regions,40,Austria,2005,Male,82.15,-,-
+Developed regions,40,Austria,2005,Both sexes,74.2,-,-
+Developed regions,40,Austria,2007,Female,64.91,-,-
+Developed regions,40,Austria,2007,Male,83.02,-,-
+Developed regions,40,Austria,2007,Both sexes,73.59,-,-
+Developed regions,40,Austria,2009,Female,68.06,-,-
+Developed regions,40,Austria,2009,Male,84.2,-,-
+Developed regions,40,Austria,2009,Both sexes,75.81,-,-
+Developed regions,40,Austria,2010,Female,69.25,-,-
+Developed regions,40,Austria,2010,Male,84.46,-,-
+Developed regions,40,Austria,2010,Both sexes,76.56,-,-
+Developed regions,40,Austria,2011,Female,69.07,-,-
+Developed regions,40,Austria,2011,Male,84.37,-,-
+Developed regions,40,Austria,2011,Both sexes,76.43,-,-
+Developed regions,40,Austria,2012,Female,69.83,-,-
+Developed regions,40,Austria,2012,Male,84.67,-,-
+Developed regions,40,Austria,2012,Both sexes,76.98,-,-
+Developed regions,40,Austria,2013,Female,70.53,-,-
+Developed regions,40,Austria,2013,Male,84.6,-,-
+Developed regions,40,Austria,2013,Both sexes,77.31,-,-
+Developed regions,40,Austria,2014,Female,71.53,-,-
+Developed regions,40,Austria,2014,Male,85.19,-,-
+Developed regions,40,Austria,2014,Both sexes,78.11,-,-
+Developed regions,40,Austria,2015,Female,72.47,-,-
+Developed regions,40,Austria,2015,Male,86.02,-,-
+Developed regions,40,Austria,2015,Both sexes,79.01,-,-
+Developed regions,56,Belgium,2008,Female,57.63,-,-
+Developed regions,56,Belgium,2008,Male,63.42,-,-
+Developed regions,56,Belgium,2008,Both sexes,60.42,-,-
+Developed regions,56,Belgium,2009,Female,59.28,-,-
+Developed regions,56,Belgium,2009,Male,64.28,-,-
+Developed regions,56,Belgium,2009,Both sexes,61.69,-,-
+Developed regions,56,Belgium,2010,Female,59.75,-,-
+Developed regions,56,Belgium,2010,Male,63.85,-,-
+Developed regions,56,Belgium,2010,Both sexes,61.73,-,-
+Developed regions,56,Belgium,2006,Female,55.47,-,-
+Developed regions,56,Belgium,2006,Male,60.17,-,-
+Developed regions,56,Belgium,2006,Both sexes,57.73,-,-
+Developed regions,56,Belgium,2011,Female,60.89,-,-
+Developed regions,56,Belgium,2011,Male,64.77,-,-
+Developed regions,56,Belgium,2011,Both sexes,62.76,-,-
+Developed regions,56,Belgium,2012,Female,61.56,-,-
+Developed regions,56,Belgium,2012,Male,64.98,-,-
+Developed regions,56,Belgium,2012,Both sexes,63.21,-,-
+Developed regions,56,Belgium,2013,Female,62.83,-,-
+Developed regions,56,Belgium,2013,Male,65.82,-,-
+Developed regions,56,Belgium,2013,Both sexes,64.28,-,-
+Developed regions,56,Belgium,2014,Female,62.3,-,-
+Developed regions,56,Belgium,2014,Male,65.86,-,-
+Developed regions,56,Belgium,2014,Both sexes,64.02,-,-
+Developed regions,56,Belgium,2015,Female,64.7,-,-
+Developed regions,56,Belgium,2015,Male,67.83,-,-
+Developed regions,56,Belgium,2015,Both sexes,66.21,-,-
+Developed regions,60,Bermuda,2000,Female,84.93,-,-
+Developed regions,60,Bermuda,2000,Male,84.93,-,-
+Developed regions,60,Bermuda,2000,Both sexes,84.93,-,-
+Developed regions,60,Bermuda,2010,Female,80.3,-,-
+Developed regions,60,Bermuda,2010,Male,73.36,-,-
+Developed regions,60,Bermuda,2010,Both sexes,77.02,-,-
+Developed regions,70,Bosnia and Herzegovina,2010,Female,27.91,-,-
+Developed regions,70,Bosnia and Herzegovina,2010,Male,34.58,-,-
+Developed regions,70,Bosnia and Herzegovina,2010,Both sexes,31.11,-,-
+Developed regions,70,Bosnia and Herzegovina,2011,Female,29.41,-,-
+Developed regions,70,Bosnia and Herzegovina,2011,Male,36.36,-,-
+Developed regions,70,Bosnia and Herzegovina,2011,Both sexes,32.74,-,-
+Developed regions,70,Bosnia and Herzegovina,2014,Female,47.51,-,-
+Developed regions,70,Bosnia and Herzegovina,2014,Male,72.83,-,-
+Developed regions,70,Bosnia and Herzegovina,2014,Both sexes,59.57,-,-
+Developed regions,70,Bosnia and Herzegovina,2015,Female,49.68,-,-
+Developed regions,70,Bosnia and Herzegovina,2015,Male,72.9,-,-
+Developed regions,70,Bosnia and Herzegovina,2015,Both sexes,60.83,-,-
+Developed regions,100,Bulgaria,2008,Female,65.85,-,-
+Developed regions,100,Bulgaria,2008,Male,69.57,-,-
+Developed regions,100,Bulgaria,2008,Both sexes,67.61,-,-
+Developed regions,100,Bulgaria,2007,Female,65.14,-,-
+Developed regions,100,Bulgaria,2007,Male,69.11,-,-
+Developed regions,100,Bulgaria,2007,Both sexes,67.02,-,-
+Developed regions,100,Bulgaria,2009,Female,66.63,-,-
+Developed regions,100,Bulgaria,2009,Male,70.07,-,-
+Developed regions,100,Bulgaria,2009,Both sexes,68.26,-,-
+Developed regions,100,Bulgaria,2010,Female,67.96,-,-
+Developed regions,100,Bulgaria,2010,Male,71.46,-,-
+Developed regions,100,Bulgaria,2010,Both sexes,69.61,-,-
+Developed regions,100,Bulgaria,2001,Female,57.86,-,-
+Developed regions,100,Bulgaria,2001,Male,61.22,-,-
+Developed regions,100,Bulgaria,2001,Both sexes,59.46,-,-
+Developed regions,100,Bulgaria,2006,Female,62.89,-,-
+Developed regions,100,Bulgaria,2006,Male,66.18,-,-
+Developed regions,100,Bulgaria,2006,Both sexes,64.45,-,-
+Developed regions,100,Bulgaria,2011,Female,68.87,-,-
+Developed regions,100,Bulgaria,2011,Male,72.64,-,-
+Developed regions,100,Bulgaria,2011,Both sexes,70.65,-,-
+Developed regions,100,Bulgaria,2012,Female,70.56,-,-
+Developed regions,100,Bulgaria,2012,Male,74.58,-,-
+Developed regions,100,Bulgaria,2012,Both sexes,72.48,-,-
+Developed regions,100,Bulgaria,2013,Female,72.15,-,-
+Developed regions,100,Bulgaria,2013,Male,75.9,-,-
+Developed regions,100,Bulgaria,2013,Both sexes,73.94,-,-
+Developed regions,100,Bulgaria,2014,Female,72.51,-,-
+Developed regions,100,Bulgaria,2014,Male,75.24,-,-
+Developed regions,100,Bulgaria,2014,Both sexes,73.81,-,-
+Developed regions,100,Bulgaria,2015,Female,73.66,-,-
+Developed regions,100,Bulgaria,2015,Male,76.29,-,-
+Developed regions,100,Bulgaria,2015,Both sexes,74.91,-,-
+Developed regions,112,Belarus,2009,Female,82.47,-,-
+Developed regions,112,Belarus,2009,Male,87.84,-,-
+Developed regions,112,Belarus,2009,Both sexes,84.85,-,-
+Developed regions,124,Canada,2001,Female,70.57,-,-
+Developed regions,124,Canada,2001,Male,71.47,-,-
+Developed regions,124,Canada,2001,Both sexes,74.58,-,-
+Developed regions,124,Canada,2006,Female,79.12,-,-
+Developed regions,124,Canada,2006,Male,79.71,-,-
+Developed regions,124,Canada,2006,Both sexes,79.4,-,-
+Developed regions,124,Canada,2011,Female,82.74,-,-
+Developed regions,124,Canada,2011,Male,82.76,-,-
+Developed regions,124,Canada,2011,Both sexes,82.75,-,-
+Developed regions,191,Croatia,2001,Female,50.46,-,-
+Developed regions,191,Croatia,2001,Male,69.99,-,-
+Developed regions,191,Croatia,2001,Both sexes,59.6,-,-
+Developed regions,191,Croatia,2011,Female,63.2,-,-
+Developed regions,191,Croatia,2011,Male,79.13,-,-
+Developed regions,191,Croatia,2011,Both sexes,70.71,-,-
+Developed regions,196,Cyprus,2008,Female,61.37,-,-
+Developed regions,196,Cyprus,2008,Male,67.78,-,-
+Developed regions,196,Cyprus,2008,Both sexes,64.5,-,-
+Developed regions,196,Cyprus,2005,Female,55.28,-,-
+Developed regions,196,Cyprus,2005,Male,62.31,-,-
+Developed regions,196,Cyprus,2005,Both sexes,58.67,-,-
+Developed regions,196,Cyprus,2007,Female,60.69,-,-
+Developed regions,196,Cyprus,2007,Male,66.54,-,-
+Developed regions,196,Cyprus,2007,Both sexes,63.53,-,-
+Developed regions,196,Cyprus,2009,Female,60.74,-,-
+Developed regions,196,Cyprus,2009,Male,67.01,-,-
+Developed regions,196,Cyprus,2009,Both sexes,63.82,-,-
+Developed regions,196,Cyprus,2010,Female,62.34,-,-
+Developed regions,196,Cyprus,2010,Male,68.68,-,-
+Developed regions,196,Cyprus,2010,Both sexes,65.45,-,-
+Developed regions,196,Cyprus,2004,Female,53.52,-,-
+Developed regions,196,Cyprus,2004,Male,61.07,-,-
+Developed regions,196,Cyprus,2004,Both sexes,57.14,-,-
+Developed regions,196,Cyprus,2006,Female,58.43,-,-
+Developed regions,196,Cyprus,2006,Male,64.17,-,-
+Developed regions,196,Cyprus,2006,Both sexes,61.2,-,-
+Developed regions,196,Cyprus,2011,Female,65.14,-,-
+Developed regions,196,Cyprus,2011,Male,70.72,-,-
+Developed regions,196,Cyprus,2011,Both sexes,67.78,-,-
+Developed regions,196,Cyprus,2012,Female,66.59,-,-
+Developed regions,196,Cyprus,2012,Male,71.5,-,-
+Developed regions,196,Cyprus,2012,Both sexes,68.92,-,-
+Developed regions,196,Cyprus,2013,Female,67.75,-,-
+Developed regions,196,Cyprus,2013,Male,72.27,-,-
+Developed regions,196,Cyprus,2013,Both sexes,69.89,-,-
+Developed regions,196,Cyprus,2014,Female,68.06,-,-
+Developed regions,196,Cyprus,2014,Male,71.1,-,-
+Developed regions,196,Cyprus,2014,Both sexes,69.5,-,-
+Developed regions,196,Cyprus,2015,Female,67.41,-,-
+Developed regions,196,Cyprus,2015,Male,70.86,-,-
+Developed regions,196,Cyprus,2015,Both sexes,69.05,-,-
+Developed regions,203,Czech Republic,2008,Female,80.05,-,-
+Developed regions,203,Czech Republic,2008,Male,92.7,-,-
+Developed regions,203,Czech Republic,2008,Both sexes,86.14,-,-
+Developed regions,203,Czech Republic,2007,Female,79.63,-,-
+Developed regions,203,Czech Republic,2007,Male,92.44,-,-
+Developed regions,203,Czech Republic,2007,Both sexes,85.78,-,-
+Developed regions,203,Czech Republic,2009,Female,81.71,-,-
+Developed regions,203,Czech Republic,2009,Male,93.19,-,-
+Developed regions,203,Czech Republic,2009,Both sexes,87.25,-,-
+Developed regions,203,Czech Republic,2010,Female,82.58,-,-
+Developed regions,203,Czech Republic,2010,Male,93.79,-,-
+Developed regions,203,Czech Republic,2010,Both sexes,87.99,-,-
+Developed regions,203,Czech Republic,2006,Female,79.26,-,-
+Developed regions,203,Czech Republic,2006,Male,92.24,-,-
+Developed regions,203,Czech Republic,2006,Both sexes,85.48,-,-
+Developed regions,203,Czech Republic,2011,Female,83.23,-,-
+Developed regions,203,Czech Republic,2011,Male,93.94,-,-
+Developed regions,203,Czech Republic,2011,Both sexes,88.4,-,-
+Developed regions,203,Czech Republic,2012,Female,83.67,-,-
+Developed regions,203,Czech Republic,2012,Male,93.71,-,-
+Developed regions,203,Czech Republic,2012,Both sexes,88.53,-,-
+Developed regions,203,Czech Republic,2013,Female,84.73,-,-
+Developed regions,203,Czech Republic,2013,Male,93.89,-,-
+Developed regions,203,Czech Republic,2013,Both sexes,89.16,-,-
+Developed regions,203,Czech Republic,2014,Female,85.25,-,-
+Developed regions,203,Czech Republic,2014,Male,94.31,-,-
+Developed regions,203,Czech Republic,2014,Both sexes,89.63,-,-
+Developed regions,203,Czech Republic,2015,Female,85.58,-,-
+Developed regions,203,Czech Republic,2015,Male,94.24,-,-
+Developed regions,203,Czech Republic,2015,Both sexes,89.77,-,-
+Developed regions,208,Denmark,2003,Female,83.83,-,-
+Developed regions,208,Denmark,2003,Male,84.52,-,-
+Developed regions,208,Denmark,2003,Both sexes,84.26,-,-
+Developed regions,208,Denmark,2008,Female,78.1,-,-
+Developed regions,208,Denmark,2008,Male,79.47,-,-
+Developed regions,208,Denmark,2008,Both sexes,78.79,-,-
+Developed regions,208,Denmark,2007,Female,75.43,-,-
+Developed regions,208,Denmark,2007,Male,77.09,-,-
+Developed regions,208,Denmark,2007,Both sexes,76.28,-,-
+Developed regions,208,Denmark,2009,Female,73.49,-,-
+Developed regions,208,Denmark,2009,Male,80.8,-,-
+Developed regions,208,Denmark,2009,Both sexes,74.98,-,-
+Developed regions,208,Denmark,2010,Female,73.43,-,-
+Developed regions,208,Denmark,2010,Male,76.44,-,-
+Developed regions,208,Denmark,2010,Both sexes,74.94,-,-
+Developed regions,208,Denmark,2004,Female,82.63,-,-
+Developed regions,208,Denmark,2004,Male,81.95,-,-
+Developed regions,208,Denmark,2004,Both sexes,82.28,-,-
+Developed regions,208,Denmark,1995,Female,55.7,-,-
+Developed regions,208,Denmark,1995,Male,64.33,-,-
+Developed regions,208,Denmark,1995,Both sexes,60.04,-,-
+Developed regions,208,Denmark,2011,Female,74.81,-,-
+Developed regions,208,Denmark,2011,Male,76.14,-,-
+Developed regions,208,Denmark,2011,Both sexes,75.48,-,-
+Developed regions,208,Denmark,2012,Female,75.54,-,-
+Developed regions,208,Denmark,2012,Male,76.47,-,-
+Developed regions,208,Denmark,2012,Both sexes,76,-,-
+Developed regions,208,Denmark,2013,Female,76.5,-,-
+Developed regions,208,Denmark,2013,Male,69.52,-,-
+Developed regions,208,Denmark,2013,Both sexes,76.55,-,-
+Developed regions,208,Denmark,2014,Female,76.34,-,-
+Developed regions,208,Denmark,2014,Male,77.34,-,-
+Developed regions,208,Denmark,2014,Both sexes,76.83,-,-
+Developed regions,208,Denmark,2015,Female,77.81,-,-
+Developed regions,208,Denmark,2015,Male,77.69,-,-
+Developed regions,208,Denmark,2015,Both sexes,77.75,-,-
+Developed regions,233,Estonia,2008,Female,86.29,-,-
+Developed regions,233,Estonia,2008,Male,84.17,-,-
+Developed regions,233,Estonia,2008,Both sexes,85.32,-,-
+Developed regions,233,Estonia,2000,Female,72.05,-,-
+Developed regions,233,Estonia,2000,Male,70.69,-,-
+Developed regions,233,Estonia,2000,Both sexes,71.46,-,-
+Developed regions,233,Estonia,2007,Female,86.22,-,-
+Developed regions,233,Estonia,2007,Male,85.07,-,-
+Developed regions,233,Estonia,2007,Both sexes,85.7,-,-
+Developed regions,233,Estonia,2009,Female,87.19,-,-
+Developed regions,233,Estonia,2009,Male,83.91,-,-
+Developed regions,233,Estonia,2009,Both sexes,85.68,-,-
+Developed regions,233,Estonia,2010,Female,88.43,-,-
+Developed regions,233,Estonia,2010,Male,84.14,-,-
+Developed regions,233,Estonia,2010,Both sexes,86.46,-,-
+Developed regions,233,Estonia,2011,Female,88.51,-,-
+Developed regions,233,Estonia,2011,Male,84.25,-,-
+Developed regions,233,Estonia,2011,Both sexes,86.55,-,-
+Developed regions,233,Estonia,2012,Female,88.89,-,-
+Developed regions,233,Estonia,2012,Male,85.34,-,-
+Developed regions,233,Estonia,2012,Both sexes,87.25,-,-
+Developed regions,233,Estonia,2013,Female,90.5,-,-
+Developed regions,233,Estonia,2013,Male,86.07,-,-
+Developed regions,233,Estonia,2013,Both sexes,88.41,-,-
+Developed regions,233,Estonia,2014,Female,91.89,-,-
+Developed regions,233,Estonia,2014,Male,87.22,-,-
+Developed regions,233,Estonia,2014,Both sexes,89.68,-,-
+Developed regions,233,Estonia,2015,Female,91.48,-,-
+Developed regions,233,Estonia,2015,Male,87.71,-,-
+Developed regions,233,Estonia,2015,Both sexes,89.69,-,-
+Developed regions,246,Finland,2003,Female,63.71,-,-
+Developed regions,246,Finland,2003,Male,65.14,-,-
+Developed regions,246,Finland,2003,Both sexes,64.4,-,-
+Developed regions,246,Finland,2008,Female,68.76,-,-
+Developed regions,246,Finland,2008,Male,68.81,-,-
+Developed regions,246,Finland,2008,Both sexes,68.79,-,-
+Developed regions,246,Finland,2005,Female,65.75,-,-
+Developed regions,246,Finland,2005,Male,66.68,-,-
+Developed regions,246,Finland,2005,Both sexes,66.2,-,-
+Developed regions,246,Finland,2007,Female,67.79,-,-
+Developed regions,246,Finland,2007,Male,68.16,-,-
+Developed regions,246,Finland,2007,Both sexes,67.97,-,-
+Developed regions,246,Finland,2009,Female,69.7,-,-
+Developed regions,246,Finland,2009,Male,69.56,-,-
+Developed regions,246,Finland,2009,Both sexes,69.63,-,-
+Developed regions,246,Finland,2010,Female,70.61,-,-
+Developed regions,246,Finland,2010,Male,70.27,-,-
+Developed regions,246,Finland,2010,Both sexes,70.45,-,-
+Developed regions,246,Finland,2006,Female,66.82,-,-
+Developed regions,246,Finland,2006,Male,67.46,-,-
+Developed regions,246,Finland,2006,Both sexes,67.13,-,-
+Developed regions,246,Finland,2011,Female,71.47,-,-
+Developed regions,246,Finland,2011,Male,70.91,-,-
+Developed regions,246,Finland,2011,Both sexes,71.2,-,-
+Developed regions,246,Finland,2012,Female,72.34,-,-
+Developed regions,246,Finland,2012,Male,71.54,-,-
+Developed regions,246,Finland,2012,Both sexes,71.95,-,-
+Developed regions,246,Finland,2013,Female,73.27,-,-
+Developed regions,246,Finland,2013,Male,72.33,-,-
+Developed regions,246,Finland,2013,Both sexes,72.81,-,-
+Developed regions,246,Finland,2014,Female,74.11,-,-
+Developed regions,246,Finland,2014,Male,72.99,-,-
+Developed regions,246,Finland,2014,Both sexes,73.57,-,-
+Developed regions,250,France,2008,Female,57.16,-,-
+Developed regions,250,France,2008,Male,63.91,-,-
+Developed regions,250,France,2008,Both sexes,60.35,-,-
+Developed regions,250,France,2005,Female,52.87,-,-
+Developed regions,250,France,2005,Male,60.71,-,-
+Developed regions,250,France,2005,Both sexes,56.59,-,-
+Developed regions,250,France,2007,Female,56.01,-,-
+Developed regions,250,France,2007,Male,63.18,-,-
+Developed regions,250,France,2007,Both sexes,59.42,-,-
+Developed regions,250,France,2009,Female,58.23,-,-
+Developed regions,250,France,2009,Male,64.62,-,-
+Developed regions,250,France,2009,Both sexes,61.26,-,-
+Developed regions,250,France,2010,Female,58.65,-,-
+Developed regions,250,France,2010,Male,65.52,-,-
+Developed regions,250,France,2010,Both sexes,61.9,-,-
+Developed regions,250,France,2004,Female,51.99,-,-
+Developed regions,250,France,2004,Male,59.8,-,-
+Developed regions,250,France,2004,Both sexes,55.7,-,-
+Developed regions,250,France,2011,Female,59.7,-,-
+Developed regions,250,France,2011,Male,66.18,-,-
+Developed regions,250,France,2011,Both sexes,62.77,-,-
+Developed regions,250,France,2012,Female,60.88,-,-
+Developed regions,250,France,2012,Male,66.94,-,-
+Developed regions,250,France,2012,Both sexes,63.75,-,-
+Developed regions,250,France,2013,Female,63.38,-,-
+Developed regions,250,France,2013,Male,69.62,-,-
+Developed regions,250,France,2013,Both sexes,66.34,-,-
+Developed regions,250,France,2014,Female,65.42,-,-
+Developed regions,250,France,2014,Male,71.98,-,-
+Developed regions,250,France,2014,Both sexes,68.53,-,-
+Developed regions,250,France,2015,Female,66.73,-,-
+Developed regions,250,France,2015,Male,72.44,-,-
+Developed regions,250,France,2015,Both sexes,69.44,-,-
+Developed regions,276,Germany,2008,Female,73.67,-,-
+Developed regions,276,Germany,2008,Male,87.11,-,-
+Developed regions,276,Germany,2008,Both sexes,80.16,-,-
+Developed regions,276,Germany,2005,Female,70.55,-,-
+Developed regions,276,Germany,2005,Male,85.26,-,-
+Developed regions,276,Germany,2005,Both sexes,77.62,-,-
+Developed regions,276,Germany,2007,Female,72.42,-,-
+Developed regions,276,Germany,2007,Male,86.29,-,-
+Developed regions,276,Germany,2007,Both sexes,79.11,-,-
+Developed regions,276,Germany,2009,Female,74.38,-,-
+Developed regions,276,Germany,2009,Male,87.26,-,-
+Developed regions,276,Germany,2009,Both sexes,80.62,-,-
+Developed regions,276,Germany,2010,Female,75.17,-,-
+Developed regions,276,Germany,2010,Male,87.47,-,-
+Developed regions,276,Germany,2010,Both sexes,81.13,-,-
+Developed regions,276,Germany,2004,Female,71.26,-,-
+Developed regions,276,Germany,2004,Male,86.18,-,-
+Developed regions,276,Germany,2004,Both sexes,78.48,-,-
+Developed regions,276,Germany,2006,Female,70.93,-,-
+Developed regions,276,Germany,2006,Male,85.26,-,-
+Developed regions,276,Germany,2006,Both sexes,77.85,-,-
+Developed regions,276,Germany,2011,Female,75.96,-,-
+Developed regions,276,Germany,2011,Male,87.84,-,-
+Developed regions,276,Germany,2011,Both sexes,81.72,-,-
+Developed regions,276,Germany,2012,Female,76.48,-,-
+Developed regions,276,Germany,2012,Male,87.95,-,-
+Developed regions,276,Germany,2012,Both sexes,82.05,-,-
+Developed regions,276,Germany,2013,Female,77.07,-,-
+Developed regions,276,Germany,2013,Male,87.84,-,-
+Developed regions,276,Germany,2013,Both sexes,82.31,-,-
+Developed regions,276,Germany,2014,Female,77.93,-,-
+Developed regions,276,Germany,2014,Male,88.39,-,-
+Developed regions,276,Germany,2014,Both sexes,83,-,-
+Developed regions,276,Germany,2015,Female,78.3,-,-
+Developed regions,276,Germany,2015,Male,88.15,-,-
+Developed regions,276,Germany,2015,Both sexes,83.08,-,-
+Developed regions,300,Greece,2008,Female,49.82,-,-
+Developed regions,300,Greece,2008,Male,55.68,-,-
+Developed regions,300,Greece,2008,Both sexes,52.67,-,-
+Developed regions,300,Greece,2005,Female,46.1,-,-
+Developed regions,300,Greece,2005,Male,52.05,-,-
+Developed regions,300,Greece,2005,Both sexes,48.98,-,-
+Developed regions,300,Greece,2007,Female,49.35,-,-
+Developed regions,300,Greece,2007,Male,55.16,-,-
+Developed regions,300,Greece,2007,Both sexes,52.17,-,-
+Developed regions,300,Greece,2010,Female,51.42,-,-
+Developed regions,300,Greece,2010,Male,56.03,-,-
+Developed regions,300,Greece,2010,Both sexes,53.66,-,-
+Developed regions,300,Greece,2006,Female,40.87,-,-
+Developed regions,300,Greece,2006,Male,48.19,-,-
+Developed regions,300,Greece,2006,Both sexes,44.42,-,-
+Developed regions,300,Greece,2014,Female,55.11,-,-
+Developed regions,300,Greece,2014,Male,57.54,-,-
+Developed regions,300,Greece,2014,Both sexes,56.27,-,-
+Developed regions,300,Greece,2015,Female,56.92,-,-
+Developed regions,300,Greece,2015,Male,59.01,-,-
+Developed regions,300,Greece,2015,Both sexes,57.93,-,-
+Developed regions,304,Greenland,2012,Female,40.05,-,-
+Developed regions,304,Greenland,2012,Male,36.6,-,-
+Developed regions,304,Greenland,2012,Both sexes,38.19,-,-
+Developed regions,304,Greenland,2014,Female,41.16,-,-
+Developed regions,304,Greenland,2014,Male,37.01,-,-
+Developed regions,304,Greenland,2014,Both sexes,38.93,-,-
+Developed regions,304,Greenland,2015,Female,42.12,-,-
+Developed regions,304,Greenland,2015,Male,37.48,-,-
+Developed regions,304,Greenland,2015,Both sexes,39.63,-,-
+Developed regions,348,Hungary,2005,Female,57.38,-,-
+Developed regions,348,Hungary,2005,Male,70.81,-,-
+Developed regions,348,Hungary,2005,Both sexes,63.55,-,-
+Developed regions,348,Hungary,2009,Female,70.55,-,-
+Developed regions,348,Hungary,2009,Male,78.96,-,-
+Developed regions,348,Hungary,2009,Both sexes,74.54,-,-
+Developed regions,348,Hungary,2010,Female,71.75,-,-
+Developed regions,348,Hungary,2010,Male,80.06,-,-
+Developed regions,348,Hungary,2010,Both sexes,75.69,-,-
+Developed regions,348,Hungary,2001,Female,48.99,-,-
+Developed regions,348,Hungary,2001,Male,62.24,-,-
+Developed regions,348,Hungary,2001,Both sexes,55.07,-,-
+Developed regions,348,Hungary,2011,Female,72.93,-,-
+Developed regions,348,Hungary,2011,Male,80.76,-,-
+Developed regions,348,Hungary,2011,Both sexes,76.66,-,-
+Developed regions,348,Hungary,2012,Female,74.13,-,-
+Developed regions,348,Hungary,2012,Male,81.49,-,-
+Developed regions,348,Hungary,2012,Both sexes,77.63,-,-
+Developed regions,348,Hungary,2013,Female,75.09,-,-
+Developed regions,348,Hungary,2013,Male,82.22,-,-
+Developed regions,348,Hungary,2013,Both sexes,78.49,-,-
+Developed regions,348,Hungary,2014,Female,69.84,-,-
+Developed regions,348,Hungary,2014,Male,79.11,-,-
+Developed regions,348,Hungary,2014,Both sexes,74.12,-,-
+Developed regions,348,Hungary,2015,Female,71.07,-,-
+Developed regions,348,Hungary,2015,Male,79.77,-,-
+Developed regions,348,Hungary,2015,Both sexes,75.1,-,-
+Developed regions,352,Iceland,2005,Female,54.84,-,-
+Developed regions,352,Iceland,2005,Male,66.6,-,-
+Developed regions,352,Iceland,2005,Both sexes,60.74,-,-
+Developed regions,372,Ireland,2007,Female,62.47,-,-
+Developed regions,372,Ireland,2007,Male,50.13,-,-
+Developed regions,372,Ireland,2007,Both sexes,60.54,-,-
+Developed regions,372,Ireland,2010,Female,68.3,-,-
+Developed regions,372,Ireland,2010,Male,64.8,-,-
+Developed regions,372,Ireland,2010,Both sexes,66.59,-,-
+Developed regions,372,Ireland,2011,Female,68.75,-,-
+Developed regions,372,Ireland,2011,Male,63.88,-,-
+Developed regions,372,Ireland,2011,Both sexes,66.37,-,-
+Developed regions,376,Israel,2007,Female,77.05,-,-
+Developed regions,376,Israel,2007,Male,76.46,-,-
+Developed regions,376,Israel,2007,Both sexes,76.76,-,-
+Developed regions,376,Israel,2009,Female,77.71,-,-
+Developed regions,376,Israel,2009,Male,76.94,-,-
+Developed regions,376,Israel,2009,Both sexes,77.34,-,-
+Developed regions,376,Israel,2010,Female,77.76,-,-
+Developed regions,376,Israel,2010,Male,77.41,-,-
+Developed regions,376,Israel,2010,Both sexes,77.59,-,-
+Developed regions,376,Israel,2011,Male,78.39,-,-
+Developed regions,376,Israel,2011,Both sexes,78.54,-,-
+Developed regions,376,Israel,2012,Female,79.87,-,-
+Developed regions,376,Israel,2012,Male,80.75,-,-
+Developed regions,376,Israel,2012,Both sexes,80.29,-,-
+Developed regions,376,Israel,2013,Female,80.44,-,-
+Developed regions,376,Israel,2013,Male,80.88,-,-
+Developed regions,376,Israel,2013,Both sexes,80.66,-,-
+Developed regions,376,Israel,2014,Female,81.07,-,-
+Developed regions,376,Israel,2014,Male,81.41,-,-
+Developed regions,376,Israel,2014,Both sexes,81.23,-,-
+Developed regions,376,Israel,2015,Female,81.3,-,-
+Developed regions,376,Israel,2015,Male,81.6,-,-
+Developed regions,376,Israel,2015,Both sexes,81.44,-,-
+Developed regions,380,Italy,2008,Female,42.74,-,-
+Developed regions,380,Italy,2008,Male,45.38,-,-
+Developed regions,380,Italy,2008,Both sexes,44,-,-
+Developed regions,380,Italy,2005,Female,38.68,-,-
+Developed regions,380,Italy,2005,Male,42.49,-,-
+Developed regions,380,Italy,2005,Both sexes,40.5,-,-
+Developed regions,380,Italy,2007,Female,41.66,-,-
+Developed regions,380,Italy,2007,Male,44.65,-,-
+Developed regions,380,Italy,2007,Both sexes,43.09,-,-
+Developed regions,380,Italy,2009,Female,43.26,-,-
+Developed regions,380,Italy,2009,Male,46.33,-,-
+Developed regions,380,Italy,2009,Both sexes,44.73,-,-
+Developed regions,380,Italy,2010,Female,44.1,-,-
+Developed regions,380,Italy,2010,Male,47.03,-,-
+Developed regions,380,Italy,2010,Both sexes,45.5,-,-
+Developed regions,380,Italy,2001,Female,33.83,-,-
+Developed regions,380,Italy,2001,Male,37.24,-,-
+Developed regions,380,Italy,2001,Both sexes,35.44,-,-
+Developed regions,380,Italy,2006,Female,39.66,-,-
+Developed regions,380,Italy,2006,Male,43.32,-,-
+Developed regions,380,Italy,2006,Both sexes,41.41,-,-
+Developed regions,380,Italy,2011,Female,45.02,-,-
+Developed regions,380,Italy,2011,Male,47.42,-,-
+Developed regions,380,Italy,2011,Both sexes,46.16,-,-
+Developed regions,380,Italy,2012,Female,46.3,-,-
+Developed regions,380,Italy,2012,Male,48.36,-,-
+Developed regions,380,Italy,2012,Both sexes,47.28,-,-
+Developed regions,380,Italy,2014,Female,47.57,-,-
+Developed regions,380,Italy,2014,Male,49.81,-,-
+Developed regions,380,Italy,2014,Both sexes,48.64,-,-
+Developed regions,380,Italy,2015,Female,48.22,-,-
+Developed regions,380,Italy,2015,Male,50.17,-,-
+Developed regions,380,Italy,2015,Both sexes,49.15,-,-
+Developed regions,392,Japan,2010,Female,79.31,-,-
+Developed regions,392,Japan,2010,Male,82.05,-,-
+Developed regions,392,Japan,2010,Both sexes,80.61,-,-
+Developed regions,428,Latvia,2008,Female,84.27,-,-
+Developed regions,428,Latvia,2008,Male,79.68,-,-
+Developed regions,428,Latvia,2008,Both sexes,82.16,-,-
+Developed regions,428,Latvia,2005,Female,81.54,-,-
+Developed regions,428,Latvia,2005,Male,78.34,-,-
+Developed regions,428,Latvia,2005,Both sexes,80.08,-,-
+Developed regions,428,Latvia,2007,Female,83.1,-,-
+Developed regions,428,Latvia,2007,Male,78.47,-,-
+Developed regions,428,Latvia,2007,Both sexes,80.97,-,-
+Developed regions,428,Latvia,2009,Female,86.51,-,-
+Developed regions,428,Latvia,2009,Male,81.34,-,-
+Developed regions,428,Latvia,2009,Both sexes,84.13,-,-
+Developed regions,428,Latvia,2010,Female,87.87,-,-
+Developed regions,428,Latvia,2010,Male,82.89,-,-
+Developed regions,428,Latvia,2010,Both sexes,85.57,-,-
+Developed regions,428,Latvia,2004,Female,80.05,-,-
+Developed regions,428,Latvia,2004,Male,77.89,-,-
+Developed regions,428,Latvia,2004,Both sexes,79.05,-,-
+Developed regions,428,Latvia,2006,Female,81.63,-,-
+Developed regions,428,Latvia,2006,Male,77.72,-,-
+Developed regions,428,Latvia,2006,Both sexes,79.83,-,-
+Developed regions,428,Latvia,2011,Female,87.44,-,-
+Developed regions,428,Latvia,2011,Male,82.24,-,-
+Developed regions,428,Latvia,2011,Both sexes,85.08,-,-
+Developed regions,428,Latvia,2012,Female,88.56,-,-
+Developed regions,428,Latvia,2012,Male,83.71,-,-
+Developed regions,428,Latvia,2012,Both sexes,86.34,-,-
+Developed regions,428,Latvia,2013,Female,89.3,-,-
+Developed regions,428,Latvia,2013,Male,84.63,-,-
+Developed regions,428,Latvia,2013,Both sexes,87.16,-,-
+Developed regions,428,Latvia,2014,Female,90.21,-,-
+Developed regions,428,Latvia,2014,Male,84.93,-,-
+Developed regions,428,Latvia,2014,Both sexes,87.79,-,-
+Developed regions,428,Latvia,2015,Female,90.83,-,-
+Developed regions,428,Latvia,2015,Male,86,-,-
+Developed regions,428,Latvia,2015,Both sexes,88.6,-,-
+Developed regions,438,Liechtenstein,2000,Female,62.5,-,-
+Developed regions,438,Liechtenstein,2000,Male,80.88,-,-
+Developed regions,438,Liechtenstein,2000,Both sexes,71.49,-,-
+Developed regions,440,Lithuania,2008,Female,75.93,-,-
+Developed regions,440,Lithuania,2008,Male,81.38,-,-
+Developed regions,440,Lithuania,2008,Both sexes,78.35,-,-
+Developed regions,440,Lithuania,2005,Female,71.76,-,-
+Developed regions,440,Lithuania,2005,Male,77.18,-,-
+Developed regions,440,Lithuania,2005,Both sexes,74.18,-,-
+Developed regions,440,Lithuania,2007,Female,74.81,-,-
+Developed regions,440,Lithuania,2007,Male,78.69,-,-
+Developed regions,440,Lithuania,2007,Both sexes,76.54,-,-
+Developed regions,440,Lithuania,2009,Female,76.99,-,-
+Developed regions,440,Lithuania,2009,Male,82.47,-,-
+Developed regions,440,Lithuania,2009,Both sexes,79.43,-,-
+Developed regions,440,Lithuania,2010,Female,78.12,-,-
+Developed regions,440,Lithuania,2010,Male,83.59,-,-
+Developed regions,440,Lithuania,2010,Both sexes,80.55,-,-
+Developed regions,440,Lithuania,2006,Female,74.43,-,-
+Developed regions,440,Lithuania,2006,Male,77.64,-,-
+Developed regions,440,Lithuania,2006,Both sexes,75.86,-,-
+Developed regions,440,Lithuania,2011,Female,79.11,-,-
+Developed regions,440,Lithuania,2011,Male,84.87,-,-
+Developed regions,440,Lithuania,2011,Both sexes,81.67,-,-
+Developed regions,440,Lithuania,2012,Female,79.2,-,-
+Developed regions,440,Lithuania,2012,Male,84.55,-,-
+Developed regions,440,Lithuania,2012,Both sexes,81.55,-,-
+Developed regions,440,Lithuania,2013,Female,80.1,-,-
+Developed regions,440,Lithuania,2013,Male,85.12,-,-
+Developed regions,440,Lithuania,2013,Both sexes,82.31,-,-
+Developed regions,440,Lithuania,2014,Female,81.47,-,-
+Developed regions,440,Lithuania,2014,Male,85.69,-,-
+Developed regions,440,Lithuania,2014,Both sexes,83.33,-,-
+Developed regions,440,Lithuania,2015,Female,82.83,-,-
+Developed regions,440,Lithuania,2015,Male,86.2,-,-
+Developed regions,440,Lithuania,2015,Both sexes,84.31,-,-
+Developed regions,442,Luxembourg,2003,Female,43.16,-,-
+Developed regions,442,Luxembourg,2003,Male,58.22,-,-
+Developed regions,442,Luxembourg,2003,Both sexes,50.53,-,-
+Developed regions,442,Luxembourg,2007,Female,56.11,-,-
+Developed regions,442,Luxembourg,2007,Male,67.12,-,-
+Developed regions,442,Luxembourg,2007,Both sexes,61.72,-,-
+Developed regions,442,Luxembourg,2009,Female,70.62,-,-
+Developed regions,442,Luxembourg,2009,Male,79.92,-,-
+Developed regions,442,Luxembourg,2009,Both sexes,75.26,-,-
+Developed regions,442,Luxembourg,2010,Female,71.17,-,-
+Developed regions,442,Luxembourg,2010,Male,79.93,-,-
+Developed regions,442,Luxembourg,2010,Both sexes,75.52,-,-
+Developed regions,442,Luxembourg,2001,Female,41.78,-,-
+Developed regions,442,Luxembourg,2001,Male,37.55,-,-
+Developed regions,442,Luxembourg,2001,Both sexes,39.95,-,-
+Developed regions,442,Luxembourg,2011,Female,71.09,-,-
+Developed regions,442,Luxembourg,2011,Male,78.72,-,-
+Developed regions,442,Luxembourg,2011,Both sexes,74.91,-,-
+Developed regions,442,Luxembourg,2012,Female,72.6,-,-
+Developed regions,442,Luxembourg,2012,Male,79.92,-,-
+Developed regions,442,Luxembourg,2012,Both sexes,76.25,-,-
+Developed regions,442,Luxembourg,2013,Female,75.47,-,-
+Developed regions,442,Luxembourg,2013,Male,81.12,-,-
+Developed regions,442,Luxembourg,2013,Both sexes,78.3,-,-
+Developed regions,442,Luxembourg,2014,Female,75.73,-,-
+Developed regions,442,Luxembourg,2014,Male,83.36,-,-
+Developed regions,442,Luxembourg,2014,Both sexes,79.57,-,-
+Developed regions,470,Malta,2000,Female,17.12,-,-
+Developed regions,470,Malta,2000,Male,23.83,-,-
+Developed regions,470,Malta,2000,Both sexes,20.4,-,-
+Developed regions,470,Malta,2005,Female,16.8,-,-
+Developed regions,470,Malta,2005,Male,29.08,-,-
+Developed regions,470,Malta,2005,Both sexes,22.77,-,-
+Developed regions,470,Malta,2007,Female,18.66,-,-
+Developed regions,470,Malta,2007,Male,27.64,-,-
+Developed regions,470,Malta,2007,Both sexes,23.06,-,-
+Developed regions,470,Malta,2010,Female,22.06,-,-
+Developed regions,470,Malta,2010,Male,29.83,-,-
+Developed regions,470,Malta,2010,Both sexes,25.87,-,-
+Developed regions,470,Malta,2011,Female,23.43,-,-
+Developed regions,470,Malta,2011,Male,31.48,-,-
+Developed regions,470,Malta,2011,Both sexes,27.37,-,-
+Developed regions,470,Malta,2012,Female,28.28,-,-
+Developed regions,470,Malta,2012,Male,36.75,-,-
+Developed regions,470,Malta,2012,Both sexes,32.44,-,-
+Developed regions,470,Malta,2013,Female,32.1,-,-
+Developed regions,470,Malta,2013,Male,36.97,-,-
+Developed regions,470,Malta,2013,Both sexes,34.48,-,-
+Developed regions,470,Malta,2014,Female,34.1,-,-
+Developed regions,470,Malta,2014,Male,37.48,-,-
+Developed regions,470,Malta,2014,Both sexes,35.77,-,-
+Developed regions,470,Malta,2015,Female,35.46,-,-
+Developed regions,470,Malta,2015,Male,38.38,-,-
+Developed regions,470,Malta,2015,Both sexes,36.91,-,-
+Developed regions,498,Republic of Moldova,2008,Female,71.12,-,-
+Developed regions,498,Republic of Moldova,2008,Male,77.77,-,-
+Developed regions,498,Republic of Moldova,2008,Both sexes,74.2,-,-
+Developed regions,498,Republic of Moldova,2007,Female,69.85,-,-
+Developed regions,498,Republic of Moldova,2007,Male,76.48,-,-
+Developed regions,498,Republic of Moldova,2007,Both sexes,72.92,-,-
+Developed regions,498,Republic of Moldova,2009,Female,72.44,-,-
+Developed regions,498,Republic of Moldova,2009,Male,78.38,-,-
+Developed regions,498,Republic of Moldova,2009,Both sexes,75.19,-,-
+Developed regions,498,Republic of Moldova,2010,Female,71.69,-,-
+Developed regions,498,Republic of Moldova,2010,Male,77.57,-,-
+Developed regions,498,Republic of Moldova,2010,Both sexes,74.4,-,-
+Developed regions,498,Republic of Moldova,2011,Female,71.92,-,-
+Developed regions,498,Republic of Moldova,2011,Male,77.36,-,-
+Developed regions,498,Republic of Moldova,2011,Both sexes,74.44,-,-
+Developed regions,498,Republic of Moldova,2012,Female,72.13,-,-
+Developed regions,498,Republic of Moldova,2012,Male,77.33,-,-
+Developed regions,498,Republic of Moldova,2012,Both sexes,74.55,-,-
+Developed regions,498,Republic of Moldova,2013,Female,71.73,-,-
+Developed regions,498,Republic of Moldova,2013,Male,76.88,-,-
+Developed regions,498,Republic of Moldova,2013,Both sexes,74.11,-,-
+Developed regions,498,Republic of Moldova,2014,Female,73,-,-
+Developed regions,498,Republic of Moldova,2014,Male,76.74,-,-
+Developed regions,498,Republic of Moldova,2014,Both sexes,74.72,-,-
+Developed regions,498,Republic of Moldova,2015,Female,73.52,-,-
+Developed regions,498,Republic of Moldova,2015,Male,76.13,-,-
+Developed regions,498,Republic of Moldova,2015,Both sexes,74.73,-,-
+Developed regions,499,Montenegro,2003,Female,55.61,-,-
+Developed regions,499,Montenegro,2003,Male,74.26,-,-
+Developed regions,499,Montenegro,2003,Both sexes,64.55,-,-
+Developed regions,499,Montenegro,2011,Female,65.23,-,-
+Developed regions,499,Montenegro,2011,Male,80.43,-,-
+Developed regions,499,Montenegro,2011,Both sexes,72.56,-,-
+Developed regions,528,Netherlands,2008,Female,61.64,-,-
+Developed regions,528,Netherlands,2008,Male,71.01,-,-
+Developed regions,528,Netherlands,2008,Both sexes,66.22,-,-
+Developed regions,528,Netherlands,2005,Female,59.26,-,-
+Developed regions,528,Netherlands,2005,Male,70.88,-,-
+Developed regions,528,Netherlands,2005,Both sexes,64.95,-,-
+Developed regions,528,Netherlands,2007,Female,62.66,-,-
+Developed regions,528,Netherlands,2007,Male,72.45,-,-
+Developed regions,528,Netherlands,2007,Both sexes,67.45,-,-
+Developed regions,528,Netherlands,2009,Female,62.03,-,-
+Developed regions,528,Netherlands,2009,Male,70.85,-,-
+Developed regions,528,Netherlands,2009,Both sexes,66.34,-,-
+Developed regions,528,Netherlands,2010,Female,62.28,-,-
+Developed regions,528,Netherlands,2010,Male,71.46,-,-
+Developed regions,528,Netherlands,2010,Both sexes,66.77,-,-
+Developed regions,528,Netherlands,2004,Female,59.09,-,-
+Developed regions,528,Netherlands,2004,Male,70.58,-,-
+Developed regions,528,Netherlands,2004,Both sexes,64.73,-,-
+Developed regions,528,Netherlands,2011,Female,62.58,-,-
+Developed regions,528,Netherlands,2011,Male,70.4,-,-
+Developed regions,528,Netherlands,2011,Both sexes,66.41,-,-
+Developed regions,528,Netherlands,2012,Female,63.18,-,-
+Developed regions,528,Netherlands,2012,Male,71.19,-,-
+Developed regions,528,Netherlands,2012,Both sexes,67.1,-,-
+Developed regions,528,Netherlands,2013,Female,65.25,-,-
+Developed regions,528,Netherlands,2013,Male,73.98,-,-
+Developed regions,528,Netherlands,2013,Both sexes,69.53,-,-
+Developed regions,528,Netherlands,2014,Female,65.26,-,-
+Developed regions,528,Netherlands,2014,Male,73.75,-,-
+Developed regions,528,Netherlands,2014,Both sexes,69.42,-,-
+Developed regions,528,Netherlands,2015,Female,65.48,-,-
+Developed regions,528,Netherlands,2015,Male,73.82,-,-
+Developed regions,528,Netherlands,2015,Both sexes,69.57,-,-
+Developed regions,554,New Zealand,2006,Female,72.36,-,-
+Developed regions,554,New Zealand,2006,Male,73.22,-,-
+Developed regions,554,New Zealand,2006,Both sexes,72.77,-,-
+Developed regions,554,New Zealand,2011,Female,66.9,-,-
+Developed regions,554,New Zealand,2011,Male,71.18,-,-
+Developed regions,554,New Zealand,2011,Both sexes,68.96,-,-
+Developed regions,554,New Zealand,2012,Female,66.85,-,-
+Developed regions,554,New Zealand,2012,Male,70.87,-,-
+Developed regions,554,New Zealand,2012,Both sexes,68.79,-,-
+Developed regions,554,New Zealand,2014,Female,67.11,-,-
+Developed regions,554,New Zealand,2014,Male,72.08,-,-
+Developed regions,554,New Zealand,2014,Both sexes,69.49,-,-
+Developed regions,554,New Zealand,2015,Female,67.44,-,-
+Developed regions,554,New Zealand,2015,Male,71.83,-,-
+Developed regions,554,New Zealand,2015,Both sexes,69.54,-,-
+Developed regions,578,Norway,2008,Female,73.63,-,-
+Developed regions,578,Norway,2008,Male,76.27,-,-
+Developed regions,578,Norway,2008,Both sexes,74.93,-,-
+Developed regions,578,Norway,2005,Female,68.44,-,-
+Developed regions,578,Norway,2005,Male,74.22,-,-
+Developed regions,578,Norway,2005,Both sexes,71.27,-,-
+Developed regions,578,Norway,2007,Female,71.74,-,-
+Developed regions,578,Norway,2007,Male,75.64,-,-
+Developed regions,578,Norway,2007,Both sexes,73.65,-,-
+Developed regions,578,Norway,2009,Female,73.42,-,-
+Developed regions,578,Norway,2009,Male,76.42,-,-
+Developed regions,578,Norway,2009,Both sexes,74.89,-,-
+Developed regions,578,Norway,2010,Female,74.09,-,-
+Developed regions,578,Norway,2010,Male,76.79,-,-
+Developed regions,578,Norway,2010,Both sexes,75.41,-,-
+Developed regions,578,Norway,2004,Female,86.14,-,-
+Developed regions,578,Norway,2004,Male,83.13,-,-
+Developed regions,578,Norway,2004,Both sexes,80.69,-,-
+Developed regions,578,Norway,2006,Female,71.16,-,-
+Developed regions,578,Norway,2006,Male,75.43,-,-
+Developed regions,578,Norway,2006,Both sexes,73.25,-,-
+Developed regions,578,Norway,2011,Female,74.78,-,-
+Developed regions,578,Norway,2011,Male,77.24,-,-
+Developed regions,578,Norway,2011,Both sexes,75.99,-,-
+Developed regions,578,Norway,2014,Female,76.3,-,-
+Developed regions,578,Norway,2014,Male,77.73,-,-
+Developed regions,578,Norway,2014,Both sexes,77.01,-,-
+Developed regions,578,Norway,2015,Female,76.89,-,-
+Developed regions,578,Norway,2015,Male,78.1,-,-
+Developed regions,578,Norway,2015,Both sexes,77.49,-,-
+Developed regions,616,Poland,2008,Female,75.5,-,-
+Developed regions,616,Poland,2008,Male,82.64,-,-
+Developed regions,616,Poland,2008,Both sexes,78.84,-,-
+Developed regions,616,Poland,2009,Female,76.8,-,-
+Developed regions,616,Poland,2009,Male,83.44,-,-
+Developed regions,616,Poland,2009,Both sexes,79.91,-,-
+Developed regions,616,Poland,2010,Female,77.8,-,-
+Developed regions,616,Poland,2010,Male,84.25,-,-
+Developed regions,616,Poland,2010,Both sexes,80.82,-,-
+Developed regions,616,Poland,2011,Female,78.66,-,-
+Developed regions,616,Poland,2011,Male,84.82,-,-
+Developed regions,616,Poland,2011,Both sexes,81.55,-,-
+Developed regions,616,Poland,2002,Female,68.04,-,-
+Developed regions,616,Poland,2002,Male,76.24,-,-
+Developed regions,616,Poland,2002,Both sexes,71.89,-,-
+Developed regions,616,Poland,2012,Female,79.25,-,-
+Developed regions,616,Poland,2012,Male,85.26,-,-
+Developed regions,616,Poland,2012,Both sexes,82.09,-,-
+Developed regions,616,Poland,2013,Female,80.14,-,-
+Developed regions,616,Poland,2013,Male,85.87,-,-
+Developed regions,616,Poland,2013,Both sexes,82.85,-,-
+Developed regions,616,Poland,2014,Female,80.85,-,-
+Developed regions,616,Poland,2014,Male,86.43,-,-
+Developed regions,616,Poland,2014,Both sexes,83.49,-,-
+Developed regions,620,Portugal,1999,Female,15.18,-,-
+Developed regions,620,Portugal,1999,Male,15.34,-,-
+Developed regions,620,Portugal,1999,Both sexes,15.26,-,-
+Developed regions,620,Portugal,2003,Female,19.1,-,-
+Developed regions,620,Portugal,2003,Male,17.71,-,-
+Developed regions,620,Portugal,2003,Both sexes,18.44,-,-
+Developed regions,620,Portugal,2008,Female,23.75,-,-
+Developed regions,620,Portugal,2008,Male,21.72,-,-
+Developed regions,620,Portugal,2008,Both sexes,22.8,-,-
+Developed regions,620,Portugal,2000,Female,15.58,-,-
+Developed regions,620,Portugal,2000,Male,15.78,-,-
+Developed regions,620,Portugal,2000,Both sexes,15.68,-,-
+Developed regions,620,Portugal,2005,Female,22.13,-,-
+Developed regions,620,Portugal,2005,Male,20.45,-,-
+Developed regions,620,Portugal,2005,Both sexes,21.34,-,-
+Developed regions,620,Portugal,2007,Female,23.29,-,-
+Developed regions,620,Portugal,2007,Male,21.17,-,-
+Developed regions,620,Portugal,2007,Both sexes,22.29,-,-
+Developed regions,620,Portugal,2009,Female,25.02,-,-
+Developed regions,620,Portugal,2009,Male,22.96,-,-
+Developed regions,620,Portugal,2009,Both sexes,24.06,-,-
+Developed regions,620,Portugal,2010,Female,26.99,-,-
+Developed regions,620,Portugal,2010,Male,24,-,-
+Developed regions,620,Portugal,2010,Both sexes,25.6,-,-
+Developed regions,620,Portugal,1998,Female,14.62,-,-
+Developed regions,620,Portugal,1998,Male,14.47,-,-
+Developed regions,620,Portugal,1998,Both sexes,14.55,-,-
+Developed regions,620,Portugal,2001,Female,16.52,-,-
+Developed regions,620,Portugal,2001,Male,16.32,-,-
+Developed regions,620,Portugal,2001,Both sexes,16.43,-,-
+Developed regions,620,Portugal,2004,Female,20.88,-,-
+Developed regions,620,Portugal,2004,Male,19.7,-,-
+Developed regions,620,Portugal,2004,Both sexes,20.33,-,-
+Developed regions,620,Portugal,2006,Female,23.22,-,-
+Developed regions,620,Portugal,2006,Male,21.49,-,-
+Developed regions,620,Portugal,2006,Both sexes,22.41,-,-
+Developed regions,620,Portugal,2011,Female,29.09,-,-
+Developed regions,620,Portugal,2011,Male,26.48,-,-
+Developed regions,620,Portugal,2011,Both sexes,27.88,-,-
+Developed regions,620,Portugal,2002,Female,17.23,-,-
+Developed regions,620,Portugal,2002,Male,16.19,-,-
+Developed regions,620,Portugal,2002,Both sexes,16.74,-,-
+Developed regions,620,Portugal,2012,Female,31.4,-,-
+Developed regions,620,Portugal,2012,Male,28.44,-,-
+Developed regions,620,Portugal,2012,Both sexes,30.02,-,-
+Developed regions,620,Portugal,2013,Female,33.48,-,-
+Developed regions,620,Portugal,2013,Male,30.01,-,-
+Developed regions,620,Portugal,2013,Both sexes,31.87,-,-
+Developed regions,620,Portugal,2014,Female,35.97,-,-
+Developed regions,620,Portugal,2014,Male,32.16,-,-
+Developed regions,620,Portugal,2014,Both sexes,34.21,-,-
+Developed regions,620,Portugal,2015,Female,36.7,-,-
+Developed regions,620,Portugal,2015,Male,33.95,-,-
+Developed regions,620,Portugal,2015,Both sexes,35.43,-,-
+Developed regions,642,Romania,2008,Female,58.3,-,-
+Developed regions,642,Romania,2008,Male,71.76,-,-
+Developed regions,642,Romania,2008,Both sexes,64.72,-,-
+Developed regions,642,Romania,2007,Female,57.43,-,-
+Developed regions,642,Romania,2007,Male,71.78,-,-
+Developed regions,642,Romania,2007,Both sexes,64.27,-,-
+Developed regions,642,Romania,2009,Female,58.07,-,-
+Developed regions,642,Romania,2009,Male,70.98,-,-
+Developed regions,642,Romania,2009,Both sexes,64.23,-,-
+Developed regions,642,Romania,2010,Female,57.89,-,-
+Developed regions,642,Romania,2010,Male,70.77,-,-
+Developed regions,642,Romania,2010,Both sexes,64.03,-,-
+Developed regions,642,Romania,2011,Female,58.95,-,-
+Developed regions,642,Romania,2011,Male,71.35,-,-
+Developed regions,642,Romania,2011,Both sexes,64.86,-,-
+Developed regions,642,Romania,2002,Female,45.15,-,-
+Developed regions,642,Romania,2002,Male,60.92,-,-
+Developed regions,642,Romania,2002,Both sexes,52.65,-,-
+Developed regions,642,Romania,2012,Female,60.17,-,-
+Developed regions,642,Romania,2012,Male,72.05,-,-
+Developed regions,642,Romania,2012,Both sexes,65.84,-,-
+Developed regions,642,Romania,2013,Female,60.91,-,-
+Developed regions,642,Romania,2013,Male,72.55,-,-
+Developed regions,642,Romania,2013,Both sexes,66.46,-,-
+Developed regions,642,Romania,2014,Female,57.86,-,-
+Developed regions,642,Romania,2014,Male,68.56,-,-
+Developed regions,642,Romania,2014,Both sexes,62.98,-,-
+Developed regions,642,Romania,2015,Female,59.4,-,-
+Developed regions,642,Romania,2015,Male,70.38,-,-
+Developed regions,642,Romania,2015,Both sexes,64.66,-,-
+Developed regions,643,Russian Federation,2010,Female,83.46,-,-
+Developed regions,643,Russian Federation,2010,Male,85.89,-,-
+Developed regions,643,Russian Federation,2010,Both sexes,84.53,-,-
+Developed regions,643,Russian Federation,2002,Female,89.41,-,-
+Developed regions,643,Russian Federation,2002,Male,88.71,-,-
+Developed regions,643,Russian Federation,2002,Both sexes,89.08,-,-
+Developed regions,688,Serbia,2008,Female,55.12,-,-
+Developed regions,688,Serbia,2008,Male,70.88,-,-
+Developed regions,688,Serbia,2008,Both sexes,62.55,-,-
+Developed regions,688,Serbia,2009,Female,56.04,-,-
+Developed regions,688,Serbia,2009,Male,70.85,-,-
+Developed regions,688,Serbia,2009,Both sexes,62.99,-,-
+Developed regions,688,Serbia,2010,Female,56.26,-,-
+Developed regions,688,Serbia,2010,Male,71.91,-,-
+Developed regions,688,Serbia,2010,Both sexes,63.67,-,-
+Developed regions,688,Serbia,2011,Female,60.7,-,-
+Developed regions,688,Serbia,2011,Male,73.05,-,-
+Developed regions,688,Serbia,2011,Both sexes,66.6,-,-
+Developed regions,688,Serbia,2013,Female,60.37,-,-
+Developed regions,688,Serbia,2013,Male,73.41,-,-
+Developed regions,688,Serbia,2013,Both sexes,66.56,-,-
+Developed regions,688,Serbia,2014,Female,62.42,-,-
+Developed regions,688,Serbia,2014,Male,75.39,-,-
+Developed regions,688,Serbia,2014,Both sexes,68.57,-,-
+Developed regions,688,Serbia,2015,Female,65.2,-,-
+Developed regions,688,Serbia,2015,Male,77.13,-,-
+Developed regions,688,Serbia,2015,Both sexes,70.9,-,-
+Developed regions,703,Slovakia,2001,Female,42.86,-,-
+Developed regions,703,Slovakia,2001,Male,40.5,-,-
+Developed regions,703,Slovakia,2001,Both sexes,41.75,-,-
+Developed regions,703,Slovakia,2011,Female,80.34,-,-
+Developed regions,703,Slovakia,2011,Male,89.81,-,-
+Developed regions,703,Slovakia,2011,Both sexes,84.85,-,-
+Developed regions,703,Slovakia,2012,Female,80.59,-,-
+Developed regions,703,Slovakia,2012,Male,90.64,-,-
+Developed regions,703,Slovakia,2012,Both sexes,85.38,-,-
+Developed regions,703,Slovakia,2013,Female,81.27,-,-
+Developed regions,703,Slovakia,2013,Male,91.1,-,-
+Developed regions,703,Slovakia,2013,Both sexes,85.96,-,-
+Developed regions,703,Slovakia,2014,Female,81.08,-,-
+Developed regions,703,Slovakia,2014,Male,89.95,-,-
+Developed regions,703,Slovakia,2014,Both sexes,85.32,-,-
+Developed regions,703,Slovakia,2015,Female,82.6,-,-
+Developed regions,703,Slovakia,2015,Male,91.14,-,-
+Developed regions,703,Slovakia,2015,Both sexes,86.69,-,-
+Developed regions,705,Slovenia,2008,Female,70.09,-,-
+Developed regions,705,Slovenia,2008,Male,81.86,-,-
+Developed regions,705,Slovenia,2008,Both sexes,75.8,-,-
+Developed regions,705,Slovenia,2005,Female,67.32,-,-
+Developed regions,705,Slovenia,2005,Male,80.45,-,-
+Developed regions,705,Slovenia,2005,Both sexes,73.62,-,-
+Developed regions,705,Slovenia,2007,Female,69.36,-,-
+Developed regions,705,Slovenia,2007,Male,77.43,-,-
+Developed regions,705,Slovenia,2007,Both sexes,73.21,-,-
+Developed regions,705,Slovenia,2009,Female,71.6,-,-
+Developed regions,705,Slovenia,2009,Male,83.38,-,-
+Developed regions,705,Slovenia,2009,Both sexes,77.32,-,-
+Developed regions,705,Slovenia,2010,Female,72.3,-,-
+Developed regions,705,Slovenia,2010,Male,83.37,-,-
+Developed regions,705,Slovenia,2010,Both sexes,77.67,-,-
+Developed regions,705,Slovenia,2004,Female,68.03,-,-
+Developed regions,705,Slovenia,2004,Male,80.59,-,-
+Developed regions,705,Slovenia,2004,Both sexes,74.05,-,-
+Developed regions,705,Slovenia,2006,Female,69.51,-,-
+Developed regions,705,Slovenia,2006,Male,81.06,-,-
+Developed regions,705,Slovenia,2006,Both sexes,75.03,-,-
+Developed regions,705,Slovenia,2011,Female,73.12,-,-
+Developed regions,705,Slovenia,2011,Male,84.08,-,-
+Developed regions,705,Slovenia,2011,Both sexes,78.45,-,-
+Developed regions,705,Slovenia,2012,Female,74.52,-,-
+Developed regions,705,Slovenia,2012,Male,84.08,-,-
+Developed regions,705,Slovenia,2012,Both sexes,79.16,-,-
+Developed regions,705,Slovenia,2013,Female,75.47,-,-
+Developed regions,705,Slovenia,2013,Male,84.31,-,-
+Developed regions,705,Slovenia,2013,Both sexes,79.78,-,-
+Developed regions,705,Slovenia,2014,Female,75.32,-,-
+Developed regions,705,Slovenia,2014,Male,85.14,-,-
+Developed regions,705,Slovenia,2014,Both sexes,80.09,-,-
+Developed regions,705,Slovenia,2015,Female,76.73,-,-
+Developed regions,705,Slovenia,2015,Male,86.36,-,-
+Developed regions,705,Slovenia,2015,Both sexes,81.5,-,-
+Developed regions,724,Spain,2008,Female,41.3,-,-
+Developed regions,724,Spain,2008,Male,44.44,-,-
+Developed regions,724,Spain,2008,Both sexes,42.83,-,-
+Developed regions,724,Spain,2005,Female,38.55,-,-
+Developed regions,724,Spain,2005,Male,42.34,-,-
+Developed regions,724,Spain,2005,Both sexes,40.39,-,-
+Developed regions,724,Spain,2007,Female,40.57,-,-
+Developed regions,724,Spain,2007,Male,44.17,-,-
+Developed regions,724,Spain,2007,Both sexes,42.32,-,-
+Developed regions,724,Spain,2009,Female,42.07,-,-
+Developed regions,724,Spain,2009,Male,44.67,-,-
+Developed regions,724,Spain,2009,Both sexes,43.33,-,-
+Developed regions,724,Spain,2010,Female,42.9,-,-
+Developed regions,724,Spain,2010,Male,45.67,-,-
+Developed regions,724,Spain,2010,Both sexes,44.25,-,-
+Developed regions,724,Spain,2004,Female,35.35,-,-
+Developed regions,724,Spain,2004,Male,39.29,-,-
+Developed regions,724,Spain,2004,Both sexes,37.26,-,-
+Developed regions,724,Spain,2006,Female,39.74,-,-
+Developed regions,724,Spain,2006,Male,43.23,-,-
+Developed regions,724,Spain,2006,Both sexes,41.44,-,-
+Developed regions,724,Spain,2011,Female,44.24,-,-
+Developed regions,724,Spain,2011,Male,46.36,-,-
+Developed regions,724,Spain,2011,Both sexes,45.27,-,-
+Developed regions,724,Spain,2012,Female,44.81,-,-
+Developed regions,724,Spain,2012,Male,46.45,-,-
+Developed regions,724,Spain,2012,Both sexes,45.6,-,-
+Developed regions,724,Spain,2014,Female,46.51,-,-
+Developed regions,724,Spain,2014,Male,48.01,-,-
+Developed regions,724,Spain,2014,Both sexes,47.24,-,-
+Developed regions,724,Spain,2015,Female,47.34,-,-
+Developed regions,724,Spain,2015,Male,48.42,-,-
+Developed regions,724,Spain,2015,Both sexes,47.86,-,-
+Developed regions,752,Sweden,2008,Female,76.58,-,-
+Developed regions,752,Sweden,2008,Male,75.96,-,-
+Developed regions,752,Sweden,2008,Both sexes,76.27,-,-
+Developed regions,752,Sweden,2005,Female,80.72,-,-
+Developed regions,752,Sweden,2005,Male,77.38,-,-
+Developed regions,752,Sweden,2005,Both sexes,79.04,-,-
+Developed regions,752,Sweden,2007,Female,82.22,-,-
+Developed regions,752,Sweden,2007,Male,78.6,-,-
+Developed regions,752,Sweden,2007,Both sexes,80.4,-,-
+Developed regions,752,Sweden,2009,Female,77.35,-,-
+Developed regions,752,Sweden,2009,Male,76.55,-,-
+Developed regions,752,Sweden,2009,Both sexes,76.96,-,-
+Developed regions,752,Sweden,2010,Female,78.09,-,-
+Developed regions,752,Sweden,2010,Male,77.13,-,-
+Developed regions,752,Sweden,2010,Both sexes,77.62,-,-
+Developed regions,752,Sweden,2004,Female,79.86,-,-
+Developed regions,752,Sweden,2004,Male,76.66,-,-
+Developed regions,752,Sweden,2004,Both sexes,78.25,-,-
+Developed regions,752,Sweden,2006,Female,81.51,-,-
+Developed regions,752,Sweden,2006,Male,78,-,-
+Developed regions,752,Sweden,2006,Both sexes,79.74,-,-
+Developed regions,752,Sweden,1995,Female,67.49,-,-
+Developed regions,752,Sweden,1995,Male,66.58,-,-
+Developed regions,752,Sweden,1995,Both sexes,67.04,-,-
+Developed regions,752,Sweden,2011,Female,78.86,-,-
+Developed regions,752,Sweden,2011,Male,77.76,-,-
+Developed regions,752,Sweden,2011,Both sexes,78.32,-,-
+Developed regions,752,Sweden,2012,Female,79.64,-,-
+Developed regions,752,Sweden,2012,Male,78.34,-,-
+Developed regions,752,Sweden,2012,Both sexes,79,-,-
+Developed regions,752,Sweden,2013,Female,72.84,-,-
+Developed regions,752,Sweden,2013,Male,75.02,-,-
+Developed regions,752,Sweden,2013,Both sexes,73.92,-,-
+Developed regions,752,Sweden,2014,Female,73.58,-,-
+Developed regions,752,Sweden,2014,Male,75.39,-,-
+Developed regions,752,Sweden,2014,Both sexes,74.47,-,-
+Developed regions,752,Sweden,2015,Female,74.32,-,-
+Developed regions,752,Sweden,2015,Male,75.76,-,-
+Developed regions,752,Sweden,2015,Both sexes,75.03,-,-
+Developed regions,756,Switzerland,2009,Female,77.09,-,-
+Developed regions,756,Switzerland,2009,Male,88.73,-,-
+Developed regions,756,Switzerland,2009,Both sexes,82.72,-,-
+Developed regions,756,Switzerland,2010,Female,77.7,-,-
+Developed regions,756,Switzerland,2010,Male,87.57,-,-
+Developed regions,756,Switzerland,2010,Both sexes,82.45,-,-
+Developed regions,756,Switzerland,2011,Female,77.72,-,-
+Developed regions,756,Switzerland,2011,Both sexes,82.36,-,-
+Developed regions,756,Switzerland,2012,Female,78.94,-,-
+Developed regions,756,Switzerland,2012,Male,87.84,-,-
+Developed regions,756,Switzerland,2012,Both sexes,83.24,-,-
+Developed regions,756,Switzerland,2014,Female,80.64,-,-
+Developed regions,756,Switzerland,2014,Male,88.84,-,-
+Developed regions,756,Switzerland,2014,Both sexes,84.64,-,-
+Developed regions,756,Switzerland,2015,Female,81.62,-,-
+Developed regions,756,Switzerland,2015,Male,88.92,-,-
+Developed regions,756,Switzerland,2015,Both sexes,85.19,-,-
+Developed regions,804,Ukraine,2001,Female,71.11,-,-
+Developed regions,804,Ukraine,2001,Male,78.37,-,-
+Developed regions,804,Ukraine,2001,Both sexes,74.32,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2009,Female,82.65,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2009,Male,86.75,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2009,Both sexes,84.67,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2010,Female,84.54,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2010,Male,88.35,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2010,Both sexes,86.43,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2011,Female,84.55,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2011,Male,87.71,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2011,Both sexes,86.08,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2012,Female,86.41,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2012,Male,89.08,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2012,Both sexes,87.74,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2013,Female,72.03,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2013,Male,76.01,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2013,Both sexes,74,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2014,Female,73.3,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2014,Male,76.15,-,-
+Developed regions,826,United Kingdom of Great Britain and Northern Ireland,2014,Both sexes,74.71,-,-
+Developed regions,840,United States of America,2008,Female,87.23,-,-
+Developed regions,840,United States of America,2008,Male,85.95,-,-
+Developed regions,840,United States of America,2008,Both sexes,86.61,-,-
+Developed regions,840,United States of America,2005,Female,85.44,-,-
+Developed regions,840,United States of America,2005,Male,84.93,-,-
+Developed regions,840,United States of America,2005,Both sexes,85.19,-,-
+Developed regions,840,United States of America,2009,Female,87.13,-,-
+Developed regions,840,United States of America,2009,Male,86.25,-,-
+Developed regions,840,United States of America,2009,Both sexes,86.71,-,-
+Developed regions,840,United States of America,2010,Female,87.66,-,-
+Developed regions,840,United States of America,2010,Male,86.6,-,-
+Developed regions,840,United States of America,2010,Both sexes,87.15,-,-
+Developed regions,840,United States of America,2004,Female,85.43,-,-
+Developed regions,840,United States of America,2004,Male,84.85,-,-
+Developed regions,840,United States of America,2004,Both sexes,85.15,-,-
+Developed regions,840,United States of America,2006,Female,86.38,-,-
+Developed regions,840,United States of America,2006,Male,85.01,-,-
+Developed regions,840,United States of America,2006,Both sexes,85.72,-,-
+Developed regions,840,United States of America,2011,Female,88.05,-,-
+Developed regions,840,United States of America,2011,Male,87.1,-,-
+Developed regions,840,United States of America,2011,Both sexes,87.59,-,-
+Developed regions,840,United States of America,2012,Female,88.04,-,-
+Developed regions,840,United States of America,2012,Male,87.29,-,-
+Developed regions,840,United States of America,2012,Both sexes,87.68,-,-
+Developed regions,840,United States of America,2013,Female,88.62,-,-
+Developed regions,840,United States of America,2013,Male,87.64,-,-
+Developed regions,840,United States of America,2013,Both sexes,88.15,-,-
+Developed regions,840,United States of America,2014,Female,88.86,-,-
+Developed regions,840,United States of America,2014,Male,87.72,-,-
+Developed regions,840,United States of America,2014,Both sexes,88.31,-,-
+Developed regions,840,United States of America,2015,Female,88.76,-,-
+Developed regions,840,United States of America,2015,Male,88.04,-,-
+Developed regions,840,United States of America,2015,Both sexes,88.41,-,-
+Northern Africa,12,Algeria,2008,Female,22.75,-,-
+Northern Africa,12,Algeria,2008,Male,28.06,-,-
+Northern Africa,12,Algeria,2008,Both sexes,25.42,-,-
+Northern Africa,12,Algeria,2006,Female,6.65,-,-
+Northern Africa,12,Algeria,2006,Male,8.65,-,-
+Northern Africa,12,Algeria,2006,Both sexes,7.66,-,-
+Northern Africa,818,Egypt,2006,Female,33.14,-,-
+Northern Africa,818,Egypt,2006,Male,47.4,-,-
+Northern Africa,818,Egypt,2006,Both sexes,40.38,-,-
+Oceania,242,Fiji,2007,Female,39.56,-,-
+Oceania,242,Fiji,2007,Male,39.11,-,-
+Oceania,242,Fiji,2007,Both sexes,39.33,-,-
+Oceania,242,Fiji,1996,Female,23.74,-,-
+Oceania,242,Fiji,1996,Male,27.41,-,-
+Oceania,242,Fiji,1996,Both sexes,25.58,-,-
+Oceania,258,French Polynesia,2007,Female,50.75,-,-
+Oceania,258,French Polynesia,2007,Male,48.44,-,-
+Oceania,258,French Polynesia,2007,Both sexes,49.57,-,-
+Oceania,584,Marshall Islands,2011,Female,67.58,-,-
+Oceania,584,Marshall Islands,2011,Male,72,-,-
+Oceania,584,Marshall Islands,2011,Both sexes,69.81,-,-
+Oceania,585,Palau,2013,Female,87.73,-,-
+Oceania,585,Palau,2013,Male,88.34,-,-
+Oceania,585,Palau,2013,Both sexes,88.05,-,-
+Oceania,776,Tonga,2006,Female,21.88,-,-
+Oceania,776,Tonga,2006,Male,24.89,-,-
+Oceania,776,Tonga,2006,Both sexes,23.36,-,-
+Oceania,776,Tonga,2011,Female,55.12,-,-
+Oceania,776,Tonga,2011,Male,53.07,-,-
+Oceania,776,Tonga,2011,Both sexes,54.13,-,-
+Oceania,882,Samoa,2001,Female,65.31,-,-
+Oceania,882,Samoa,2001,Male,60.87,-,-
+Oceania,882,Samoa,2001,Both sexes,63.03,-,-
+Oceania,882,Samoa,2011,Female,74.63,-,-
+Oceania,882,Samoa,2011,Male,70.39,-,-
+Oceania,882,Samoa,2011,Both sexes,72.47,-,-
+Sub-Saharan Africa,108,Burundi,2014,Female,2.28,-,-
+Sub-Saharan Africa,108,Burundi,2014,Male,4.52,-,-
+Sub-Saharan Africa,108,Burundi,2014,Both sexes,3.33,-,-
+Sub-Saharan Africa,120,Cameroon,2010,Female,11.48,-,-
+Sub-Saharan Africa,120,Cameroon,2010,Male,25.4,-,-
+Sub-Saharan Africa,120,Cameroon,2010,Both sexes,18.17,-,-
+Sub-Saharan Africa,132,Cabo Verde,2015,Female,19.81,-,-
+Sub-Saharan Africa,132,Cabo Verde,2015,Male,20.29,-,-
+Sub-Saharan Africa,132,Cabo Verde,2015,Both sexes,20.04,-,-
+Sub-Saharan Africa,148,Chad,2004,Female,1.66,-,-
+Sub-Saharan Africa,148,Chad,2004,Male,9.89,-,-
+Sub-Saharan Africa,148,Chad,2004,Both sexes,5.52,-,-
+Sub-Saharan Africa,180,Democratic Republic of the Congo,2013,Female,10.26,-,-
+Sub-Saharan Africa,180,Democratic Republic of the Congo,2013,Male,30.57,-,-
+Sub-Saharan Africa,180,Democratic Republic of the Congo,2013,Both sexes,19.85,-,-
+Sub-Saharan Africa,180,Democratic Republic of the Congo,2016,Female,16.84,-,-
+Sub-Saharan Africa,180,Democratic Republic of the Congo,2016,Male,38.6,-,-
+Sub-Saharan Africa,180,Democratic Republic of the Congo,2016,Both sexes,27.26,-,-
+Sub-Saharan Africa,231,Ethiopia,2007,Female,4.52,-,-
+Sub-Saharan Africa,231,Ethiopia,2007,Male,9.61,-,-
+Sub-Saharan Africa,231,Ethiopia,2007,Both sexes,7.02,-,-
+Sub-Saharan Africa,231,Ethiopia,2011,Female,5.66,-,-
+Sub-Saharan Africa,231,Ethiopia,2011,Male,12.69,-,-
+Sub-Saharan Africa,231,Ethiopia,2011,Both sexes,8.84,-,-
+Sub-Saharan Africa,288,Ghana,2010,Female,14.68,-,-
+Sub-Saharan Africa,288,Ghana,2010,Male,27.24,-,-
+Sub-Saharan Africa,288,Ghana,2010,Both sexes,20.56,-,-
+Sub-Saharan Africa,384,Côte d'Ivoire,2014,Female,6.94,-,-
+Sub-Saharan Africa,384,Côte d'Ivoire,2014,Male,15.25,-,-
+Sub-Saharan Africa,384,Côte d'Ivoire,2014,Both sexes,11.25,-,-
+Sub-Saharan Africa,404,Kenya,2009,Female,21.92,-,-
+Sub-Saharan Africa,404,Kenya,2009,Male,32.46,-,-
+Sub-Saharan Africa,404,Kenya,2009,Both sexes,27.06,-,-
+Sub-Saharan Africa,404,Kenya,2010,Female,18,-,-
+Sub-Saharan Africa,404,Kenya,2010,Male,25.71,-,-
+Sub-Saharan Africa,404,Kenya,2010,Both sexes,22.03,-,-
+Sub-Saharan Africa,426,Lesotho,2008,Female,14.19,-,-
+Sub-Saharan Africa,426,Lesotho,2008,Male,13.39,-,-
+Sub-Saharan Africa,426,Lesotho,2008,Both sexes,13.81,-,-
+Sub-Saharan Africa,454,Malawi,1998,Female,2.39,-,-
+Sub-Saharan Africa,454,Malawi,1998,Male,8.14,-,-
+Sub-Saharan Africa,454,Malawi,1998,Both sexes,5.21,-,-
+Sub-Saharan Africa,466,Mali,2006,Female,6.33,-,-
+Sub-Saharan Africa,466,Mali,2006,Male,4.56,-,-
+Sub-Saharan Africa,466,Mali,2006,Both sexes,5.49,-,-
+Sub-Saharan Africa,466,Mali,2011,Female,5.54,-,-
+Sub-Saharan Africa,466,Mali,2011,Male,11.11,-,-
+Sub-Saharan Africa,466,Mali,2011,Both sexes,7.96,-,-
+Sub-Saharan Africa,466,Mali,2015,Female,3.48,-,-
+Sub-Saharan Africa,466,Mali,2015,Male,8.86,-,-
+Sub-Saharan Africa,466,Mali,2015,Both sexes,6.04,-,-
+Sub-Saharan Africa,480,Mauritius,2000,Female,17.12,-,-
+Sub-Saharan Africa,480,Mauritius,2000,Male,23.83,-,-
+Sub-Saharan Africa,480,Mauritius,2000,Both sexes,20.4,-,-
+Sub-Saharan Africa,480,Mauritius,2011,Female,39.8,-,-
+Sub-Saharan Africa,480,Mauritius,2011,Male,47.58,-,-
+Sub-Saharan Africa,480,Mauritius,2011,Both sexes,43.58,-,-
+Sub-Saharan Africa,508,Mozambique,2011,Female,3.04,-,-
+Sub-Saharan Africa,508,Mozambique,2011,Male,6.7,-,-
+Sub-Saharan Africa,508,Mozambique,2011,Both sexes,4.72,-,-
+Sub-Saharan Africa,516,Namibia,2001,Female,16.3,-,-
+Sub-Saharan Africa,516,Namibia,2001,Male,19.02,-,-
+Sub-Saharan Africa,516,Namibia,2001,Both sexes,17.55,-,-
+Sub-Saharan Africa,646,Rwanda,2010,Female,4.65,-,-
+Sub-Saharan Africa,646,Rwanda,2010,Male,6.29,-,-
+Sub-Saharan Africa,646,Rwanda,2010,Both sexes,5.17,-,-
+Sub-Saharan Africa,646,Rwanda,2012,Female,6.43,-,-
+Sub-Saharan Africa,646,Rwanda,2012,Male,10.74,-,-
+Sub-Saharan Africa,646,Rwanda,2012,Both sexes,8.42,-,-
+Sub-Saharan Africa,686,Senegal,2006,Female,2.8,-,-
+Sub-Saharan Africa,686,Senegal,2006,Male,7.52,-,-
+Sub-Saharan Africa,686,Senegal,2006,Both sexes,4.93,-,-
+Sub-Saharan Africa,686,Senegal,2011,Female,3.26,-,-
+Sub-Saharan Africa,686,Senegal,2011,Male,8.68,-,-
+Sub-Saharan Africa,686,Senegal,2011,Both sexes,5.62,-,-
+Sub-Saharan Africa,686,Senegal,2013,Female,5.19,-,-
+Sub-Saharan Africa,686,Senegal,2013,Male,11.53,-,-
+Sub-Saharan Africa,686,Senegal,2013,Both sexes,8.23,-,-
+Sub-Saharan Africa,690,Seychelles,2002,Female,44.18,-,-
+Sub-Saharan Africa,690,Seychelles,2002,Male,48,-,-
+Sub-Saharan Africa,690,Seychelles,2002,Both sexes,46.04,-,-
+Sub-Saharan Africa,710,South Africa,2003,Female,47.16,-,-
+Sub-Saharan Africa,710,South Africa,2003,Male,51.89,-,-
+Sub-Saharan Africa,710,South Africa,2003,Both sexes,49.36,-,-
+Sub-Saharan Africa,710,South Africa,2008,Female,51.65,-,-
+Sub-Saharan Africa,710,South Africa,2008,Male,57.08,-,-
+Sub-Saharan Africa,710,South Africa,2008,Both sexes,54.18,-,-
+Sub-Saharan Africa,710,South Africa,2005,Female,48.8,-,-
+Sub-Saharan Africa,710,South Africa,2005,Male,53.44,-,-
+Sub-Saharan Africa,710,South Africa,2005,Both sexes,50.96,-,-
+Sub-Saharan Africa,710,South Africa,2007,Female,50.01,-,-
+Sub-Saharan Africa,710,South Africa,2007,Male,54.17,-,-
+Sub-Saharan Africa,710,South Africa,2007,Both sexes,51.95,-,-
+Sub-Saharan Africa,710,South Africa,2009,Female,55.28,-,-
+Sub-Saharan Africa,710,South Africa,2009,Male,59.16,-,-
+Sub-Saharan Africa,710,South Africa,2009,Both sexes,57.09,-,-
+Sub-Saharan Africa,710,South Africa,2010,Female,56.05,-,-
+Sub-Saharan Africa,710,South Africa,2010,Male,60.23,-,-
+Sub-Saharan Africa,710,South Africa,2010,Both sexes,58.01,-,-
+Sub-Saharan Africa,710,South Africa,2001,Female,25.36,-,-
+Sub-Saharan Africa,710,South Africa,2001,Male,28.88,-,-
+Sub-Saharan Africa,710,South Africa,2001,Both sexes,26.98,-,-
+Sub-Saharan Africa,710,South Africa,2004,Female,48.61,-,-
+Sub-Saharan Africa,710,South Africa,2004,Male,52.21,-,-
+Sub-Saharan Africa,710,South Africa,2004,Both sexes,50.28,-,-
+Sub-Saharan Africa,710,South Africa,2006,Female,49.17,-,-
+Sub-Saharan Africa,710,South Africa,2006,Male,54.58,-,-
+Sub-Saharan Africa,710,South Africa,2006,Both sexes,51.69,-,-
+Sub-Saharan Africa,710,South Africa,2011,Female,57.95,-,-
+Sub-Saharan Africa,710,South Africa,2011,Male,60.26,-,-
+Sub-Saharan Africa,710,South Africa,2011,Both sexes,59.03,-,-
+Sub-Saharan Africa,710,South Africa,2002,Female,45.5,-,-
+Sub-Saharan Africa,710,South Africa,2002,Male,49.26,-,-
+Sub-Saharan Africa,710,South Africa,2002,Both sexes,47.24,-,-
+Sub-Saharan Africa,710,South Africa,2012,Female,59.82,-,-
+Sub-Saharan Africa,710,South Africa,2012,Male,63.43,-,-
+Sub-Saharan Africa,710,South Africa,2012,Both sexes,61.52,-,-
+Sub-Saharan Africa,710,South Africa,2014,Female,62.8,-,-
+Sub-Saharan Africa,710,South Africa,2014,Male,65.8,-,-
+Sub-Saharan Africa,710,South Africa,2014,Both sexes,64.22,-,-
+Sub-Saharan Africa,710,South Africa,2015,Female,62.8,-,-
+Sub-Saharan Africa,710,South Africa,2015,Male,66.65,-,-
+Sub-Saharan Africa,710,South Africa,2015,Both sexes,64.62,-,-
+Sub-Saharan Africa,716,Zimbabwe,2002,Female,6.31,-,-
+Sub-Saharan Africa,716,Zimbabwe,2002,Male,14.75,-,-
+Sub-Saharan Africa,716,Zimbabwe,2002,Both sexes,10.36,-,-
+Sub-Saharan Africa,716,Zimbabwe,2012,Female,3.94,-,-
+Sub-Saharan Africa,716,Zimbabwe,2012,Male,8.46,-,-
+Sub-Saharan Africa,716,Zimbabwe,2012,Both sexes,6.08,-,-
+Sub-Saharan Africa,716,Zimbabwe,2014,Female,12,-,-
+Sub-Saharan Africa,716,Zimbabwe,2014,Male,19.07,-,-
+Sub-Saharan Africa,716,Zimbabwe,2014,Both sexes,15.19,-,-
+Sub-Saharan Africa,728,South Sudan,2008,Female,10.85,-,-
+Sub-Saharan Africa,728,South Sudan,2008,Male,16.21,-,-
+Sub-Saharan Africa,728,South Sudan,2008,Both sexes,14.47,-,-
+Sub-Saharan Africa,768,Togo,2009,Female,3.31,-,-
+Sub-Saharan Africa,768,Togo,2009,Male,15.4,-,-
+Sub-Saharan Africa,768,Togo,2009,Both sexes,8.9,-,-
+Sub-Saharan Africa,768,Togo,2011,Female,3.04,-,-
+Sub-Saharan Africa,768,Togo,2011,Male,17.4,-,-
+Sub-Saharan Africa,768,Togo,2011,Both sexes,9.26,-,-
+Sub-Saharan Africa,800,Uganda,2008,Female,8.74,-,-
+Sub-Saharan Africa,800,Uganda,2008,Male,8.81,-,-
+Sub-Saharan Africa,800,Uganda,2008,Both sexes,8.77,-,-
+Sub-Saharan Africa,800,Uganda,2010,Female,8.02,-,-
+Sub-Saharan Africa,800,Uganda,2010,Male,12.84,-,-
+Sub-Saharan Africa,800,Uganda,2010,Both sexes,10.67,-,-
+Sub-Saharan Africa,800,Uganda,2002,Female,3.91,-,-
+Sub-Saharan Africa,800,Uganda,2002,Male,9.23,-,-
+Sub-Saharan Africa,800,Uganda,2002,Both sexes,6.45,-,-
+Sub-Saharan Africa,800,Uganda,2012,Female,6.35,-,-
+Sub-Saharan Africa,800,Uganda,2012,Male,13.92,-,-
+Sub-Saharan Africa,800,Uganda,2012,Both sexes,9.87,-,-
+Sub-Saharan Africa,834,United Republic of Tanzania,2002,Female,0.95,-,-
+Sub-Saharan Africa,834,United Republic of Tanzania,2002,Male,2.36,-,-
+Sub-Saharan Africa,834,United Republic of Tanzania,2002,Both sexes,1.62,-,-
+Sub-Saharan Africa,834,United Republic of Tanzania,2012,Female,2.29,-,-
+Sub-Saharan Africa,834,United Republic of Tanzania,2012,Male,4.63,-,-
+Sub-Saharan Africa,834,United Republic of Tanzania,2012,Both sexes,3.4,-,-
+Sub-Saharan Africa,854,Burkina Faso,2007,Female,0.16,-,-
+Sub-Saharan Africa,854,Burkina Faso,2007,Male,0.86,-,-
+Sub-Saharan Africa,854,Burkina Faso,2007,Both sexes,0.5,-,-
+Sub-Saharan Africa,854,Burkina Faso,2006,Female,2.3,-,-
+Sub-Saharan Africa,854,Burkina Faso,2006,Male,6.04,-,-
+Sub-Saharan Africa,854,Burkina Faso,2006,Both sexes,4.01,-,-
+Sub-Saharan Africa,854,Burkina Faso,2014,Female,1.57,-,-
+Sub-Saharan Africa,854,Burkina Faso,2014,Male,4.3,-,-
+Sub-Saharan Africa,854,Burkina Faso,2014,Both sexes,2.81,-,-
+Latin America and the Caribbean,32,Argentina,2003,Female,43.91,-,-
+Latin America and the Caribbean,32,Argentina,2003,Male,40.34,-,-
+Latin America and the Caribbean,32,Argentina,2003,Both sexes,42.16,-,-
+Latin America and the Caribbean,32,Argentina,2001,Female,35.94,-,-
+Latin America and the Caribbean,32,Argentina,2001,Male,32.45,-,-
+Latin America and the Caribbean,32,Argentina,2001,Both sexes,34.29,-,-
+Latin America and the Caribbean,44,Bahamas,2000,Female,74.66,-,-
+Latin America and the Caribbean,44,Bahamas,2000,Male,66.25,-,-
+Latin America and the Caribbean,44,Bahamas,2000,Both sexes,70.94,-,-
+Latin America and the Caribbean,44,Bahamas,2010,Female,82.46,-,-
+Latin America and the Caribbean,44,Bahamas,2010,Male,81.22,-,-
+Latin America and the Caribbean,44,Bahamas,2010,Both sexes,81.88,-,-
+Latin America and the Caribbean,52,Barbados,2000,Female,25.4,-,-
+Latin America and the Caribbean,52,Barbados,2000,Male,22.89,-,-
+Latin America and the Caribbean,52,Barbados,2000,Both sexes,24.21,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2008,Female,32.24,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2008,Male,40.32,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2008,Both sexes,36.09,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2009,Female,34.42,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2009,Male,42.78,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2009,Both sexes,38.44,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2001,Female,32.34,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2001,Male,44.01,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2001,Both sexes,38.01,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2006,Female,30.47,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2006,Male,36.81,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2006,Both sexes,33.5,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2012,Female,39.49,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2012,Male,46.88,-,-
+Latin America and the Caribbean,68,Bolivia (Plurinational State of),2012,Both sexes,43.14,-,-
+Latin America and the Caribbean,76,Brazil,2008,Female,36.7,-,-
+Latin America and the Caribbean,76,Brazil,2008,Male,34.05,-,-
+Latin America and the Caribbean,76,Brazil,2008,Both sexes,35.45,-,-
+Latin America and the Caribbean,76,Brazil,2007,Female,35.04,-,-
+Latin America and the Caribbean,76,Brazil,2007,Male,32.3,-,-
+Latin America and the Caribbean,76,Brazil,2007,Both sexes,33.75,-,-
+Latin America and the Caribbean,76,Brazil,2009,Female,38.37,-,-
+Latin America and the Caribbean,76,Brazil,2009,Male,35.69,-,-
+Latin America and the Caribbean,76,Brazil,2009,Both sexes,37.11,-,-
+Latin America and the Caribbean,76,Brazil,2010,Female,37.59,-,-
+Latin America and the Caribbean,76,Brazil,2010,Male,34.1,-,-
+Latin America and the Caribbean,76,Brazil,2010,Both sexes,35.92,-,-
+Latin America and the Caribbean,76,Brazil,2004,Female,30.56,-,-
+Latin America and the Caribbean,76,Brazil,2004,Male,28.14,-,-
+Latin America and the Caribbean,76,Brazil,2004,Both sexes,29.42,-,-
+Latin America and the Caribbean,76,Brazil,2006,Female,33.72,-,-
+Latin America and the Caribbean,76,Brazil,2006,Male,30.97,-,-
+Latin America and the Caribbean,76,Brazil,2006,Both sexes,32.42,-,-
+Latin America and the Caribbean,76,Brazil,2011,Female,40.94,-,-
+Latin America and the Caribbean,76,Brazil,2011,Male,37.58,-,-
+Latin America and the Caribbean,76,Brazil,2011,Both sexes,39.36,-,-
+Latin America and the Caribbean,76,Brazil,2012,Female,42.24,-,-
+Latin America and the Caribbean,76,Brazil,2012,Male,38.78,-,-
+Latin America and the Caribbean,76,Brazil,2012,Both sexes,40.61,-,-
+Latin America and the Caribbean,76,Brazil,2013,Female,43.8,-,-
+Latin America and the Caribbean,76,Brazil,2013,Male,39.67,-,-
+Latin America and the Caribbean,76,Brazil,2013,Both sexes,41.85,-,-
+Latin America and the Caribbean,76,Brazil,2014,Female,44.57,-,-
+Latin America and the Caribbean,76,Brazil,2014,Male,40.3,-,-
+Latin America and the Caribbean,76,Brazil,2014,Both sexes,42.56,-,-
+Latin America and the Caribbean,84,Belize,2010,Female,37.27,-,-
+Latin America and the Caribbean,84,Belize,2010,Male,36.37,-,-
+Latin America and the Caribbean,84,Belize,2010,Both sexes,36.83,-,-
+Latin America and the Caribbean,136,Cayman Islands,2008,Female,78.79,-,-
+Latin America and the Caribbean,136,Cayman Islands,2008,Male,75.74,-,-
+Latin America and the Caribbean,136,Cayman Islands,2008,Both sexes,77.29,-,-
+Latin America and the Caribbean,136,Cayman Islands,2007,Female,72.6,-,-
+Latin America and the Caribbean,136,Cayman Islands,2007,Male,74.49,-,-
+Latin America and the Caribbean,136,Cayman Islands,2007,Both sexes,73.56,-,-
+Latin America and the Caribbean,136,Cayman Islands,2014,Female,87.7,-,-
+Latin America and the Caribbean,136,Cayman Islands,2014,Male,88.56,-,-
+Latin America and the Caribbean,136,Cayman Islands,2014,Both sexes,88.11,-,-
+Latin America and the Caribbean,136,Cayman Islands,2015,Female,90.72,-,-
+Latin America and the Caribbean,136,Cayman Islands,2015,Male,89.66,-,-
+Latin America and the Caribbean,136,Cayman Islands,2015,Both sexes,90.2,-,-
+Latin America and the Caribbean,152,Chile,2008,Female,51,-,-
+Latin America and the Caribbean,152,Chile,2008,Male,52.77,-,-
+Latin America and the Caribbean,152,Chile,2008,Both sexes,51.86,-,-
+Latin America and the Caribbean,152,Chile,2007,Female,50.08,-,-
+Latin America and the Caribbean,152,Chile,2007,Male,51.11,-,-
+Latin America and the Caribbean,152,Chile,2007,Both sexes,50.57,-,-
+Latin America and the Caribbean,152,Chile,2009,Female,64.13,-,-
+Latin America and the Caribbean,152,Chile,2009,Male,65.93,-,-
+Latin America and the Caribbean,152,Chile,2009,Both sexes,65,-,-
+Latin America and the Caribbean,152,Chile,2010,Female,51.98,-,-
+Latin America and the Caribbean,152,Chile,2010,Male,53.81,-,-
+Latin America and the Caribbean,152,Chile,2010,Both sexes,52.86,-,-
+Latin America and the Caribbean,152,Chile,2004,Female,49.95,-,-
+Latin America and the Caribbean,152,Chile,2004,Male,50.1,-,-
+Latin America and the Caribbean,152,Chile,2004,Both sexes,50.02,-,-
+Latin America and the Caribbean,152,Chile,2011,Female,49.68,-,-
+Latin America and the Caribbean,152,Chile,2011,Male,52.15,-,-
+Latin America and the Caribbean,152,Chile,2011,Both sexes,50.81,-,-
+Latin America and the Caribbean,152,Chile,2013,Female,53.07,-,-
+Latin America and the Caribbean,152,Chile,2013,Male,55.24,-,-
+Latin America and the Caribbean,152,Chile,2013,Both sexes,54.06,-,-
+Latin America and the Caribbean,170,Colombia,2008,Female,38.09,-,-
+Latin America and the Caribbean,170,Colombia,2008,Male,38.04,-,-
+Latin America and the Caribbean,170,Colombia,2008,Both sexes,38.06,-,-
+Latin America and the Caribbean,170,Colombia,2005,Female,33.62,-,-
+Latin America and the Caribbean,170,Colombia,2005,Male,33.8,-,-
+Latin America and the Caribbean,170,Colombia,2005,Both sexes,33.71,-,-
+Latin America and the Caribbean,170,Colombia,2007,Female,36.57,-,-
+Latin America and the Caribbean,170,Colombia,2007,Male,36.47,-,-
+Latin America and the Caribbean,170,Colombia,2007,Both sexes,36.52,-,-
+Latin America and the Caribbean,170,Colombia,2009,Female,38.06,-,-
+Latin America and the Caribbean,170,Colombia,2009,Male,37.2,-,-
+Latin America and the Caribbean,170,Colombia,2009,Both sexes,37.65,-,-
+Latin America and the Caribbean,170,Colombia,2010,Female,39.43,-,-
+Latin America and the Caribbean,170,Colombia,2010,Male,38.81,-,-
+Latin America and the Caribbean,170,Colombia,2010,Both sexes,39.14,-,-
+Latin America and the Caribbean,170,Colombia,2004,Female,34.89,-,-
+Latin America and the Caribbean,170,Colombia,2004,Male,35.01,-,-
+Latin America and the Caribbean,170,Colombia,2004,Both sexes,34.95,-,-
+Latin America and the Caribbean,170,Colombia,2006,Female,32.27,-,-
+Latin America and the Caribbean,170,Colombia,2006,Male,32.27,-,-
+Latin America and the Caribbean,170,Colombia,2006,Both sexes,32.27,-,-
+Latin America and the Caribbean,170,Colombia,2011,Female,40.66,-,-
+Latin America and the Caribbean,170,Colombia,2011,Male,39.83,-,-
+Latin America and the Caribbean,170,Colombia,2011,Both sexes,40.27,-,-
+Latin America and the Caribbean,170,Colombia,2012,Female,41.8,-,-
+Latin America and the Caribbean,170,Colombia,2012,Male,40.97,-,-
+Latin America and the Caribbean,170,Colombia,2012,Both sexes,41.4,-,-
+Latin America and the Caribbean,170,Colombia,2013,Female,43.94,-,-
+Latin America and the Caribbean,170,Colombia,2013,Male,42.58,-,-
+Latin America and the Caribbean,170,Colombia,2013,Both sexes,43.29,-,-
+Latin America and the Caribbean,170,Colombia,2014,Female,45.31,-,-
+Latin America and the Caribbean,170,Colombia,2014,Male,43.81,-,-
+Latin America and the Caribbean,170,Colombia,2014,Both sexes,44.59,-,-
+Latin America and the Caribbean,170,Colombia,2015,Female,46.14,-,-
+Latin America and the Caribbean,170,Colombia,2015,Male,44.61,-,-
+Latin America and the Caribbean,170,Colombia,2015,Both sexes,45.4,-,-
+Latin America and the Caribbean,188,Costa Rica,2008,Female,36.39,-,-
+Latin America and the Caribbean,188,Costa Rica,2008,Male,34.99,-,-
+Latin America and the Caribbean,188,Costa Rica,2008,Both sexes,35.73,-,-
+Latin America and the Caribbean,188,Costa Rica,2007,Female,33.79,-,-
+Latin America and the Caribbean,188,Costa Rica,2007,Male,33.09,-,-
+Latin America and the Caribbean,188,Costa Rica,2007,Both sexes,33.46,-,-
+Latin America and the Caribbean,188,Costa Rica,2009,Female,36.95,-,-
+Latin America and the Caribbean,188,Costa Rica,2009,Male,36.1,-,-
+Latin America and the Caribbean,188,Costa Rica,2009,Both sexes,36.55,-,-
+Latin America and the Caribbean,188,Costa Rica,2010,Female,36.02,-,-
+Latin America and the Caribbean,188,Costa Rica,2010,Male,34.92,-,-
+Latin America and the Caribbean,188,Costa Rica,2010,Both sexes,35.5,-,-
+Latin America and the Caribbean,188,Costa Rica,2011,Female,37.03,-,-
+Latin America and the Caribbean,188,Costa Rica,2011,Male,36,-,-
+Latin America and the Caribbean,188,Costa Rica,2011,Both sexes,36.54,-,-
+Latin America and the Caribbean,188,Costa Rica,2012,Female,38.08,-,-
+Latin America and the Caribbean,188,Costa Rica,2012,Male,36.61,-,-
+Latin America and the Caribbean,188,Costa Rica,2012,Both sexes,37.38,-,-
+Latin America and the Caribbean,188,Costa Rica,2014,Female,40.53,-,-
+Latin America and the Caribbean,188,Costa Rica,2014,Male,39.87,-,-
+Latin America and the Caribbean,188,Costa Rica,2014,Both sexes,40.22,-,-
+Latin America and the Caribbean,188,Costa Rica,2015,Female,38.9,-,-
+Latin America and the Caribbean,188,Costa Rica,2015,Male,36.98,-,-
+Latin America and the Caribbean,188,Costa Rica,2015,Both sexes,37.99,-,-
+Latin America and the Caribbean,192,Cuba,2002,Female,40.16,-,-
+Latin America and the Caribbean,192,Cuba,2002,Male,40.55,-,-
+Latin America and the Caribbean,192,Cuba,2002,Both sexes,40.35,-,-
+Latin America and the Caribbean,192,Cuba,2012,Female,57.14,-,-
+Latin America and the Caribbean,192,Cuba,2012,Male,57.68,-,-
+Latin America and the Caribbean,192,Cuba,2012,Both sexes,57.41,-,-
+Latin America and the Caribbean,212,Dominica,2001,Female,10.36,-,-
+Latin America and the Caribbean,212,Dominica,2001,Male,11.18,-,-
+Latin America and the Caribbean,212,Dominica,2001,Both sexes,10.77,-,-
+Latin America and the Caribbean,214,Dominican Republic,2007,Female,33.3,-,-
+Latin America and the Caribbean,214,Dominican Republic,2007,Male,28.24,-,-
+Latin America and the Caribbean,214,Dominican Republic,2007,Both sexes,30.82,-,-
+Latin America and the Caribbean,214,Dominican Republic,2010,Female,33.26,-,-
+Latin America and the Caribbean,214,Dominican Republic,2010,Male,28.29,-,-
+Latin America and the Caribbean,214,Dominican Republic,2010,Both sexes,30.83,-,-
+Latin America and the Caribbean,214,Dominican Republic,2011,Female,34.24,-,-
+Latin America and the Caribbean,214,Dominican Republic,2011,Male,29.08,-,-
+Latin America and the Caribbean,214,Dominican Republic,2011,Both sexes,31.72,-,-
+Latin America and the Caribbean,214,Dominican Republic,2012,Female,35.84,-,-
+Latin America and the Caribbean,214,Dominican Republic,2012,Male,29.22,-,-
+Latin America and the Caribbean,214,Dominican Republic,2012,Both sexes,32.61,-,-
+Latin America and the Caribbean,214,Dominican Republic,2013,Female,36.33,-,-
+Latin America and the Caribbean,214,Dominican Republic,2013,Male,30.46,-,-
+Latin America and the Caribbean,214,Dominican Republic,2013,Both sexes,33.49,-,-
+Latin America and the Caribbean,214,Dominican Republic,2014,Female,36.93,-,-
+Latin America and the Caribbean,214,Dominican Republic,2014,Male,31.27,-,-
+Latin America and the Caribbean,214,Dominican Republic,2014,Both sexes,34.17,-,-
+Latin America and the Caribbean,214,Dominican Republic,2015,Female,38.2,-,-
+Latin America and the Caribbean,214,Dominican Republic,2015,Male,31.3,-,-
+Latin America and the Caribbean,214,Dominican Republic,2015,Both sexes,34.87,-,-
+Latin America and the Caribbean,218,Ecuador,2009,Female,30.83,-,-
+Latin America and the Caribbean,218,Ecuador,2009,Male,30.78,-,-
+Latin America and the Caribbean,218,Ecuador,2009,Both sexes,30.81,-,-
+Latin America and the Caribbean,218,Ecuador,2010,Female,33.06,-,-
+Latin America and the Caribbean,218,Ecuador,2010,Male,32.91,-,-
+Latin America and the Caribbean,218,Ecuador,2010,Both sexes,32.99,-,-
+Latin America and the Caribbean,218,Ecuador,2013,Female,38.24,-,-
+Latin America and the Caribbean,218,Ecuador,2013,Male,39.1,-,-
+Latin America and the Caribbean,218,Ecuador,2013,Both sexes,38.65,-,-
+Latin America and the Caribbean,218,Ecuador,2014,Female,37.86,-,-
+Latin America and the Caribbean,218,Ecuador,2014,Male,39.26,-,-
+Latin America and the Caribbean,218,Ecuador,2014,Both sexes,38.53,-,-
+Latin America and the Caribbean,218,Ecuador,2015,Female,41.9,-,-
+Latin America and the Caribbean,218,Ecuador,2015,Male,42.64,-,-
+Latin America and the Caribbean,218,Ecuador,2015,Both sexes,42.26,-,-
+Latin America and the Caribbean,222,El Salvador,2008,Female,23.48,-,-
+Latin America and the Caribbean,222,El Salvador,2008,Male,26.47,-,-
+Latin America and the Caribbean,222,El Salvador,2008,Both sexes,24.8,-,-
+Latin America and the Caribbean,222,El Salvador,2007,Female,20.47,-,-
+Latin America and the Caribbean,222,El Salvador,2007,Male,22.92,-,-
+Latin America and the Caribbean,222,El Salvador,2007,Both sexes,21.56,-,-
+Latin America and the Caribbean,222,El Salvador,2009,Female,23.99,-,-
+Latin America and the Caribbean,222,El Salvador,2009,Male,26.44,-,-
+Latin America and the Caribbean,222,El Salvador,2009,Both sexes,25.07,-,-
+Latin America and the Caribbean,222,El Salvador,2010,Female,25.71,-,-
+Latin America and the Caribbean,222,El Salvador,2010,Male,27.86,-,-
+Latin America and the Caribbean,222,El Salvador,2010,Both sexes,26.69,-,-
+Latin America and the Caribbean,222,El Salvador,2006,Female,22.99,-,-
+Latin America and the Caribbean,222,El Salvador,2006,Male,26.23,-,-
+Latin America and the Caribbean,222,El Salvador,2006,Both sexes,24.41,-,-
+Latin America and the Caribbean,222,El Salvador,2011,Female,24.06,-,-
+Latin America and the Caribbean,222,El Salvador,2011,Male,26.91,-,-
+Latin America and the Caribbean,222,El Salvador,2011,Both sexes,25.32,-,-
+Latin America and the Caribbean,222,El Salvador,2012,Female,25.17,-,-
+Latin America and the Caribbean,222,El Salvador,2012,Male,28.33,-,-
+Latin America and the Caribbean,222,El Salvador,2012,Both sexes,26.57,-,-
+Latin America and the Caribbean,222,El Salvador,2013,Female,25.49,-,-
+Latin America and the Caribbean,222,El Salvador,2013,Male,28.87,-,-
+Latin America and the Caribbean,222,El Salvador,2013,Both sexes,26.99,-,-
+Latin America and the Caribbean,320,Guatemala,2006,Female,9.29,-,-
+Latin America and the Caribbean,320,Guatemala,2006,Male,12.16,-,-
+Latin America and the Caribbean,320,Guatemala,2006,Both sexes,10.59,-,-
+Latin America and the Caribbean,320,Guatemala,2002,Female,12.23,-,-
+Latin America and the Caribbean,320,Guatemala,2002,Male,14.45,-,-
+Latin America and the Caribbean,320,Guatemala,2002,Both sexes,13.28,-,-
+Latin America and the Caribbean,320,Guatemala,2012,Female,15.59,-,-
+Latin America and the Caribbean,320,Guatemala,2012,Male,20.04,-,-
+Latin America and the Caribbean,320,Guatemala,2012,Both sexes,17.65,-,-
+Latin America and the Caribbean,320,Guatemala,2013,Female,18.09,-,-
+Latin America and the Caribbean,320,Guatemala,2013,Male,20.84,-,-
+Latin America and the Caribbean,320,Guatemala,2013,Both sexes,19.35,-,-
+Latin America and the Caribbean,320,Guatemala,2014,Female,27.39,-,-
+Latin America and the Caribbean,320,Guatemala,2014,Male,25.85,-,-
+Latin America and the Caribbean,320,Guatemala,2014,Both sexes,26.6,-,-
+Latin America and the Caribbean,328,Guyana,2002,Female,33.24,-,-
+Latin America and the Caribbean,328,Guyana,2002,Male,29.04,-,-
+Latin America and the Caribbean,328,Guyana,2002,Both sexes,31.19,-,-
+Latin America and the Caribbean,340,Honduras,2007,Female,16.95,-,-
+Latin America and the Caribbean,340,Honduras,2007,Male,15.1,-,-
+Latin America and the Caribbean,340,Honduras,2007,Both sexes,16.11,-,-
+Latin America and the Caribbean,340,Honduras,2011,Female,19.69,-,-
+Latin America and the Caribbean,340,Honduras,2011,Male,18.65,-,-
+Latin America and the Caribbean,340,Honduras,2011,Both sexes,19.22,-,-
+Latin America and the Caribbean,340,Honduras,2012,Female,19.76,-,-
+Latin America and the Caribbean,340,Honduras,2012,Male,17.18,-,-
+Latin America and the Caribbean,340,Honduras,2012,Both sexes,18.59,-,-
+Latin America and the Caribbean,340,Honduras,2014,Female,24.36,-,-
+Latin America and the Caribbean,340,Honduras,2014,Male,21.36,-,-
+Latin America and the Caribbean,340,Honduras,2014,Both sexes,23.01,-,-
+Latin America and the Caribbean,484,Mexico,2008,Female,28.54,-,-
+Latin America and the Caribbean,484,Mexico,2008,Male,32.44,-,-
+Latin America and the Caribbean,484,Mexico,2008,Both sexes,30.35,-,-
+Latin America and the Caribbean,484,Mexico,2000,Female,15.17,-,-
+Latin America and the Caribbean,484,Mexico,2000,Male,22.32,-,-
+Latin America and the Caribbean,484,Mexico,2000,Both sexes,18.58,-,-
+Latin America and the Caribbean,484,Mexico,2005,Female,24.3,-,-
+Latin America and the Caribbean,484,Mexico,2005,Male,27.63,-,-
+Latin America and the Caribbean,484,Mexico,2005,Both sexes,25.88,-,-
+Latin America and the Caribbean,484,Mexico,2007,Female,28.24,-,-
+Latin America and the Caribbean,484,Mexico,2007,Male,32.5,-,-
+Latin America and the Caribbean,484,Mexico,2007,Both sexes,30.21,-,-
+Latin America and the Caribbean,484,Mexico,2009,Female,29.38,-,-
+Latin America and the Caribbean,484,Mexico,2009,Male,33.6,-,-
+Latin America and the Caribbean,484,Mexico,2009,Both sexes,31.35,-,-
+Latin America and the Caribbean,484,Mexico,2010,Female,28.11,-,-
+Latin America and the Caribbean,484,Mexico,2010,Male,30.41,-,-
+Latin America and the Caribbean,484,Mexico,2010,Both sexes,29.2,-,-
+Latin America and the Caribbean,484,Mexico,2004,Female,19.09,-,-
+Latin America and the Caribbean,484,Mexico,2004,Male,26.23,-,-
+Latin America and the Caribbean,484,Mexico,2004,Both sexes,22.41,-,-
+Latin America and the Caribbean,484,Mexico,2006,Female,28.33,-,-
+Latin America and the Caribbean,484,Mexico,2006,Male,32.54,-,-
+Latin America and the Caribbean,484,Mexico,2006,Both sexes,30.26,-,-
+Latin America and the Caribbean,484,Mexico,2012,Female,32.2,-,-
+Latin America and the Caribbean,484,Mexico,2012,Male,35.63,-,-
+Latin America and the Caribbean,484,Mexico,2012,Both sexes,33.8,-,-
+Latin America and the Caribbean,484,Mexico,2013,Female,30.64,-,-
+Latin America and the Caribbean,484,Mexico,2013,Male,32.76,-,-
+Latin America and the Caribbean,484,Mexico,2013,Both sexes,31.63,-,-
+Latin America and the Caribbean,484,Mexico,2014,Female,31.05,-,-
+Latin America and the Caribbean,484,Mexico,2014,Male,32.66,-,-
+Latin America and the Caribbean,484,Mexico,2015,Female,32.15,-,-
+Latin America and the Caribbean,484,Mexico,2015,Male,34.68,-,-
+Latin America and the Caribbean,484,Mexico,2015,Both sexes,33.35,-,-
+Latin America and the Caribbean,533,Aruba,2010,Female,32.07,-,-
+Latin America and the Caribbean,533,Aruba,2010,Male,32.17,-,-
+Latin America and the Caribbean,533,Aruba,2010,Both sexes,32.12,-,-
+Latin America and the Caribbean,591,Panama,2000,Female,35.8,-,-
+Latin America and the Caribbean,591,Panama,2000,Male,31.57,-,-
+Latin America and the Caribbean,591,Panama,2000,Both sexes,33.68,-,-
+Latin America and the Caribbean,591,Panama,2010,Female,45.82,-,-
+Latin America and the Caribbean,591,Panama,2010,Male,40.14,-,-
+Latin America and the Caribbean,591,Panama,2010,Both sexes,43,-,-
+Latin America and the Caribbean,600,Paraguay,2003,Female,23.96,-,-
+Latin America and the Caribbean,600,Paraguay,2003,Male,24.2,-,-
+Latin America and the Caribbean,600,Paraguay,2003,Both sexes,24.08,-,-
+Latin America and the Caribbean,600,Paraguay,2008,Female,28.44,-,-
+Latin America and the Caribbean,600,Paraguay,2008,Male,28.81,-,-
+Latin America and the Caribbean,600,Paraguay,2008,Both sexes,28.62,-,-
+Latin America and the Caribbean,600,Paraguay,2005,Female,28.83,-,-
+Latin America and the Caribbean,600,Paraguay,2005,Male,30.44,-,-
+Latin America and the Caribbean,600,Paraguay,2005,Both sexes,29.62,-,-
+Latin America and the Caribbean,600,Paraguay,2007,Female,25.55,-,-
+Latin America and the Caribbean,600,Paraguay,2007,Male,27.34,-,-
+Latin America and the Caribbean,600,Paraguay,2007,Both sexes,26.42,-,-
+Latin America and the Caribbean,600,Paraguay,2009,Female,25.17,-,-
+Latin America and the Caribbean,600,Paraguay,2009,Male,29.13,-,-
+Latin America and the Caribbean,600,Paraguay,2009,Both sexes,27.14,-,-
+Latin America and the Caribbean,600,Paraguay,2006,Female,26.28,-,-
+Latin America and the Caribbean,600,Paraguay,2006,Male,28.49,-,-
+Latin America and the Caribbean,600,Paraguay,2006,Both sexes,27.35,-,-
+Latin America and the Caribbean,600,Paraguay,2014,Female,36.71,-,-
+Latin America and the Caribbean,600,Paraguay,2014,Male,36.41,-,-
+Latin America and the Caribbean,600,Paraguay,2014,Both sexes,36.56,-,-
+Latin America and the Caribbean,600,Paraguay,2015,Female,37.89,-,-
+Latin America and the Caribbean,600,Paraguay,2015,Male,38.33,-,-
+Latin America and the Caribbean,600,Paraguay,2015,Both sexes,38.1,-,-
+Latin America and the Caribbean,604,Peru,2008,Female,42.08,-,-
+Latin America and the Caribbean,604,Peru,2008,Male,52.09,-,-
+Latin America and the Caribbean,604,Peru,2008,Both sexes,46.87,-,-
+Latin America and the Caribbean,604,Peru,2005,Female,40.4,-,-
+Latin America and the Caribbean,604,Peru,2005,Male,47.85,-,-
+Latin America and the Caribbean,604,Peru,2005,Both sexes,44.04,-,-
+Latin America and the Caribbean,604,Peru,2007,Female,42.03,-,-
+Latin America and the Caribbean,604,Peru,2007,Male,51.79,-,-
+Latin America and the Caribbean,604,Peru,2007,Both sexes,46.7,-,-
+Latin America and the Caribbean,604,Peru,2009,Female,42.13,-,-
+Latin America and the Caribbean,604,Peru,2009,Male,52.36,-,-
+Latin America and the Caribbean,604,Peru,2009,Both sexes,47,-,-
+Latin America and the Caribbean,604,Peru,2010,Female,47.64,-,-
+Latin America and the Caribbean,604,Peru,2010,Male,58.32,-,-
+Latin America and the Caribbean,604,Peru,2010,Both sexes,52.94,-,-
+Latin America and the Caribbean,604,Peru,2004,Female,43.31,-,-
+Latin America and the Caribbean,604,Peru,2004,Male,50.35,-,-
+Latin America and the Caribbean,604,Peru,2004,Both sexes,46.78,-,-
+Latin America and the Caribbean,604,Peru,2006,Female,39.71,-,-
+Latin America and the Caribbean,604,Peru,2006,Male,48.82,-,-
+Latin America and the Caribbean,604,Peru,2006,Both sexes,44.05,-,-
+Latin America and the Caribbean,604,Peru,2011,Female,48.83,-,-
+Latin America and the Caribbean,604,Peru,2011,Male,58.28,-,-
+Latin America and the Caribbean,604,Peru,2011,Both sexes,53.52,-,-
+Latin America and the Caribbean,604,Peru,2012,Female,51.19,-,-
+Latin America and the Caribbean,604,Peru,2012,Male,60.93,-,-
+Latin America and the Caribbean,604,Peru,2012,Both sexes,55.99,-,-
+Latin America and the Caribbean,604,Peru,2013,Female,51.94,-,-
+Latin America and the Caribbean,604,Peru,2013,Male,59.83,-,-
+Latin America and the Caribbean,604,Peru,2013,Both sexes,55.81,-,-
+Latin America and the Caribbean,604,Peru,2014,Female,50.6,-,-
+Latin America and the Caribbean,604,Peru,2014,Male,60.46,-,-
+Latin America and the Caribbean,604,Peru,2014,Both sexes,55.5,-,-
+Latin America and the Caribbean,604,Peru,2015,Female,51.47,-,-
+Latin America and the Caribbean,604,Peru,2015,Male,60.62,-,-
+Latin America and the Caribbean,604,Peru,2015,Both sexes,56.02,-,-
+Latin America and the Caribbean,630,Puerto Rico,2008,Female,78.67,-,-
+Latin America and the Caribbean,630,Puerto Rico,2008,Male,76.6,-,-
+Latin America and the Caribbean,630,Puerto Rico,2008,Both sexes,77.71,-,-
+Latin America and the Caribbean,630,Puerto Rico,2000,Female,74.33,-,-
+Latin America and the Caribbean,630,Puerto Rico,2000,Male,74.56,-,-
+Latin America and the Caribbean,630,Puerto Rico,2000,Both sexes,74.44,-,-
+Latin America and the Caribbean,630,Puerto Rico,2005,Female,77.74,-,-
+Latin America and the Caribbean,630,Puerto Rico,2005,Male,77.22,-,-
+Latin America and the Caribbean,630,Puerto Rico,2005,Both sexes,77.5,-,-
+Latin America and the Caribbean,630,Puerto Rico,2007,Female,77.78,-,-
+Latin America and the Caribbean,630,Puerto Rico,2007,Male,76.78,-,-
+Latin America and the Caribbean,630,Puerto Rico,2007,Both sexes,77.31,-,-
+Latin America and the Caribbean,630,Puerto Rico,2006,Female,77.48,-,-
+Latin America and the Caribbean,630,Puerto Rico,2006,Male,75.98,-,-
+Latin America and the Caribbean,630,Puerto Rico,2006,Both sexes,76.78,-,-
+Latin America and the Caribbean,630,Puerto Rico,2012,Female,71.99,-,-
+Latin America and the Caribbean,630,Puerto Rico,2012,Male,67.54,-,-
+Latin America and the Caribbean,630,Puerto Rico,2012,Both sexes,69.93,-,-
+Latin America and the Caribbean,660,Anguilla,2001,Female,48.39,-,-
+Latin America and the Caribbean,660,Anguilla,2001,Male,41.95,-,-
+Latin America and the Caribbean,660,Anguilla,2001,Both sexes,45.22,-,-
+Latin America and the Caribbean,662,Saint Lucia,2013,Female,42.83,-,-
+Latin America and the Caribbean,662,Saint Lucia,2013,Male,37.82,-,-
+Latin America and the Caribbean,662,Saint Lucia,2013,Both sexes,40.43,-,-
+Latin America and the Caribbean,740,Suriname,2004,Female,7.81,-,-
+Latin America and the Caribbean,740,Suriname,2004,Male,9.61,-,-
+Latin America and the Caribbean,740,Suriname,2004,Both sexes,8.7,-,-
+Latin America and the Caribbean,740,Suriname,2012,Female,26.25,-,-
+Latin America and the Caribbean,740,Suriname,2012,Male,23.06,-,-
+Latin America and the Caribbean,740,Suriname,2012,Both sexes,24.72,-,-
+Latin America and the Caribbean,780,Trinidad and Tobago,2008,Female,56.55,-,-
+Latin America and the Caribbean,780,Trinidad and Tobago,2008,Male,57.5,-,-
+Latin America and the Caribbean,780,Trinidad and Tobago,2008,Both sexes,57.02,-,-
+Latin America and the Caribbean,780,Trinidad and Tobago,2009,Female,56.63,-,-
+Latin America and the Caribbean,780,Trinidad and Tobago,2009,Male,56.85,-,-
+Latin America and the Caribbean,780,Trinidad and Tobago,2009,Both sexes,56.73,-,-
+Latin America and the Caribbean,858,Uruguay,2003,Female,36.64,-,-
+Latin America and the Caribbean,858,Uruguay,2003,Male,32.01,-,-
+Latin America and the Caribbean,858,Uruguay,2003,Both sexes,34.45,-,-
+Latin America and the Caribbean,858,Uruguay,2008,Female,29.74,-,-
+Latin America and the Caribbean,858,Uruguay,2008,Male,23.81,-,-
+Latin America and the Caribbean,858,Uruguay,2008,Both sexes,26.98,-,-
+Latin America and the Caribbean,858,Uruguay,2009,Female,30.29,-,-
+Latin America and the Caribbean,858,Uruguay,2009,Male,24.84,-,-
+Latin America and the Caribbean,858,Uruguay,2009,Both sexes,27.75,-,-
+Latin America and the Caribbean,858,Uruguay,2010,Female,29.73,-,-
+Latin America and the Caribbean,858,Uruguay,2010,Male,24.25,-,-
+Latin America and the Caribbean,858,Uruguay,2010,Both sexes,27.17,-,-
+Latin America and the Caribbean,858,Uruguay,2006,Female,26.9,-,-
+Latin America and the Caribbean,858,Uruguay,2006,Male,22.25,-,-
+Latin America and the Caribbean,858,Uruguay,2006,Both sexes,24.74,-,-
+Latin America and the Caribbean,858,Uruguay,2011,Female,30.08,-,-
+Latin America and the Caribbean,858,Uruguay,2011,Male,23.52,-,-
+Latin America and the Caribbean,858,Uruguay,2011,Both sexes,27.02,-,-
+Latin America and the Caribbean,858,Uruguay,2012,Female,30.87,-,-
+Latin America and the Caribbean,858,Uruguay,2012,Male,23.74,-,-
+Latin America and the Caribbean,858,Uruguay,2012,Both sexes,27.54,-,-
+Latin America and the Caribbean,858,Uruguay,2013,Female,30.59,-,-
+Latin America and the Caribbean,858,Uruguay,2013,Male,24.14,-,-
+Latin America and the Caribbean,858,Uruguay,2013,Both sexes,27.58,-,-
+Latin America and the Caribbean,858,Uruguay,2014,Female,31.61,-,-
+Latin America and the Caribbean,858,Uruguay,2014,Male,24.86,-,-
+Latin America and the Caribbean,858,Uruguay,2014,Both sexes,28.45,-,-
+Latin America and the Caribbean,858,Uruguay,2015,Female,32.13,-,-
+Latin America and the Caribbean,858,Uruguay,2015,Male,24.9,-,-
+Latin America and the Caribbean,858,Uruguay,2015,Both sexes,28.75,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2008,Female,44.67,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2008,Male,38.14,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2008,Both sexes,41.44,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2007,Female,42.66,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2007,Male,36.83,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2007,Both sexes,39.78,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2009,Female,46.47,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2009,Male,39.41,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2009,Both sexes,42.99,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2001,Female,11.73,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2001,Male,33.08,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2001,Both sexes,26.63,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2006,Female,37.54,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2006,Male,32.55,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2006,Both sexes,35.09,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2015,Female,59.69,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2015,Male,51.75,-,-
+Latin America and the Caribbean,862,Venezuela (Bolivarian Republic of),2015,Both sexes,55.79,-,-
+Caucasus and Central Asia,31,Azerbaijan,1999,Female,78.75,-,-
+Caucasus and Central Asia,31,Azerbaijan,1999,Male,88.93,-,-
+Caucasus and Central Asia,31,Azerbaijan,1999,Both sexes,83.53,-,-
+Caucasus and Central Asia,31,Azerbaijan,2008,Female,77.89,-,-
+Caucasus and Central Asia,31,Azerbaijan,2008,Male,88.63,-,-
+Caucasus and Central Asia,31,Azerbaijan,2008,Both sexes,82.96,-,-
+Caucasus and Central Asia,31,Azerbaijan,2007,Female,77.95,-,-
+Caucasus and Central Asia,31,Azerbaijan,2007,Male,88.56,-,-
+Caucasus and Central Asia,31,Azerbaijan,2007,Both sexes,82.95,-,-
+Caucasus and Central Asia,31,Azerbaijan,2009,Female,85.36,-,-
+Caucasus and Central Asia,31,Azerbaijan,2009,Male,92.17,-,-
+Caucasus and Central Asia,31,Azerbaijan,2009,Both sexes,88.61,-,-
+Caucasus and Central Asia,31,Azerbaijan,2010,Female,85.52,-,-
+Caucasus and Central Asia,31,Azerbaijan,2010,Male,92.05,-,-
+Caucasus and Central Asia,31,Azerbaijan,2010,Both sexes,88.65,-,-
+Caucasus and Central Asia,31,Azerbaijan,2011,Female,85.56,-,-
+Caucasus and Central Asia,31,Azerbaijan,2011,Male,92.05,-,-
+Caucasus and Central Asia,31,Azerbaijan,2011,Both sexes,88.66,-,-
+Caucasus and Central Asia,31,Azerbaijan,2012,Female,85.52,-,-
+Caucasus and Central Asia,31,Azerbaijan,2012,Male,92.2,-,-
+Caucasus and Central Asia,31,Azerbaijan,2012,Both sexes,88.71,-,-
+Caucasus and Central Asia,31,Azerbaijan,2013,Female,85.48,-,-
+Caucasus and Central Asia,31,Azerbaijan,2013,Male,92.24,-,-
+Caucasus and Central Asia,31,Azerbaijan,2013,Both sexes,88.72,-,-
+Caucasus and Central Asia,31,Azerbaijan,2014,Female,85.45,-,-
+Caucasus and Central Asia,31,Azerbaijan,2014,Male,92.27,-,-
+Caucasus and Central Asia,31,Azerbaijan,2014,Both sexes,88.71,-,-
+Caucasus and Central Asia,31,Azerbaijan,2015,Female,85.37,-,-
+Caucasus and Central Asia,31,Azerbaijan,2015,Male,92.26,-,-
+Caucasus and Central Asia,31,Azerbaijan,2015,Both sexes,88.67,-,-
+Caucasus and Central Asia,51,Armenia,2001,Female,81.07,-,-
+Caucasus and Central Asia,51,Armenia,2001,Male,82.19,-,-
+Caucasus and Central Asia,51,Armenia,2001,Both sexes,81.58,-,-
+Caucasus and Central Asia,51,Armenia,2011,Female,90.37,-,-
+Caucasus and Central Asia,51,Armenia,2011,Male,90.09,-,-
+Caucasus and Central Asia,51,Armenia,2011,Both sexes,90.24,-,-
+Caucasus and Central Asia,51,Armenia,2015,Female,92.04,-,-
+Caucasus and Central Asia,51,Armenia,2015,Male,91.59,-,-
+Caucasus and Central Asia,51,Armenia,2015,Both sexes,91.84,-,-
+Caucasus and Central Asia,268,Georgia,2002,Female,82.26,-,-
+Caucasus and Central Asia,268,Georgia,2002,Male,85.38,-,-
+Caucasus and Central Asia,268,Georgia,2002,Both sexes,83.66,-,-
+Caucasus and Central Asia,268,Georgia,2012,Female,89.83,-,-
+Caucasus and Central Asia,268,Georgia,2012,Male,92.28,-,-
+Caucasus and Central Asia,268,Georgia,2012,Both sexes,90.93,-,-
+Caucasus and Central Asia,268,Georgia,2014,Female,91.35,-,-
+Caucasus and Central Asia,268,Georgia,2014,Male,92.26,-,-
+Caucasus and Central Asia,268,Georgia,2014,Both sexes,91.77,-,-
+Caucasus and Central Asia,398,Kazakhstan,1999,Female,68.33,-,-
+Caucasus and Central Asia,398,Kazakhstan,1999,Male,73.16,-,-
+Caucasus and Central Asia,398,Kazakhstan,1999,Both sexes,70.52,-,-
+Caucasus and Central Asia,398,Kazakhstan,2007,Female,96.43,-,-
+Caucasus and Central Asia,398,Kazakhstan,2007,Male,96.18,-,-
+Caucasus and Central Asia,398,Kazakhstan,2007,Both sexes,96.31,-,-
+Caucasus and Central Asia,398,Kazakhstan,2009,Female,84.29,-,-
+Caucasus and Central Asia,398,Kazakhstan,2009,Male,85.78,-,-
+Caucasus and Central Asia,398,Kazakhstan,2009,Both sexes,84.98,-,-
+Caucasus and Central Asia,417,Kyrgyzstan,1999,Female,74.72,-,-
+Caucasus and Central Asia,417,Kyrgyzstan,1999,Male,79.44,-,-
+Caucasus and Central Asia,417,Kyrgyzstan,1999,Both sexes,76.97,-,-
+Caucasus and Central Asia,417,Kyrgyzstan,2009,Female,87.09,-,-
+Caucasus and Central Asia,417,Kyrgyzstan,2009,Male,89.73,-,-
+Caucasus and Central Asia,417,Kyrgyzstan,2009,Both sexes,88.37,-,-
+Caucasus and Central Asia,762,Tajikistan,2000,Female,73.64,-,-
+Caucasus and Central Asia,762,Tajikistan,2000,Male,84.45,-,-
+Caucasus and Central Asia,762,Tajikistan,2000,Both sexes,78.96,-,-
+Caucasus and Central Asia,795,Turkmenistan,1995,Female,73.18,-,-
+Caucasus and Central Asia,795,Turkmenistan,1995,Male,81.3,-,-
+Caucasus and Central Asia,795,Turkmenistan,1995,Both sexes,77.07,-,-
+Caucasus and Central Asia,860,Uzbekistan,2013,Female,89.76,-,-
+Caucasus and Central Asia,860,Uzbekistan,2013,Male,93.4,-,-
+Caucasus and Central Asia,860,Uzbekistan,2013,Both sexes,91.54,-,-
+Caucasus and Central Asia,860,Uzbekistan,2014,Female,90.17,-,-
+Caucasus and Central Asia,860,Uzbekistan,2014,Male,93.79,-,-
+Caucasus and Central Asia,860,Uzbekistan,2014,Both sexes,91.95,-,-
+Caucasus and Central Asia,860,Uzbekistan,2015,Female,90.3,-,-
+Caucasus and Central Asia,860,Uzbekistan,2015,Male,93.93,-,-
+Caucasus and Central Asia,860,Uzbekistan,2015,Both sexes,92.08,-,-
+Western Asia,48,Bahrain,2010,Female,45.21,-,-
+Western Asia,48,Bahrain,2010,Male,40.6,-,-
+Western Asia,48,Bahrain,2010,Both sexes,42.11,-,-
+Western Asia,48,Bahrain,2001,Female,45.96,-,-
+Western Asia,48,Bahrain,2001,Male,51.71,-,-
+Western Asia,48,Bahrain,2001,Both sexes,49.65,-,-
+Western Asia,275,State of Palestine,2008,Female,28.98,-,-
+Western Asia,275,State of Palestine,2008,Male,36.5,-,-
+Western Asia,275,State of Palestine,2008,Both sexes,32.76,-,-
+Western Asia,275,State of Palestine,2007,Female,27.63,-,-
+Western Asia,275,State of Palestine,2007,Male,36.41,-,-
+Western Asia,275,State of Palestine,2007,Both sexes,32.05,-,-
+Western Asia,275,State of Palestine,2009,Female,31.57,-,-
+Western Asia,275,State of Palestine,2009,Male,38.4,-,-
+Western Asia,275,State of Palestine,2009,Both sexes,35.01,-,-
+Western Asia,275,State of Palestine,2010,Female,32,-,-
+Western Asia,275,State of Palestine,2010,Male,37.87,-,-
+Western Asia,275,State of Palestine,2010,Both sexes,34.95,-,-
+Western Asia,275,State of Palestine,2004,Female,25.37,-,-
+Western Asia,275,State of Palestine,2004,Male,36.16,-,-
+Western Asia,275,State of Palestine,2004,Both sexes,30.76,-,-
+Western Asia,275,State of Palestine,2006,Female,26.82,-,-
+Western Asia,275,State of Palestine,2006,Male,35.57,-,-
+Western Asia,275,State of Palestine,2006,Both sexes,31.22,-,-
+Western Asia,275,State of Palestine,2011,Female,33.21,-,-
+Western Asia,275,State of Palestine,2011,Male,39.46,-,-
+Western Asia,275,State of Palestine,2011,Both sexes,36.36,-,-
+Western Asia,275,State of Palestine,2012,Female,35.7,-,-
+Western Asia,275,State of Palestine,2012,Male,40.32,-,-
+Western Asia,275,State of Palestine,2012,Both sexes,38.02,-,-
+Western Asia,275,State of Palestine,2013,Female,36.83,-,-
+Western Asia,275,State of Palestine,2013,Male,40.16,-,-
+Western Asia,275,State of Palestine,2013,Both sexes,38.51,-,-
+Western Asia,275,State of Palestine,2014,Female,36.52,-,-
+Western Asia,275,State of Palestine,2014,Male,39.37,-,-
+Western Asia,275,State of Palestine,2014,Both sexes,37.96,-,-
+Western Asia,275,State of Palestine,2015,Female,38.26,-,-
+Western Asia,275,State of Palestine,2015,Male,39.78,-,-
+Western Asia,275,State of Palestine,2015,Both sexes,39.02,-,-
+Western Asia,368,Iraq,2013,Female,23.95,-,-
+Western Asia,368,Iraq,2013,Male,34.38,-,-
+Western Asia,368,Iraq,2013,Both sexes,29.72,-,-
+Western Asia,400,Jordan,2003,Female,1.31,-,-
+Western Asia,400,Jordan,2003,Male,1.51,-,-
+Western Asia,400,Jordan,2003,Both sexes,1.41,-,-
+Western Asia,400,Jordan,2008,Female,39.78,-,-
+Western Asia,400,Jordan,2008,Male,42.33,-,-
+Western Asia,400,Jordan,2008,Both sexes,41.05,-,-
+Western Asia,400,Jordan,2007,Female,40.46,-,-
+Western Asia,400,Jordan,2007,Male,53.07,-,-
+Western Asia,400,Jordan,2007,Both sexes,51.15,-,-
+Western Asia,400,Jordan,2010,Female,40.08,-,-
+Western Asia,400,Jordan,2010,Male,42.54,-,-
+Western Asia,400,Jordan,2010,Both sexes,41.35,-,-
+Western Asia,414,Kuwait,2008,Female,32.17,-,-
+Western Asia,414,Kuwait,2008,Male,23.85,-,-
+Western Asia,414,Kuwait,2008,Both sexes,26.53,-,-
+Western Asia,414,Kuwait,2005,Female,30.1,-,-
+Western Asia,414,Kuwait,2005,Male,23.12,-,-
+Western Asia,414,Kuwait,2005,Both sexes,25.36,-,-
+Western Asia,414,Kuwait,2007,Female,30.71,-,-
+Western Asia,414,Kuwait,2007,Male,23.22,-,-
+Western Asia,414,Kuwait,2007,Both sexes,25.62,-,-
+Western Asia,414,Kuwait,2006,Female,31.33,-,-
+Western Asia,414,Kuwait,2006,Male,22.93,-,-
+Western Asia,414,Kuwait,2006,Both sexes,25.56,-,-
+Western Asia,414,Kuwait,2012,Female,34.26,-,-
+Western Asia,414,Kuwait,2012,Male,31.83,-,-
+Western Asia,414,Kuwait,2012,Both sexes,32.7,-,-
+Western Asia,414,Kuwait,2013,Female,34.1,-,-
+Western Asia,414,Kuwait,2013,Male,25.14,-,-
+Western Asia,414,Kuwait,2013,Both sexes,28.34,-,-
+Western Asia,414,Kuwait,2015,Female,36.32,-,-
+Western Asia,414,Kuwait,2015,Male,26.38,-,-
+Western Asia,414,Kuwait,2015,Both sexes,29.9,-,-
+Western Asia,422,Lebanon,2007,Female,32.51,-,-
+Western Asia,422,Lebanon,2007,Male,33.39,-,-
+Western Asia,422,Lebanon,2007,Both sexes,32.93,-,-
+Western Asia,512,Oman,2003,Female,26.91,-,-
+Western Asia,512,Oman,2003,Male,30.18,-,-
+Western Asia,512,Oman,2003,Both sexes,28.95,-,-
+Western Asia,512,Oman,2008,Female,39.26,-,-
+Western Asia,512,Oman,2008,Male,42.55,-,-
+Western Asia,512,Oman,2008,Both sexes,41.47,-,-
+Western Asia,512,Oman,2010,Female,42.77,-,-
+Western Asia,512,Oman,2010,Male,40.28,-,-
+Western Asia,512,Oman,2010,Both sexes,41.2,-,-
+Western Asia,512,Oman,2015,Female,63.18,-,-
+Western Asia,512,Oman,2015,Male,45.31,-,-
+Western Asia,512,Oman,2015,Both sexes,50.37,-,-
+Western Asia,634,Qatar,2008,Female,60.65,-,-
+Western Asia,634,Qatar,2008,Male,48.78,-,-
+Western Asia,634,Qatar,2008,Both sexes,50.83,-,-
+Western Asia,634,Qatar,2007,Female,59.21,-,-
+Western Asia,634,Qatar,2007,Male,46.8,-,-
+Western Asia,634,Qatar,2007,Both sexes,49.3,-,-
+Western Asia,634,Qatar,2009,Female,61.81,-,-
+Western Asia,634,Qatar,2009,Male,39.76,-,-
+Western Asia,634,Qatar,2009,Both sexes,43.39,-,-
+Western Asia,634,Qatar,2010,Female,38.27,-,-
+Western Asia,634,Qatar,2010,Male,36.21,-,-
+Western Asia,634,Qatar,2010,Both sexes,36.74,-,-
+Western Asia,634,Qatar,2004,Female,52.14,-,-
+Western Asia,634,Qatar,2004,Male,36.8,-,-
+Western Asia,634,Qatar,2004,Both sexes,40.97,-,-
+Western Asia,634,Qatar,2011,Female,53.81,-,-
+Western Asia,634,Qatar,2011,Male,38.02,-,-
+Western Asia,634,Qatar,2011,Both sexes,41.11,-,-
+Western Asia,634,Qatar,2012,Female,56.65,-,-
+Western Asia,634,Qatar,2012,Male,37.83,-,-
+Western Asia,634,Qatar,2012,Both sexes,41.34,-,-
+Western Asia,634,Qatar,2013,Female,55.12,-,-
+Western Asia,634,Qatar,2013,Male,43.84,-,-
+Western Asia,634,Qatar,2013,Both sexes,46.07,-,-
+Western Asia,634,Qatar,2014,Female,58.03,-,-
+Western Asia,634,Qatar,2014,Male,40.7,-,-
+Western Asia,634,Qatar,2014,Both sexes,43.96,-,-
+Western Asia,682,Saudi Arabia,2000,Female,23.5,-,-
+Western Asia,682,Saudi Arabia,2000,Male,34.59,-,-
+Western Asia,682,Saudi Arabia,2000,Both sexes,30.07,-,-
+Western Asia,682,Saudi Arabia,2004,Female,32.23,-,-
+Western Asia,682,Saudi Arabia,2004,Male,35.41,-,-
+Western Asia,682,Saudi Arabia,2004,Both sexes,34.17,-,-
+Western Asia,682,Saudi Arabia,2013,Female,45.66,-,-
+Western Asia,682,Saudi Arabia,2013,Male,50.91,-,-
+Western Asia,682,Saudi Arabia,2013,Both sexes,48.89,-,-
+Western Asia,760,Syrian Arab Republic,2008,Female,17.74,-,-
+Western Asia,760,Syrian Arab Republic,2008,Male,24.95,-,-
+Western Asia,760,Syrian Arab Republic,2008,Both sexes,21.35,-,-
+Western Asia,760,Syrian Arab Republic,2007,Female,17.21,-,-
+Western Asia,760,Syrian Arab Republic,2007,Male,26.45,-,-
+Western Asia,760,Syrian Arab Republic,2007,Both sexes,21.85,-,-
+Western Asia,760,Syrian Arab Republic,2009,Female,18.88,-,-
+Western Asia,760,Syrian Arab Republic,2009,Male,24.76,-,-
+Western Asia,760,Syrian Arab Republic,2009,Both sexes,21.9,-,-
+Western Asia,760,Syrian Arab Republic,2002,Female,6.81,-,-
+Western Asia,760,Syrian Arab Republic,2002,Male,14.3,-,-
+Western Asia,760,Syrian Arab Republic,2002,Both sexes,10.43,-,-
+Western Asia,784,United Arab Emirates,2005,Female,59.85,-,-
+Western Asia,784,United Arab Emirates,2005,Male,43,-,-
+Western Asia,784,United Arab Emirates,2005,Both sexes,47.11,-,-
+Western Asia,792,Turkey,2008,Female,20.69,-,-
+Western Asia,792,Turkey,2008,Male,32.48,-,-
+Western Asia,792,Turkey,2008,Both sexes,26.49,-,-
+Western Asia,792,Turkey,2005,Female,15.64,-,-
+Western Asia,792,Turkey,2005,Male,28.77,-,-
+Western Asia,792,Turkey,2005,Both sexes,22.19,-,-
+Western Asia,792,Turkey,2007,Female,17.38,-,-
+Western Asia,792,Turkey,2007,Male,30.03,-,-
+Western Asia,792,Turkey,2007,Both sexes,23.69,-,-
+Western Asia,792,Turkey,2009,Female,21.72,-,-
+Western Asia,792,Turkey,2009,Male,33.86,-,-
+Western Asia,792,Turkey,2009,Both sexes,27.7,-,-
+Western Asia,792,Turkey,2010,Female,23.58,-,-
+Western Asia,792,Turkey,2010,Male,36.56,-,-
+Western Asia,792,Turkey,2010,Both sexes,29.99,-,-
+Western Asia,792,Turkey,2004,Female,14.84,-,-
+Western Asia,792,Turkey,2004,Male,27.25,-,-
+Western Asia,792,Turkey,2004,Both sexes,21.03,-,-
+Western Asia,792,Turkey,2006,Female,16.71,-,-
+Western Asia,792,Turkey,2006,Male,29.73,-,-
+Western Asia,792,Turkey,2006,Both sexes,23.2,-,-
+Western Asia,792,Turkey,2011,Female,25.13,-,-
+Western Asia,792,Turkey,2011,Male,38.64,-,-
+Western Asia,792,Turkey,2011,Both sexes,31.8,-,-
+Western Asia,792,Turkey,2012,Female,26.11,-,-
+Western Asia,792,Turkey,2012,Male,39.59,-,-
+Western Asia,792,Turkey,2012,Both sexes,32.77,-,-
+Western Asia,792,Turkey,2013,Female,27.12,-,-
+Western Asia,792,Turkey,2013,Male,40.56,-,-
+Western Asia,792,Turkey,2013,Both sexes,33.76,-,-
+Western Asia,792,Turkey,2014,Female,28.54,-,-
+Western Asia,792,Turkey,2014,Male,42.08,-,-
+Western Asia,792,Turkey,2014,Both sexes,35.24,-,-
+Western Asia,792,Turkey,2015,Female,30.45,-,-
+Western Asia,792,Turkey,2015,Male,43.84,-,-
+Western Asia,792,Turkey,2015,Both sexes,37.07,-,-
+South-eastern Asia,116,Cambodia,2008,Female,1.59,-,-
+South-eastern Asia,116,Cambodia,2008,Male,4.69,-,-
+South-eastern Asia,116,Cambodia,2008,Both sexes,3.01,-,-
+South-eastern Asia,116,Cambodia,2007,Female,3.34,-,-
+South-eastern Asia,116,Cambodia,2007,Male,10.07,-,-
+South-eastern Asia,116,Cambodia,2007,Both sexes,6.42,-,-
+South-eastern Asia,116,Cambodia,2009,Female,3.32,-,-
+South-eastern Asia,116,Cambodia,2009,Male,9.77,-,-
+South-eastern Asia,116,Cambodia,2009,Both sexes,6.26,-,-
+South-eastern Asia,360,Indonesia,2008,Female,22.39,-,-
+South-eastern Asia,360,Indonesia,2008,Male,30.18,-,-
+South-eastern Asia,360,Indonesia,2008,Both sexes,26.2,-,-
+South-eastern Asia,360,Indonesia,2007,Female,21.69,-,-
+South-eastern Asia,360,Indonesia,2007,Male,30.51,-,-
+South-eastern Asia,360,Indonesia,2007,Both sexes,26.01,-,-
+South-eastern Asia,360,Indonesia,2009,Female,23.84,-,-
+South-eastern Asia,360,Indonesia,2009,Male,32.16,-,-
+South-eastern Asia,360,Indonesia,2009,Both sexes,27.84,-,-
+South-eastern Asia,360,Indonesia,2006,Female,22.75,-,-
+South-eastern Asia,360,Indonesia,2006,Male,28.4,-,-
+South-eastern Asia,360,Indonesia,2006,Both sexes,26.41,-,-
+South-eastern Asia,360,Indonesia,2011,Female,25.16,-,-
+South-eastern Asia,360,Indonesia,2011,Male,32.79,-,-
+South-eastern Asia,360,Indonesia,2011,Both sexes,28.93,-,-
+South-eastern Asia,360,Indonesia,2014,Female,27.37,-,-
+South-eastern Asia,360,Indonesia,2014,Male,34.88,-,-
+South-eastern Asia,360,Indonesia,2014,Both sexes,31.09,-,-
+South-eastern Asia,360,Indonesia,2015,Female,28.53,-,-
+South-eastern Asia,360,Indonesia,2015,Male,36.06,-,-
+South-eastern Asia,360,Indonesia,2015,Both sexes,32.26,-,-
+South-eastern Asia,458,Malaysia,2000,Female,33.44,-,-
+South-eastern Asia,458,Malaysia,2000,Male,39.33,-,-
+South-eastern Asia,458,Malaysia,2000,Both sexes,36.41,-,-
+South-eastern Asia,458,Malaysia,2005,Female,26.38,-,-
+South-eastern Asia,458,Malaysia,2005,Male,28.76,-,-
+South-eastern Asia,458,Malaysia,2005,Both sexes,27.6,-,-
+South-eastern Asia,458,Malaysia,2009,Female,47.85,-,-
+South-eastern Asia,458,Malaysia,2009,Male,50.96,-,-
+South-eastern Asia,458,Malaysia,2009,Both sexes,49.42,-,-
+South-eastern Asia,458,Malaysia,2010,Female,49.73,-,-
+South-eastern Asia,458,Malaysia,2010,Male,52.06,-,-
+South-eastern Asia,458,Malaysia,2010,Both sexes,50.9,-,-
+South-eastern Asia,458,Malaysia,1996,Female,26.93,-,-
+South-eastern Asia,458,Malaysia,1996,Male,33.73,-,-
+South-eastern Asia,458,Malaysia,1996,Both sexes,30.37,-,-
+South-eastern Asia,608,Philippines,2000,Female,35.76,-,-
+South-eastern Asia,608,Philippines,2000,Male,35.66,-,-
+South-eastern Asia,608,Philippines,2000,Both sexes,35.71,-,-
+South-eastern Asia,608,Philippines,2010,Female,57.07,-,-
+South-eastern Asia,608,Philippines,2010,Male,54.91,-,-
+South-eastern Asia,608,Philippines,2010,Both sexes,56,-,-
+South-eastern Asia,608,Philippines,2004,Female,52.38,-,-
+South-eastern Asia,608,Philippines,2004,Male,49.8,-,-
+South-eastern Asia,608,Philippines,2004,Both sexes,51.1,-,-
+South-eastern Asia,608,Philippines,2013,Female,60.11,-,-
+South-eastern Asia,608,Philippines,2013,Male,56.77,-,-
+South-eastern Asia,608,Philippines,2013,Both sexes,58.46,-,-
+South-eastern Asia,702,Singapore,2008,Female,60.63,-,-
+South-eastern Asia,702,Singapore,2008,Male,65.92,-,-
+South-eastern Asia,702,Singapore,2008,Both sexes,63.17,-,-
+South-eastern Asia,702,Singapore,2005,Female,55.97,-,-
+South-eastern Asia,702,Singapore,2005,Male,63.02,-,-
+South-eastern Asia,702,Singapore,2005,Both sexes,59.38,-,-
+South-eastern Asia,702,Singapore,2007,Female,57.57,-,-
+South-eastern Asia,702,Singapore,2007,Male,61.9,-,-
+South-eastern Asia,702,Singapore,2007,Both sexes,59.65,-,-
+South-eastern Asia,702,Singapore,2009,Female,60.44,-,-
+South-eastern Asia,702,Singapore,2009,Male,66.16,-,-
+South-eastern Asia,702,Singapore,2009,Both sexes,63.18,-,-
+South-eastern Asia,702,Singapore,2010,Female,62.54,-,-
+South-eastern Asia,702,Singapore,2010,Male,68.72,-,-
+South-eastern Asia,702,Singapore,2010,Both sexes,65.52,-,-
+South-eastern Asia,702,Singapore,2006,Female,56.29,-,-
+South-eastern Asia,702,Singapore,2006,Male,61.37,-,-
+South-eastern Asia,702,Singapore,2006,Both sexes,58.75,-,-
+South-eastern Asia,702,Singapore,1995,Female,17.75,-,-
+South-eastern Asia,702,Singapore,1995,Male,24.99,-,-
+South-eastern Asia,702,Singapore,1995,Both sexes,21.31,-,-
+South-eastern Asia,702,Singapore,2011,Female,63.69,-,-
+South-eastern Asia,702,Singapore,2011,Male,69.69,-,-
+South-eastern Asia,702,Singapore,2011,Both sexes,66.57,-,-
+South-eastern Asia,702,Singapore,2012,Female,64.9,-,-
+South-eastern Asia,702,Singapore,2012,Male,70.77,-,-
+South-eastern Asia,702,Singapore,2012,Both sexes,67.7,-,-
+South-eastern Asia,702,Singapore,2013,Female,66.01,-,-
+South-eastern Asia,702,Singapore,2013,Male,71.78,-,-
+South-eastern Asia,702,Singapore,2013,Both sexes,68.78,-,-
+South-eastern Asia,702,Singapore,2014,Female,67.07,-,-
+South-eastern Asia,702,Singapore,2014,Male,72.25,-,-
+South-eastern Asia,702,Singapore,2014,Both sexes,69.55,-,-
+South-eastern Asia,702,Singapore,2015,Female,68.28,-,-
+South-eastern Asia,702,Singapore,2015,Male,73.79,-,-
+South-eastern Asia,702,Singapore,2015,Both sexes,70.92,-,-
+South-eastern Asia,704,Viet Nam,2009,Female,21.44,-,-
+South-eastern Asia,704,Viet Nam,2009,Male,30.41,-,-
+South-eastern Asia,704,Viet Nam,2009,Both sexes,25.68,-,-
+South-eastern Asia,764,Thailand,2010,Female,26.04,-,-
+South-eastern Asia,764,Thailand,2010,Male,28.74,-,-
+South-eastern Asia,764,Thailand,2010,Both sexes,27.34,-,-
+South-eastern Asia,764,Thailand,2004,Female,21.46,-,-
+South-eastern Asia,764,Thailand,2004,Male,23.84,-,-
+South-eastern Asia,764,Thailand,2004,Both sexes,22.64,-,-
+South-eastern Asia,764,Thailand,2006,Female,21.25,-,-
+South-eastern Asia,764,Thailand,2006,Male,24.01,-,-
+South-eastern Asia,764,Thailand,2006,Both sexes,22.57,-,-
+South-eastern Asia,764,Thailand,2013,Female,28.17,-,-
+South-eastern Asia,764,Thailand,2013,Male,30.51,-,-
+South-eastern Asia,764,Thailand,2013,Both sexes,29.29,-,-
+South-eastern Asia,764,Thailand,2016,Female,31.9,-,-
+South-eastern Asia,764,Thailand,2016,Male,33.52,-,-
+South-eastern Asia,764,Thailand,2016,Both sexes,32.67,-,-
+Eastern Asia,156,China,2010,Female,19.2,-,-
+Eastern Asia,156,China,2010,Male,25.37,-,-
+Eastern Asia,156,China,2010,Both sexes,22.32,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2008,Female,53.47,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2008,Male,57.4,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2008,Both sexes,55.29,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2009,Female,54.2,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2009,Male,58.04,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2009,Both sexes,55.97,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2010,Female,55.39,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2010,Male,59.04,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2010,Both sexes,57.06,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,1996,Female,41.38,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,1996,Male,44.82,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,1996,Both sexes,43.08,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2006,Female,52.28,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2006,Male,56.2,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2006,Both sexes,54.11,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2011,Female,57.36,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2011,Male,61.37,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2011,Both sexes,59.18,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2014,Female,59.62,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2014,Male,63.19,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2014,Both sexes,61.22,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2015,Female,60.5,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2015,Male,64.21,-,-
+Eastern Asia,344,China  Hong Kong Special Administrative Region,2015,Both sexes,62.16,-,-
+Eastern Asia,410,Republic of Korea,2000,Female,55.3,-,-
+Eastern Asia,410,Republic of Korea,2000,Male,72.57,-,-
+Eastern Asia,410,Republic of Korea,2000,Both sexes,63.71,-,-
+Eastern Asia,410,Republic of Korea,2005,Female,61.96,-,-
+Eastern Asia,410,Republic of Korea,2005,Male,77.24,-,-
+Eastern Asia,410,Republic of Korea,2005,Both sexes,69.25,-,-
+Eastern Asia,410,Republic of Korea,2009,Male,74.23,-,-
+Eastern Asia,410,Republic of Korea,2009,Both sexes,66.04,-,-
+Eastern Asia,410,Republic of Korea,2010,Female,66.22,-,-
+Eastern Asia,410,Republic of Korea,2010,Male,79.63,-,-
+Eastern Asia,410,Republic of Korea,2010,Both sexes,72.72,-,-
+Eastern Asia,410,Republic of Korea,1995,Female,46.36,-,-
+Eastern Asia,410,Republic of Korea,1995,Male,67.12,-,-
+Eastern Asia,410,Republic of Korea,1995,Both sexes,56.46,-,-
+Eastern Asia,446,China  Macao Special Administrative Region,2006,Female,33.5,-,-
+Eastern Asia,446,China  Macao Special Administrative Region,2006,Male,38.07,-,-
+Eastern Asia,446,China  Macao Special Administrative Region,2006,Both sexes,35.7,-,-
+Eastern Asia,446,China  Macao Special Administrative Region,2011,Female,43.23,-,-
+Eastern Asia,446,China  Macao Special Administrative Region,2011,Male,46.72,-,-
+Eastern Asia,446,China  Macao Special Administrative Region,2011,Both sexes,44.87,-,-
+Eastern Asia,496,Mongolia,2000,Female,55.78,-,-
+Eastern Asia,496,Mongolia,2000,Male,50.83,-,-
+Eastern Asia,496,Mongolia,2000,Both sexes,53.37,-,-
+Eastern Asia,496,Mongolia,2010,Female,71.14,-,-
+Eastern Asia,496,Mongolia,2010,Male,63.8,-,-
+Eastern Asia,496,Mongolia,2010,Both sexes,67.57,-,-
