@@ -61,6 +61,178 @@ mean(uppersecondary[(uppersecondary$Year==1995)&(uppersecondary$Sex=='Female'),]
 mean(uppersecondary[(uppersecondary$Year==2015)&(uppersecondary$Sex=='Female'),]$Value)
 ```
 
+STEP 2: data set exploration
+```{r}
+#import all relevant data dets and see heads.
+setwd("~/Documents/GitHub/dav_final/GenderStatsData")
+high_income=read.csv("flfpr_highincome.csv",sep=',',header=TRUE)
+low_income=read.csv("flfpr_lowincome.csv",sep=',',header=TRUE)
+pop= read.csv("population_total.csv", sep=',',header=TRUE, skip = 4)
+ml_length <- read.csv("ml_length.csv",sep=',',header=TRUE,skip=2)
+seatprop <- read.csv("seatproportion_national.csv",sep=',',header = TRUE,skip=2)
+ml_wagespaid <- read.csv("ml_wagespaid.csv",sep=',',header=TRUE,skip = 2)
+genderquota <- read.csv("voluntary_genderquota_parl.csv",sep=',',header=TRUE,skip=2)
+#Share of female science technology engineering and mathematics graduates at tertiary level	
+ger_tertiary <- read.csv("ger_tertiary.csv",sep=',',header=TRUE,skip=2)  
+ger_secondary <- read.csv("ger_secondary_edu.csv",sep=',',header=TRUE)  
+flfpr <- read.csv("FLFPR.csv",sep=',',header=TRUE,skip=4)
+gdp <- read.csv("gdp.csv",sep=',',header=TRUE,skip=4)
+gni <- read.csv("gni.csv",sep=',',header=TRUE,skip=4)
+
+#selecting years 2000 to 2017 
+#for [seatprop, ger_tertiary, ger_secondary], [flfpr, gdp, gni]
+inds=c("seatprop", "ger_tertiary", "ger_secondary")
+drops <- c("Age","Location","Occupation","LowerBound","UpperBound","Unit","Indicator.Name","OriginData","NatureData","Sex","Region","Country.Code")
+years= c(2000:2017)
+# for (i in 1:length(inds)) {
+#     df=get(inds[i])
+#     df=df[ , !(names(df) %in% drops)][,1:5]
+# }
+ger_tertiary=ger_tertiary[ ,!(names(ger_tertiary) %in% drops)][,1:3]
+ger_secondary=ger_secondary[ , !(names(ger_secondary) %in% drops)][,1:3]
+seatprop=seatprop[ , !(names(seatprop) %in% drops)][,1:3]
+#doing this inside the forloop somehow doesn't work. will try again later.
+ger_tertiary=ger_tertiary[which(ger_tertiary$Year>=2000),]
+ger_tertiary=ger_tertiary[which(ger_tertiary$Year<2018),]
+seatprop=seatprop[which(seatprop$Year>=2000),]
+seatprop=seatprop[which(seatprop$Year< 2018),]
+ger_secondary=ger_secondary[which(ger_secondary$Year>=2000),]
+ger_secondary=ger_secondary[which(ger_secondary$Year<2018),]
+colnames(ger_secondary)=c("Country","Year","indicator")
+colnames(ger_tertiary)=c("Country","Year","indicator")
+colnames(seatprop)=c("Country","Year","indicator")
+
+
+#selecting years for [flfpr, gdp, gni]
+drop_cols=c("Indicator.Name","Indicator.Code","Country.Code")
+#why doesn't the for-loop work? doing it manually. -.-
+flfpr=flfpr[,!names(flfpr) %in% drop_cols][,-c(4:42,61,62)]
+flfpr=flfpr[,!names(flfpr) %in% c("X1960")]
+gdp=gdp[,!names(gdp) %in% drop_cols][,-c(3:42,61,62)]
+gni=gni[,!names(gni) %in% drop_cols][,-c(3:42,61,62)]
+pop=pop[,!names(pop) %in% drop_cols][,-c(3:42,61,62)]
+
+colnames(flfpr)=c("Country.Name","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017")
+colnames(gdp)=c("Country.Name","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017")
+colnames(gni)=c("Country.Name","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017")
+colnames(pop)=c("Country.Name","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017")
+
+flfpr=flfpr[1:(length(flfpr)-1)]
+gdp=gdp[1:(length(gdp)-1)]
+gni=gni[1:(length(gni)-1)]
+pop=pop[1:(length(pop)-1)]
+#have to melt the last three so that years are rows instead of separate columns. 
+library(reshape2)
+
+#can't be done in a forloop, because you have to store the molten dataframes under different names
+
+molten.flfpr=melt(flfpr, id.vars = c("Country.Name"))
+molten.gdp=melt(gdp, id.vars = c("Country.Name"))
+molten.gni=melt(gni, id.vars = c("Country.Name"))
+molten.pop=melt(pop, id.vars = c("Country.Name"))
+
+colnames(molten.flfpr)=c("Country","Year","indicator")
+colnames(molten.gdp)=c("Country","Year","indicator")
+colnames(molten.gni)=c("Country","Year","indicator")
+colnames(molten.pop)=c("Country","Year","indicator")
+
+#the remaining: [genderquota, ml_wagespaid, ml_length]
+ml_wagespaid1=ml_wagespaid[,!names(ml_wagespaid) %in% c("Indicator.Name","Footnote","Measure.Name","Data.Unit","Country.Code","Region","Measure.Value")]
+colnames(ml_wagespaid1)=c("Country","indicator")
+
+genderquota1=genderquota[,!names(genderquota) %in% c("Indicator.Name","Footnote","Measure.Name","Data.Unit","Country.Code","Region","Year")]
+head(genderquota1)
+colnames(genderquota1)=c("Country","indicator")
+
+ml_length1=ml_length[,!names(ml_length) %in% c("Indicator.Name","Footnote","Measure.Name","Data.Unit","Country.Code","Measure.Value","Region")]
+colnames(ml_length1)=c("Country","indicator")
+
+
+#choosing countries we need from HighIncome and LowIncome countries
+high_income_countries=subset(high_income,select=("Country.Name"))
+low_income_countries=subset(low_income,select=("Country.Name"))
+req_countries=rbind(high_income_countries,low_income_countries)
+a=unique(req_countries$Country.Name)
+
+#function to select countries
+# SelectCountries <- function(df) {
+#         # Remove entries from regions of aggregated countries
+#         df <- subset(df,df$Country %in% a)
+#         return(df)
+# }
+# indicators=c("seatprop","ger_tertiary","ger_secondary","molten.flfpr","molten.gdp","molten.gni","molten.pop","ml_length1","ml_wagespaid1","genderquota1")
+# for(i in (1:length(indicators))){
+#    SelectCountries(get(indicators[i]))
+# }
+
+seatprop=subset(seatprop,seatprop$Country %in% a)
+indicator=rep("seatprop",length(seatprop[,1]))
+seatprop=cbind(seatprop,indicator)
+
+ger_tertiary=subset(ger_tertiary,ger_tertiary$Country %in% a)
+indicator=rep("ger_tertiary",length(ger_tertiary[,1]))
+ger_tertiary=cbind(ger_tertiary,indicator)
+
+ger_secondary=subset(ger_secondary,ger_secondary$Country %in% a)
+indicator=rep("ger_secondary",length(ger_secondary[,1]))
+ger_secondary=cbind(ger_secondary,indicator)
+
+molten.flfpr=subset(molten.flfpr,molten.flfpr$Country %in% a)
+indicator=rep("molten.flfpr",length(molten.flfpr[,1]))
+molten.flfpr=cbind(molten.flfpr,indicator)
+
+molten.gdp=subset(molten.gdp,molten.gdp$Country %in% a)
+indicator=rep("molten.gdp",length(molten.gdp[,1]))
+molten.gdp=cbind(molten.gdp,indicator)
+
+molten.gni=subset(molten.gni,molten.gni$Country %in% a)
+indicator=rep("molten.gni",length(molten.gni[,1]))
+molten.gni=cbind(molten.gni,indicator)
+
+molten.pop=subset(molten.pop,molten.pop$Country %in% a)
+indicator=rep("molten.pop",length(molten.pop[,1]))
+molten.pop=cbind(molten.pop,indicator)
+
+ml_length1=subset(ml_length1,ml_length1$Country %in% a)
+indicator=rep("ml_length1",length(ml_length1[,1]))
+ml_length1=cbind(ml_length1,indicator)
+
+ml_wagespaid1=subset(ml_wagespaid1,ml_wagespaid1$Country %in% a)
+indicator=rep("ml_wagespaid1",length(ml_wagespaid1[,1]))
+ml_wagespaid1=cbind(ml_wagespaid1,indicator)
+
+genderquota1=subset(genderquota1,genderquota1$Country %in% a)
+indicator=rep("genderquota1",length(genderquota1[,1]))
+genderquota1=cbind(genderquota1,indicator)
+
+str_of_dataframes=c("seatprop","ger_tertiary","ger_secondary","molten.flfpr","molten.gdp","molten.gni","molten.pop")
+main_df = data.frame()
+
+    for (indicators in str_of_dataframes) {
+        main_df = rbind(main_df, get(indicators))
+    }
+
+main_df=subset(main_df,main_df$Country %in% a)
+colnames(main_df)=c("Country","Year","Value","Indicator")
+head(main_df)
+#number of countries are the same! 
+#now we proceed to melt again
+
+#correlation plot 
+library(ggplot2)
+
+
+```
+
+
+
+
+
+
+
+
+
+
 This is the template we could use to clean the data: (provided earlier)
 ```{r}
 # find the right variables
