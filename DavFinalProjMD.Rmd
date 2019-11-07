@@ -234,14 +234,51 @@ plot(mean_by_year)
 #now we proceed to melt again
 
 #correlation plot 
+library(Hmisc)
+corr1 = rcorr(as.matrix(mean_by_year))
 library(ggplot2)
 
 
 
 ```
+The output of the function rcorr() is a list containing the following elements :
+
+r : the correlation matrix
+n : the matrix of the number of observations used in analyzing each pair of variables
+P : the p-values corresponding to the significance levels of correlations.
 
 
+              Group.1 seatprop ger_tertiary ger_secondary molten.flfpr molten.gdp molten.gni molten.pop
+Group.1          1.00     0.99         0.14          0.20         0.98       0.85       0.98       0.82
+seatprop         0.99     1.00         0.22          0.29         0.98       0.89       0.98       0.86
+ger_tertiary     0.14     0.22         1.00          0.82         0.14       0.21       0.13       0.13
+ger_secondary    0.20     0.29         0.82          1.00         0.14       0.22       0.13       0.22
+molten.flfpr     0.98     0.98         0.14          0.14         1.00       0.96       0.99       0.98
+molten.gdp       0.85     0.89         0.21          0.22         0.96       1.00       0.97       0.97
+molten.gni       0.98     0.98         0.13          0.13         0.99       0.97       1.00       0.98
+molten.pop       0.82     0.86         0.13          0.22         0.98       0.97       0.98       1.00
 
+n
+              Group.1 seatprop ger_tertiary ger_secondary molten.flfpr molten.gdp molten.gni molten.pop
+Group.1            18       18           18            18           17         18         17         18
+seatprop           18       18           18            18           17         18         17         18
+ger_tertiary       18       18           18            18           17         18         17         18
+ger_secondary      18       18           18            18           17         18         17         18
+molten.flfpr       17       17           17            17           17         17         17         17
+molten.gdp         18       18           18            18           17         18         17         18
+molten.gni         17       17           17            17           17         17         17         17
+molten.pop         18       18           18            18           17         18         17         18
+
+P
+              Group.1 seatprop ger_tertiary ger_secondary molten.flfpr molten.gdp molten.gni molten.pop
+Group.1               0.0000   0.5828       0.4258        0.0000       0.0000     0.0000     0.0000    
+seatprop      0.0000           0.3698       0.2427        0.0000       0.0000     0.0000     0.0000    
+ger_tertiary  0.5828  0.3698                0.0000        0.5826       0.4126     0.6285     0.6124    
+ger_secondary 0.4258  0.2427   0.0000                     0.5890       0.3727     0.6269     0.3880    
+molten.flfpr  0.0000  0.0000   0.5826       0.5890                     0.0000     0.0000     0.0000    
+molten.gdp    0.0000  0.0000   0.4126       0.3727        0.0000                  0.0000     0.0000    
+molten.gni    0.0000  0.0000   0.6285       0.6269        0.0000       0.0000                0.0000    
+molten.pop    0.0000  0.0000   0.6124       0.3880        0.0000       0.0000     0.0000 
 
 
 
