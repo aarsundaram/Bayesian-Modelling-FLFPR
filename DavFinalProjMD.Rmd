@@ -213,8 +213,18 @@ main_df = data.frame()
     }
 
 main_df=subset(main_df,main_df$Country %in% a)
-colnames(main_df)=c("Country","Year","Value","Indicator")
+colnames(main_df)=c("Country","Year","value","variable")
 head(main_df)
+main_nona= main_df[!is.na(main_df$value),]
+sum(is.na(main_nona$Value))
+
+library(reshape2)
+main_cast=dcast(main_nona, Country+Year~variable, sum)
+main_cast_mean=dcast(main_nona, Country+Year~variable, mean)
+head(main_cast_mean)
+write.csv(main_cast_mean,"main_cast.csv")
+
+#type+year~variable,sum
 #number of countries are the same! 
 #now we proceed to melt again
 
