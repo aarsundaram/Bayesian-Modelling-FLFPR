@@ -214,16 +214,21 @@ main_df = data.frame()
 
 main_df=subset(main_df,main_df$Country %in% a)
 colnames(main_df)=c("Country","Year","value","variable")
-head(main_df)
 main_nona= main_df[!is.na(main_df$value),]
 sum(is.na(main_nona$Value))
 
 library(reshape2)
 main_cast=dcast(main_nona, Country+Year~variable, sum)
 main_cast_mean=dcast(main_nona, Country+Year~variable, mean)
-head(main_cast_mean)
 write.csv(main_cast_mean,"main_cast.csv")
 
+main_cast_ordered= main_cast_mean[order(main_cast_mean$Year),]
+head(main_cast_ordered)
+
+#mean by year 
+mean_by_year=aggregate(main_cast_ordered[, 3:9], list(main_cast_ordered$Year), mean,na.rm=TRUE, na.action=NULL)
+head(mean_by_year)
+plot(mean_by_year)
 #type+year~variable,sum
 #number of countries are the same! 
 #now we proceed to melt again
