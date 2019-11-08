@@ -108,6 +108,7 @@ colnames(molten.gdp)=c("Country","Year","indicator")
 colnames(molten.gni)=c("Country","Year","indicator")
 colnames(molten.pop)=c("Country","Year","indicator")
 
+
 #the remaining: [genderquota, ml_wagespaid, ml_length]
 ml_wagespaid1=ml_wagespaid[,!names(ml_wagespaid) %in% c("Indicator.Name","Footnote","Measure.Name","Data.Unit","Country.Code","Region","Measure.Value")]
 colnames(ml_wagespaid1)=c("Country","indicator")
@@ -269,6 +270,8 @@ is.nan.data.frame <- function(x)
 do.call(cbind, lapply(x, is.nan))
 mean_by_year_low[is.nan(mean_by_year_low)] <- 0
 mean_by_year_high[is.nan(mean_by_year_high)] <- 0
+
+head(ml_length)
 ```
 The output of the function rcorr() is a list containing the following elements :
 
@@ -487,7 +490,7 @@ saveRDS(samp, "flfpr_fork_lowincome.RDS")
 
 ```{r}
 #plotting 
-
+#plot(mean_by_year_notnorm$Year,mean_by_year_notnorm$flfpr)
 head(mean_by_year_notnorm)
 plot(mean_by_year_notnorm$Year,mean_by_year_notnorm$flfpr)
 
@@ -501,17 +504,21 @@ mean_notnorm_high_byyear=aggregate(main_notnorm_high[, 3:9], list(main_notnorm_h
 write.csv(mean_notnorm_high_byyear,"HighIncomeCountries_DatabyYear.csv")
 
 #All plots
-par(mfrow=c(2,2)) 
+par(mfrow=c(1,2)) 
 plot(mean_notnorm_low_byyear$Group.1,mean_notnorm_low_byyear$molten.flfpr,type="l",col="red",xlab="Year",ylab="FLFPR_LowIncome",pch = 1)
 plot(mean_notnorm_low_byyear$Group.1,mean_notnorm_high_byyear$molten.flfpr,type='l',col="blue",xlab="Year",ylab="FLFPR_HighIncome",pch = 2)
-plot(mean_notnorm_low_byyear$ger_secondary,mean_notnorm_low_byyear$molten.flfpr,col="red",ylab="FLFPR_LowIncome",xlab="GER_Seconday",pch = 3)
-plot(mean_notnorm_high_byyear$ger_secondary,mean_notnorm_high_byyear$molten.flfpr,col="blue",ylab="FLFPR_HighIncome",xlab="GER_Seconday",pch = 4)
 
-par(mfrow=c(2,2)) 
+par(mfrow=c(1,2)) 
+plot(mean_notnorm_low_byyear$ger_secondary,mean_notnorm_low_byyear$molten.flfpr,col="red",ylab="FLFPR_LowIncome",xlab="GER_Secondary",pch = 1)
+plot(mean_notnorm_high_byyear$ger_secondary,mean_notnorm_high_byyear$molten.flfpr,col="blue",ylab="FLFPR_HighIncome",xlab="GER_Secondary",pch = 2)
+
+par(mfrow=c(1,2)) 
 plot(mean_notnorm_low_byyear$ger_tertiary,mean_notnorm_low_byyear$molten.flfpr,col="red",ylab="FLFPR_LowIncome",xlab="GER_Tertiary",pch = 1)
 plot(mean_notnorm_high_byyear$ger_tertiary,mean_notnorm_high_byyear$molten.flfpr,col="blue",ylab="FLFPR_HighIncome",xlab="GER_Tertiary",pch = 2)
-plot(mean_notnorm_low_byyear$seatprop,mean_notnorm_low_byyear$molten.flfpr,col="red",ylab="FLFPR_LowIncome",xlab="Seat Proportion in National government",pch = 3)
-plot(mean_notnorm_high_byyear$seatprop,mean_notnorm_high_byyear$molten.flfpr,col="blue",ylab="FLFPR_HighIncome",xlab="Seat Proportion in National government",pch = 4)
+
+par(mfrow=c(1,2)) 
+plot(mean_notnorm_low_byyear$seatprop,mean_notnorm_low_byyear$molten.flfpr,col="red",ylab="FLFPR_LowIncome",xlab="Seat Proportion in National government",pch = 1)
+plot(mean_notnorm_high_byyear$seatprop,mean_notnorm_high_byyear$molten.flfpr,col="blue",ylab="FLFPR_HighIncome",xlab="Seat Proportion in National government",pch = 2)
 
 par(mfrow=c(1,2)) 
 plot(mean_notnorm_low_byyear$molten.gdp,mean_notnorm_low_byyear$molten.flfpr,col="red",ylab="FLFPR_LowIncome",xlab="GDP",pch = 1)
@@ -569,8 +576,10 @@ mean_by_country_cast=subset(mean_by_country_cast,mean_by_country_cast$Country %i
 is.nan.data.frame <- function(x) 
 do.call(cbind, lapply(x, is.nan))
 mean_by_country_cast[is.nan(mean_by_country_cast)] <- 0
+```
 
-  
+
+```{r}
 #libraries
 library(ggplot2)
 library(dplyr)
@@ -581,7 +590,7 @@ library(hrbrthemes)
 #prepare text for tooltip
 
 #Classic ggplot
-
+tiff("test.tiff1", units="in", width=5, height=5, res=300)
 ggplot(data=mean_by_country_cast,aes(x=mean_by_country_cast$ml_length1, y=mean_by_country_cast$molten.flfpr, size = mean_by_country_cast$molten.gdp, color=mean_by_country_cast$Country)) +
     geom_point(data=mean_by_country_cast,alpha=0.7) +
     scale_size(range = c(1.4, 19), name="FLFPR") +
@@ -589,9 +598,14 @@ ggplot(data=mean_by_country_cast,aes(x=mean_by_country_cast$ml_length1, y=mean_b
     theme_ipsum() +
     ggtitle("FLFPR vs Maternity Leave Length")+
   geom_text( data=mean_by_country_cast, aes(mean_by_country_cast$ml_length1,mean_by_country_cast$molten.flfpr , label = mean_by_country_cast$Country), colour = I(alpha("black", 0.85)), size = 1 )+
-    theme(legend.position="none")
-
+    theme(legend.position="none") + xlab("Maternity Leave Length") + ylab("Female Labor Force Participation Rate")
+dev.off()
 ```
+
+
+```{r}
+```
+
 
 
 ```{r}
@@ -638,6 +652,8 @@ colnames(mean_by_year_notnorm_final)=c("Year","seatprop", "ger_tertiary", "ger_s
 #correlation plot 
 library(ggplot2)
 library(Hmisc)
+
+plot(mean_by_year_allinds)
 
 library(corrplot)
 corr1 = rcorr(as.matrix(mean_by_year_allinds))
@@ -932,4 +948,127 @@ par(mar=c(.4,.4,.4,.4))
 gelman.plot(samp)
 saveRDS(samp, "flfpr_fork_lowincome_final.RDS")
 
+```
+```{r}
+#geographic scope of the problem 
+
+# library
+library(tidyverse)
+library(dplyr)
+ 
+# Create dataset
+fertility_melt_bycountry_lowincome= subset(fertility_melt_bycountry,fertility_melt_bycountry$Country %in% low_income_countries$Country.Name)
+group=rep("A",length(fertility_melt_bycountry_lowincome[,1]))
+fertility_melt_bycountry_lowincome=cbind(fertility_melt_bycountry_lowincome,group)
+
+fertility_melt_bycountry_highincome= subset(fertility_melt_bycountry,fertility_melt_bycountry$Country %in% high_income_countries$Country.Name)
+group=rep("B",length(fertility_melt_bycountry_highincome[,1]))
+fertility_melt_bycountry_highincome=cbind(fertility_melt_bycountry_highincome,group)
+
+fertility_barplotdata=rbind(fertility_melt_bycountry_lowincome,fertility_melt_bycountry_highincome)
+fertility_barplotdata=fertility_barplotdata[,-c(3)]
+
+# Set a number of 'empty bar' to add at the end of each group
+empty_bar <- 3
+to_add <- data.frame( matrix(NA, empty_bar*nlevels(fertility_barplotdata$group), ncol(fertility_barplotdata)) )
+colnames(to_add) <- colnames(fertility_barplotdata)
+to_add$group <- rep(levels(fertility_barplotdata$group), each=empty_bar)
+fertility_barplotdata <- rbind(fertility_barplotdata, to_add)
+#fertility_barplotdata <- fertility_barplotdata %>% as.data.frame() %>% dplyr::arrange(fertility_barplotdata)
+fertility_barplotdata$id <- seq(1, nrow(fertility_barplotdata))
+ 
+# Get the name and the y position of each label
+label_data <- fertility_barplotdata
+number_of_bar <- nrow(label_data)
+angle <- 90 - 360 * (label_data$id-0.5) /number_of_bar     # I substract 0.5 because the letter must have the angle of the center of the bars. Not extreme right(1) or extreme left (0)
+label_data$hjust <- ifelse( angle < -90, 1, 0)
+label_data$angle <- ifelse(angle < -90, angle+180, angle)
+ 
+# prepare a data frame for base lines
+base_data <- fertility_barplotdata %>% 
+  group_by(group) %>% 
+  summarise(start=min(id), end=max(id) - empty_bar) %>% 
+  rowwise() %>% 
+  mutate(title=mean(c(start, end)))
+ 
+# prepare a data frame for grid (scales)
+grid_data <- base_data
+grid_data$end <- grid_data$end[ c( nrow(grid_data), 1:nrow(grid_data)-1)] + 1
+grid_data$start <- grid_data$start - 1
+grid_data <- grid_data[-1,]
+ 
+# Make the plot
+tiff("test.tiff3", units="in", width=5, height=5, res=300)
+ggplot(fertility_barplotdata, aes(x=as.factor(id), y=value, fill=group)) +       # Note that id is a factor. If x is numeric, there is some space between the first bar
+  
+  geom_bar(aes(x=as.factor(id), y=value, fill=group), stat="identity", alpha=0.5) +
+  
+  # Add a val=100/75/50/25 lines. I do it at the beginning to make sur barplots are OVER it.
+  geom_segment(data=grid_data, aes(x = end, y = 8, xend = start, yend = 8), colour = "grey", alpha=1, size=0.3 , inherit.aes = FALSE ) +
+  geom_segment(data=grid_data, aes(x = end, y = 6, xend = start, yend = 6), colour = "grey", alpha=1, size=0.3 , inherit.aes = FALSE ) +
+  geom_segment(data=grid_data, aes(x = end, y = 4, xend = start, yend = 4), colour = "grey", alpha=1, size=0.3 , inherit.aes = FALSE ) +
+  geom_segment(data=grid_data, aes(x = end, y = 2, xend = start, yend = 2), colour = "grey", alpha=1, size=0.3 , inherit.aes = FALSE ) +
+  
+  # Add text showing the value of each 100/75/50/25 lines
+  annotate("text", x = rep(max(fertility_barplotdata$id),4), y = c(2, 3,4 ,5), label = c("2", "3", "4", "5") , color="grey", size=3 , angle=0, fontface="bold") +
+  
+  geom_bar(aes(x=as.factor(id), y=value*10, fill=group), stat="identity", alpha=0.8) +
+  ylim(-100,120) +
+  theme_minimal() +
+  theme(
+    legend.position = "none",
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    panel.grid = element_blank(),
+    plot.margin = unit(rep(-1,4), "cm") 
+  ) +
+  coord_polar() +  
+  geom_text(data=label_data, aes(x=id, y=value+10, label=Country), color="black", fontface="bold",alpha=0.6, size=2.5, angle= label_data$angle, inherit.aes = FALSE ) +
+   #hjust=hjust
+  # Add base line information
+  geom_segment(data=base_data, aes(x = start, y = -5, xend = end, yend = -5), colour = "black", alpha=0.8, size=0.6 , inherit.aes = FALSE )  +
+  geom_text(data=base_data, aes(x = title, y = -18, label=group), colour = "black", alpha=0.8, size=4, fontface="bold", inherit.aes = FALSE)
+#hjust=c(1,1,0,0),
+dev.off()
+
+```
+
+
+```{r}
+  
+#libraries
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+library(viridis)
+library(hrbrthemes)
+
+#prepare text for tooltip
+
+#Classic ggplot
+main_cast_final_country=aggregate(main_cast_final[, 3:10], list(main_cast_final$Country), mean,na.rm=TRUE, na.action=NULL)
+tiff("test.tiff", units="in", width=5, height=5, res=300)
+ggplot(data=main_cast_final_country,aes(x=main_cast_final_country$fertility, y=main_cast_final_country$molten.flfpr, size = main_cast_final_country$molten.gdp, color=main_cast_final_country$Group.1)) +
+    geom_point(data=main_cast_final_country,alpha=0.7) +
+    scale_size(range = c(1.4, 19), name="FLFPR") +
+    scale_color_viridis(discrete=TRUE, guide=FALSE) +
+    theme_ipsum() +
+    ggtitle("FLFPR vs Fertility")+
+  geom_text( data=main_cast_final_country, aes(main_cast_final_country$fertility,main_cast_final_country$molten.flfpr , label = main_cast_final_country$Group.1), colour = I(alpha("black", 0.85)), size = 1 )+
+    theme(legend.position="none") + xlab("Fertility") + ylab("Female Labor Force Participation")
+dev.off()
+```
+```{r}
+setwd("~/Documents/GitHub/dav_final/GenderStatsData")
+flfpr1 <- read.csv("FLFPR.csv",sep=',',header=TRUE,skip=4)
+drop_cols1 <- c("Age","Location","Occupation","LowerBound","UpperBound","Unit","Indicator.Name","OriginData","NatureData","Sex","Region","Country.Code","Indicator.Code")
+flfpr1=flfpr1[,!names(flfpr1) %in% drop_cols1][,-c(2:30)]
+flfpr1=flfpr1[,-c(2)]
+flfpr1_melt=melt(flfpr1,id.vars = c("Country.Name"))
+flfpr1_final=aggregate(flfpr1_melt[3], list(flfpr1_melt$variable), mean,na.rm=TRUE, na.action=NULL)
+```
+
+
+```{r}
+plot(main_cast_final_country$fertility,main_cast_final_country$molten.flfpr)
 ```
