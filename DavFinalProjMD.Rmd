@@ -558,19 +558,23 @@ mean_by_country_melt=melt(mean_by_country,id.vars = c("Group.1"))
 mean_by_country_melt=mean_by_country_melt[,c(1,3,2)]
 colnames(mean_by_country_melt)=c("Country","value","Indicator")
 mean_by_country_melt=rbind(mean_by_country_melt,ml_data)
-mean_by_country_cast=dcast(mean_by_country_melt,Country~Indicator,fun.aggregate = mean,na.rm=TRUE, na.action=NULL)  #contains all indicators for all countries not just HI+LI
+mean_by_country_cast=dcast(mean_by_country_melt,Country~Indicator,fun.aggregate = mean,na.rm=TRUE, na.action=NULL)
+mean_by_country_cast=subset(mean_by_country_cast,mean_by_country_cast$Country %in% a)
+#contains all indicators for all countries not just HI+LI
 #but we'll plot anyway. 
 #downloading file to manually fill in some missing data- doing this because the values sometimes contained explanatory sentences which we cannot clean by automating
-write.csv(mean_by_country_cast,"allcountries_includingMLdata.csv")
+#write.csv(mean_by_country_cast,"allcountries_includingMLdata.csv")
 #read it in again
-mean_by_country_cast=read.csv("allcountries_includingMLdata.csv")  #all ML data with missing data filled in. can plot. 
+#mean_by_country_cast=read.csv("allcountries_includingMLdata.csv")  #all ML data with missing data filled in. can plot. 
+is.nan.data.frame <- function(x) 
+do.call(cbind, lapply(x, is.nan))
+mean_by_country_cast[is.nan(mean_by_country_cast)] <- 0
 
   
 #libraries
 library(ggplot2)
 library(dplyr)
 library(tidyverse)
-#library(plotly)
 library(viridis)
 library(hrbrthemes)
 
@@ -578,12 +582,13 @@ library(hrbrthemes)
 
 #Classic ggplot
 
-ggplot(data=mean_by_country_cast,aes(x=mean_by_country_cast$ml_length1, y=mean_by_country_cast$molten.flfpr, size = mean_by_country_cast$molten.gdp, color =mean_by_country_cast$Country)) +
+ggplot(data=mean_by_country_cast,aes(x=mean_by_country_cast$ml_length1, y=mean_by_country_cast$molten.flfpr, size = mean_by_country_cast$molten.gdp, color=mean_by_country_cast$Country)) +
     geom_point(data=mean_by_country_cast,alpha=0.7) +
     scale_size(range = c(1.4, 19), name="FLFPR") +
     scale_color_viridis(discrete=TRUE, guide=FALSE) +
     theme_ipsum() +
     ggtitle("FLFPR vs Maternity Leave Length")+
+  geom_text( data=mean_by_country_cast, aes(mean_by_country_cast$ml_length1,mean_by_country_cast$molten.flfpr , label = mean_by_country_cast$Country), colour = I(alpha("black", 0.85)), size = 1 )+
     theme(legend.position="none")
 
 ```
