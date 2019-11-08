@@ -194,12 +194,11 @@ main_cast=dcast(main_nona, Country+Year~variable, sum)
 main_cast_mean=dcast(main_nona, Country+Year~variable, mean)
 write.csv(main_cast_mean,"main_cast.csv")
 
-main_cast_ordered= main_cast_mean[order(main_cast_mean$Year),]
+main_cast_ordered= main_cast_mean[order(main_cast_mean$Year),]  #all countries data ordered by year. no mean yet.
 
 #mean by year 
 mean_by_year=aggregate(main_cast_ordered[, 3:9], list(main_cast_ordered$Year), mean,na.rm=TRUE, na.action=NULL)
-head(mean_by_year)
-
+mean_by_year_notnorm=mean_by_year   #this is mean by year, but NOT normalized. useful for plotting data 
 #normalising the dataset from [-1,1]
 normFunc <- function(x) { (x-mean(x, na.rm = T))/sd(x, na.rm = T) }
 
@@ -207,9 +206,11 @@ mean_by_year[2:8] <- apply(mean_by_year[2:8], 2, normFunc)
 
 #removing population
 mean_by_year_final= mean_by_year[,-c(8)]
+mean_by_year_notnorm=mean_by_year_notnorm[,-c(8)]
 mean_by_year_final$Group.1=as.numeric(mean_by_year_final$Group.1) #the year column was still character
 colnames(mean_by_year_final)=c("Year","seatprop", "ger_tertiary", "ger_secondary", "flfpr", "gdp", "gni")
 head(mean_by_year_final)
+colnames(mean_by_year_notnorm)=c("Year","seatprop", "ger_tertiary", "ger_secondary", "flfpr", "gdp", "gni")
 
 
 #type+year~variable,sum
@@ -484,32 +485,446 @@ saveRDS(samp, "flfpr_fork_lowincome.RDS")
 
 ```
 
-
 ```{r}
+#plotting 
+
+head(mean_by_year_notnorm)
+plot(mean_by_year_notnorm$Year,mean_by_year_notnorm$flfpr)
+
+#plotting flfpr dividing into low/high income countries to see if there is a pattern
+main_notnorm_low= subset(main_cast_ordered,main_cast_ordered$Country %in% low_income_countries$Country.Name)
+mean_notnorm_low_byyear=aggregate(main_notnorm_low[, 3:9], list(main_notnorm_low$Year), mean,na.rm=TRUE, na.action=NULL)
+write.csv(mean_notnorm_low_byyear,"LowIncomeCountries_DatabyYear.csv")
+
+main_notnorm_high = subset(main_cast_ordered,main_cast_ordered$Country %in% high_income_countries$Country.Name)
+mean_notnorm_high_byyear=aggregate(main_notnorm_high[, 3:9], list(main_notnorm_high$Year), mean,na.rm=TRUE, na.action=NULL)
+write.csv(mean_notnorm_high_byyear,"HighIncomeCountries_DatabyYear.csv")
+
+#All plots
+par(mfrow=c(2,2)) 
+plot(mean_notnorm_low_byyear$Group.1,mean_notnorm_low_byyear$molten.flfpr,type="l",col="red",xlab="Year",ylab="FLFPR_LowIncome",pch = 1)
+plot(mean_notnorm_low_byyear$Group.1,mean_notnorm_high_byyear$molten.flfpr,type='l',col="blue",xlab="Year",ylab="FLFPR_HighIncome",pch = 2)
+plot(mean_notnorm_low_byyear$ger_secondary,mean_notnorm_low_byyear$molten.flfpr,col="red",ylab="FLFPR_LowIncome",xlab="GER_Seconday",pch = 3)
+plot(mean_notnorm_high_byyear$ger_secondary,mean_notnorm_high_byyear$molten.flfpr,col="blue",ylab="FLFPR_HighIncome",xlab="GER_Seconday",pch = 4)
+
+par(mfrow=c(2,2)) 
+plot(mean_notnorm_low_byyear$ger_tertiary,mean_notnorm_low_byyear$molten.flfpr,col="red",ylab="FLFPR_LowIncome",xlab="GER_Tertiary",pch = 1)
+plot(mean_notnorm_high_byyear$ger_tertiary,mean_notnorm_high_byyear$molten.flfpr,col="blue",ylab="FLFPR_HighIncome",xlab="GER_Tertiary",pch = 2)
+plot(mean_notnorm_low_byyear$seatprop,mean_notnorm_low_byyear$molten.flfpr,col="red",ylab="FLFPR_LowIncome",xlab="Seat Proportion in National government",pch = 3)
+plot(mean_notnorm_high_byyear$seatprop,mean_notnorm_high_byyear$molten.flfpr,col="blue",ylab="FLFPR_HighIncome",xlab="Seat Proportion in National government",pch = 4)
+
+par(mfrow=c(1,2)) 
+plot(mean_notnorm_low_byyear$molten.gdp,mean_notnorm_low_byyear$molten.flfpr,col="red",ylab="FLFPR_LowIncome",xlab="GDP",pch = 1)
+plot(mean_notnorm_high_byyear$molten.gdp,mean_notnorm_high_byyear$molten.flfpr,col="blue",ylab="FLFPR_HighIncome",xlab="GDP",pch = 2)
+
+
+```
+```{r}
+#Maternity leave length and wages paid and its relation to flfpr for each country. 
+
 setwd("~/Documents/GitHub/dav_final")
 
-#graphic1
-#LITERACY
-YouthLiteracy=read.csv('GenderStatsData/graphic1/youth_literacy_15_24.csv',header = TRUE, sep=',')
-length(unique(YouthLiteracy$Country)) #number of countries
+#trying to include fertility now  :'( 
+fertility <- read.csv("fertility.csv",skip=4,sep=',',header=TRUE)
+fertility=fertility[,!names(fertility) %in% drop_cols][,-c(2:41,60,61)]
+fertility=fertility[,-c(20)]  #fertility data is between 2000-2017 now
+colnames(fertility)=c("Country","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017")
+fertility_melt=melt(fertility,id.vars = c("Country"))
+#ordered by country 
+fertility_melt= fertility_melt[order(fertility_melt$Country),]
+#mean of fertility by country 
+fertility_melt_bycountry=aggregate(fertility_melt$value, list(fertility_melt$Country), mean,na.rm=TRUE, na.action=NULL) #this has countries and aggregated regions, so narrowing it down to countries in ml_data so that we can merge them 
+indicator=rep("fertility",length(fertility_melt_bycountry[,1]))
+fertility_melt_bycountry=cbind(fertility_melt_bycountry,indicator)
+colnames(fertility_melt_bycountry)=c("Country","value","Indicator")   #keeping it ready to merge with ml_data melted
 
-#female literacy in 1995 
-mean(YouthLiteracy[(YouthLiteracy$Year==min(YouthLiteracy$Year))&(YouthLiteracy$Sex=='Female'),]$Value)
-#female literacy in 2016 
-mean(YouthLiteracy[(YouthLiteracy$Year==max(YouthLiteracy$Year))&(YouthLiteracy$Sex=='Female'),]$Value)
+# MATERNITY DATA 
+ml_wagespaid1 <- read.csv("ml_wagespaid.csv")
+ml_wagespaid1 <- ml_wagespaid1[,-c(1)]
+ml_data=rbind.data.frame(ml_wagespaid1,ml_length1)
+colnames(ml_data) <- c("Country","value","Indicator")
+ml_data=rbind.data.frame(ml_data,fertility_melt_bycountry)
 
-#MATERNAL MORTALITY per 100,000 births
-mortality=read.csv('GenderStatsData/graphic1/maternal_mortality.csv',header = TRUE, sep=',')
-#in 1995 
-mean(mortality[(mortality$Year==1995)&(mortality$Sex=='Female'),]$Value)
-#in 2015 
-mean(mortality[(mortality$Year==2015)&(mortality$Sex=='Female'),]$Value)
+library(reshape2)
+ml_data_cast=dcast(ml_data,Country ~ Indicator)  #ml data for all countries 
+ml_data_low=subset(ml_data_cast,ml_data_cast$Country %in% low_income_countries$Country.Name)  #for high income
+ml_data_high=subset(ml_data_cast,ml_data_cast$Country %in% high_income_countries$Country.Name)  #for low income
 
-#EDUCATION 25+ 
-uppersecondary=read.csv('GenderStatsData/graphic1/education_uppersecondary_25plus.csv',header = TRUE, sep=',')
-#in 1995 
-mean(uppersecondary[(uppersecondary$Year==1995)&(uppersecondary$Sex=='Female'),]$Value)
-#in 2015 
-mean(uppersecondary[(uppersecondary$Year==2015)&(uppersecondary$Sex=='Female'),]$Value)
+#now we want to see relation between every country eg: fghanistan (mean of all indicators across all years) vs (ml_data)
+
+#for that we need aggregate country from the main data
+mean_by_country=aggregate(main_cast_ordered[, 3:9], list(main_cast_ordered$Country),mean,na.rm=TRUE, na.action=NULL)
+mean_by_country_melt=melt(mean_by_country,id.vars = c("Group.1"))
+mean_by_country_melt=mean_by_country_melt[,c(1,3,2)]
+colnames(mean_by_country_melt)=c("Country","value","Indicator")
+mean_by_country_melt=rbind(mean_by_country_melt,ml_data)
+mean_by_country_cast=dcast(mean_by_country_melt,Country~Indicator,fun.aggregate = mean,na.rm=TRUE, na.action=NULL)  #contains all indicators for all countries not just HI+LI
+#but we'll plot anyway. 
+#downloading file to manually fill in some missing data- doing this because the values sometimes contained explanatory sentences which we cannot clean by automating
+write.csv(mean_by_country_cast,"allcountries_includingMLdata.csv")
+#read it in again
+mean_by_country_cast=read.csv("allcountries_includingMLdata.csv")  #all ML data with missing data filled in. can plot. 
+
+  
+#libraries
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+#library(plotly)
+library(viridis)
+library(hrbrthemes)
+
+#prepare text for tooltip
+
+#Classic ggplot
+
+ggplot(data=mean_by_country_cast,aes(x=mean_by_country_cast$ml_length1, y=mean_by_country_cast$molten.flfpr, size = mean_by_country_cast$molten.gdp, color =mean_by_country_cast$Country)) +
+    geom_point(data=mean_by_country_cast,alpha=0.7) +
+    scale_size(range = c(1.4, 19), name="FLFPR") +
+    scale_color_viridis(discrete=TRUE, guide=FALSE) +
+    theme_ipsum() +
+    ggtitle("FLFPR vs Maternity Leave Length")+
+    theme(legend.position="none")
+
 ```
 
+
+```{r}
+plot(mean_by_country_cast$fertility,mean_by_country_cast$molten.flfpr)
+#need to add fertility year wise from fertility_melt to the melted data before making mean_by_high and mean_
+
+indicator=rep("fertility",length(fertility_melt[,1]))
+fertility_melt=cbind(fertility_melt,indicator)
+colnames(fertility_melt)=c("Country","Year","value","variable")
+main_df_final=rbind(main_df,fertility_melt)   #OUR FINAL RAW DATA 
+
+#redoing all the steps for correlation AGAIN (including fertility this time)
+main_df_final=subset(main_df_final,main_df_final$Country %in% a)  #getting only the countries HI+LI
+main_nona_final= main_df_final[!is.na(main_df_final$value),]      #removing all NA values
+sum(is.na(main_nona_final$value))                                 #should be 0. 
+
+library(reshape2)
+main_cast_final=dcast(main_nona_final, Country+Year~variable, mean)
+#write.csv(main_cast_mean,"main_cast.csv")
+
+main_cast_final= main_cast_final[order(main_cast_final$Year),]  #all countries data ordered by year. no mean yet.
+
+#mean by year 
+mean_by_year_allinds=aggregate(main_cast_final[, 3:10], list(main_cast_final$Year), mean,na.rm=TRUE, na.action=NULL)
+mean_by_year_notnorm_final=mean_by_year_allinds   #this is mean by year, but NOT normalized. useful for plotting data 
+
+#normalising the dataset from [-1,1]
+normFunc <- function(x) { (x-mean(x, na.rm = T))/sd(x, na.rm = T) }
+
+mean_by_year_allinds[2:9] <- apply(mean_by_year_allinds[2:9], 2, normFunc)
+
+#removing population
+mean_by_year_allinds= mean_by_year_allinds[,-c(8)]
+mean_by_year_notnorm_final=mean_by_year_notnorm_final[,-c(8)]
+mean_by_year_allinds$Group.1=as.numeric(mean_by_year_allinds$Group.1) #the year column was still character
+colnames(mean_by_year_allinds)=c("Year","seatprop", "ger_tertiary", "ger_secondary", "flfpr", "gdp", "gni","fertility")
+colnames(mean_by_year_notnorm_final)=c("Year","seatprop", "ger_tertiary", "ger_secondary", "flfpr", "gdp", "gni","fertility")
+
+
+#type+year~variable,sum
+#number of countries are the same! 
+#now we proceed to melt again
+
+#correlation plot 
+library(ggplot2)
+library(Hmisc)
+
+library(corrplot)
+corr1 = rcorr(as.matrix(mean_by_year_allinds))
+corrplot(corr1$r, is.corr = FALSE, method = "circle")
+
+#-------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------
+
+#now dividing the countries to high and low income and plotting correlations separately
+main_cast_low_final = subset(main_cast_final,main_cast_final$Country %in% low_income_countries$Country.Name)
+main_cast_high_final = subset(main_cast_final,main_cast_final$Country %in% high_income_countries$Country.Name)
+
+#THERE SHOULD BE A WAY TO AUTOMATE THIS -.- THE FOR LOOP DOES NOT WORK >.<
+main_cast_high_final= main_cast_high_final[order(main_cast_high_final$Year),]
+main_cast_low_final= main_cast_low_final[order(main_cast_low_final$Year),]
+
+#mean by year 
+mean_by_year_high_final=aggregate(main_cast_high_final[, 3:10], list(main_cast_high_final$Year), mean,na.rm=TRUE, na.action=NULL)
+mean_by_year_low_final=aggregate(main_cast_low_final[, 3:10], list(main_cast_low_final$Year), mean,na.rm=TRUE, na.action=NULL)
+
+#normalising the dataset from [-1,1]
+normFunc <- function(x) { (x-mean(x, na.rm = T))/sd(x, na.rm = T) }
+
+mean_by_year_high_final[2:9] <- apply(mean_by_year_high_final[2:9], 2, normFunc)
+mean_by_year_low_final[2:9] <- apply(mean_by_year_low_final[2:9], 2, normFunc)
+
+
+#removing population
+mean_by_year_high_final= mean_by_year_high_final[,-c(8)]
+mean_by_year_low_final= mean_by_year_low_final[,-c(8)]
+
+mean_by_year_high_final$Group.1=as.numeric(mean_by_year_high_final$Group.1) #the year column was still character
+mean_by_year_low_final$Group.1=as.numeric(mean_by_year_low_final$Group.1) #the year column was still character
+
+colnames(mean_by_year_low_final)=c("Year","seatprop", "ger_tertiary", "ger_secondary", "flfpr", "gdp", "gni","fertility")
+colnames(mean_by_year_high_final)=c("Year","seatprop", "ger_tertiary", "ger_secondary", "flfpr", "gdp", "gni","fertility")
+
+#correlation plots for high and low income separately
+
+corr_final= rcorr(as.matrix(mean_by_year_allinds))
+corr_high_final = rcorr(as.matrix(mean_by_year_high_final))
+corr_low_final = rcorr(as.matrix(mean_by_year_low_final))
+
+corrplot(corr_high_final$r, is.corr = FALSE, method = "circle")
+corrplot(corr_low_final$r, is.corr = FALSE, method = "circle")
+
+is.nan.data.frame <- function(x)
+do.call(cbind, lapply(x, is.nan))
+mean_by_year_low_final[is.nan(mean_by_year_low_final)] <- 0
+mean_by_year_high_final[is.nan(mean_by_year_high_final)] <- 0
+
+```
+The output of the function rcorr() is a list containing the following elements :
+
+r : the correlation matrix
+n : the matrix of the number of observations used in analyzing each pair of variables
+P : the p-values corresponding to the significance levels of correlations.
+-------------------------------------------------------------------------------------
+Correlation for All Countries 
+                    Year   seatprop ger_tertiary ger_secondary      flfpr        gdp        gni  fertility
+Year           1.0000000  0.9892007    0.1388020     0.2001905  0.9822200  0.8538479  0.9802123 -0.9980032
+seatprop       0.9892007  1.0000000    0.2247957     0.2902055  0.9805435  0.8942323  0.9780559 -0.9887435
+ger_tertiary   0.1388020  0.2247957    1.0000000     0.8238862  0.1435490  0.2057907  0.1265058 -0.1290948
+ger_secondary  0.2001905  0.2902055    0.8238862     1.0000000  0.1411176  0.2234886  0.1270925 -0.2014174
+flfpr          0.9822200  0.9805435    0.1435490     0.1411176  1.0000000  0.9569534  0.9876003 -0.9778530
+gdp            0.8538479  0.8942323    0.2057907     0.2234886  0.9569534  1.0000000  0.9720896 -0.8637302
+gni            0.9802123  0.9780559    0.1265058     0.1270925  0.9876003  0.9720896  1.0000000 -0.9785063
+fertility     -0.9980032 -0.9887435   -0.1290948    -0.2014174 -0.9778530 -0.8637302 -0.9785063  1.0000000
+
+                      Year     seatprop ger_tertiary ger_secondary        flfpr          gdp          gni
+Year                    NA 8.881784e-15 5.828127e-01  4.257567e-01 2.610134e-12 6.548816e-06 5.789147e-12
+seatprop      8.881784e-15           NA 3.698180e-01  2.427259e-01 5.105694e-12 5.624311e-07 1.249711e-11
+ger_tertiary  5.828127e-01 3.698180e-01           NA  2.634772e-05 5.825627e-01 4.126498e-01 6.285147e-01
+ger_secondary 4.257567e-01 2.427259e-01 2.634772e-05            NA 5.890315e-01 3.726811e-01 6.269099e-01
+flfpr         2.610134e-12 5.105694e-12 5.825627e-01  5.890315e-01           NA 1.840095e-09 1.776357e-13
+gdp           6.548816e-06 5.624311e-07 4.126498e-01  3.726811e-01 1.840095e-09           NA 7.458789e-11
+gni           5.789147e-12 1.249711e-11 6.285147e-01  6.269099e-01 1.776357e-13 7.458789e-11           NA
+fertility     0.000000e+00 1.243450e-14 6.096819e-01  4.228666e-01 1.338263e-11 3.864445e-06 1.071099e-11
+                 fertility
+Year          0.000000e+00
+seatprop      1.243450e-14
+ger_tertiary  6.096819e-01
+ger_secondary 4.228666e-01
+flfpr         1.338263e-11
+gdp           3.864445e-06
+gni           1.071099e-11
+fertility               NA
+-------------------------------------------------------------------------------------
+Correlation for High Income 
+                     Year      seatprop  ger_tertiary ger_secondary       flfpr         gdp         gni  fertility
+Year           1.00000000  9.879338e-01 -2.528563e-02     0.7975340  0.99101481  0.85488630  0.98132348 -0.8567970
+seatprop       0.98793382  1.000000e+00  3.584434e-05     0.8257014  0.98008333  0.85408453  0.96051975 -0.8638334
+ger_tertiary  -0.02528563  3.584434e-05  1.000000e+00     0.2377130 -0.00284868  0.08410604 -0.04767979  0.1450977
+ger_secondary  0.79753396  8.257014e-01  2.377130e-01     1.0000000  0.71584322  0.58157251  0.69178370 -0.8623536
+flfpr          0.99101481  9.800833e-01 -2.848680e-03     0.7158432  1.00000000  0.96589640  0.98929206 -0.7932553
+gdp            0.85488630  8.540845e-01  8.410604e-02     0.5815725  0.96589640  1.00000000  0.97491621 -0.8265802
+gni            0.98132348  9.605197e-01 -4.767979e-02     0.6917837  0.98929206  0.97491621  1.00000000 -0.8005643
+fertility     -0.85679695 -8.638334e-01  1.450977e-01    -0.8623536 -0.79325534 -0.82658024 -0.80056429  1.0000000
+
+                      Year     seatprop ger_tertiary ger_secondary        flfpr          gdp          gni
+Year                    NA 2.176037e-14    0.9206687  1.255940e-04 1.598721e-14 6.206982e-06 3.764988e-12
+seatprop      2.176037e-14           NA    0.9998874  4.456455e-05 6.075807e-12 6.469524e-06 9.720043e-10
+ger_tertiary  9.206687e-01 9.998874e-01           NA  3.582382e-01 9.913426e-01 7.400381e-01 8.558048e-01
+ger_secondary 1.255940e-04 4.456455e-05    0.3582382            NA 1.817482e-03 1.433283e-02 2.988751e-03
+flfpr         1.598721e-14 6.075807e-12    0.9913426  1.817482e-03           NA 3.293201e-10 5.950795e-14
+gdp           6.206982e-06 6.469524e-06    0.7400381  1.433283e-02 3.293201e-10           NA 3.376255e-11
+gni           3.764988e-12 9.720043e-10    0.8558048  2.988751e-03 5.950795e-14 3.376255e-11           NA
+fertility     5.617900e-06 3.842392e-06    0.5656586  8.486632e-06 1.449701e-04 2.350192e-05 1.132283e-04
+                 fertility
+Year          5.617900e-06
+seatprop      3.842392e-06
+ger_tertiary  5.656586e-01
+ger_secondary 8.486632e-06
+flfpr         1.449701e-04
+gdp           2.350192e-05
+gni           1.132283e-04
+fertility               NA
+
+-------------------------------------------------------------------------------------
+Correlation for Low Income 
+                    Year   seatprop ger_tertiary ger_secondary      flfpr        gdp        gni  fertility
+Year           1.0000000  0.9659312    0.6420019     0.8554808 -0.9525135  0.9845900  0.9934291 -0.9991602
+seatprop       0.9659312  1.0000000    0.6415586     0.8011142 -0.9441858  0.9709739  0.9688485 -0.9558338
+ger_tertiary   0.6420019  0.6415586    1.0000000     0.5662573 -0.6417350  0.5493016  0.7254011 -0.6345240
+ger_secondary  0.8554808  0.8011142    0.5662573     1.0000000 -0.7472487  0.8311961  0.8373928 -0.8549779
+flfpr         -0.9525135 -0.9441858   -0.6417350    -0.7472487  1.0000000 -0.9791185 -0.9764584  0.9530215
+gdp            0.9845900  0.9709739    0.5493016     0.8311961 -0.9791185  1.0000000  0.9975627 -0.9819085
+gni            0.9934291  0.9688485    0.7254011     0.8373928 -0.9764584  0.9975627  1.0000000 -0.9927894
+fertility     -0.9991602 -0.9558338   -0.6345240    -0.8549779  0.9530215 -0.9819085 -0.9927894  1.0000000
+
+                      Year     seatprop ger_tertiary ger_secondary        flfpr          gdp          gni
+Year                    NA 8.200463e-11  0.007333995  6.018273e-06 3.792683e-09 1.523226e-13 1.554312e-15
+seatprop      8.200463e-11           NA  0.007387791  6.455346e-05 1.243538e-08 2.313105e-11 1.684366e-10
+ger_tertiary  7.333995e-03 7.387791e-03           NA  2.221246e-02 9.909763e-03 2.753060e-02 2.208366e-03
+ger_secondary 6.018273e-06 6.455346e-05  0.022212461            NA 5.657224e-04 1.923437e-05 2.744453e-05
+flfpr         3.792683e-09 1.243538e-08  0.009909763  5.657224e-04           NA 8.639311e-12 2.107159e-11
+gdp           1.523226e-13 2.313105e-11  0.027530597  1.923437e-05 8.639311e-12           NA 0.000000e+00
+gni           1.554312e-15 1.684366e-10  0.002208366  2.744453e-05 2.107159e-11 0.000000e+00           NA
+fertility     0.000000e+00 6.336280e-10  0.008284198  6.177592e-06 3.503964e-09 5.453415e-13 3.108624e-15
+                 fertility
+Year          0.000000e+00
+seatprop      6.336280e-10
+ger_tertiary  8.284198e-03
+ger_secondary 6.177592e-06
+flfpr         3.503964e-09
+gdp           5.453415e-13
+gni           3.108624e-15
+fertility               NA
+
+-------------------------------------------------------------------------------------
+
+#RJAGS MODELING PART
+
+
+```{r}
+##### HIGH INCOME ##########
+library(rjags)
+
+# Normalized datasets
+flfpr_rj <- mean_by_year_high_final$flfpr
+seatprop_rj <- mean_by_year_high_final$seatprop
+gdp_rj <- mean_by_year_high_final$gdp
+fertility_rj <- mean_by_year_high_final$fertility
+n <- nrow(mean_by_year_high_final)
+
+# JAGS Little Language
+model_string <- "model{
+
+# Likelihood
+for(i in 1:n){
+mu1[i] <- beta1 + beta2*seatprop_rj[i] + beta3*gdp_rj[i] + beta4*fertility_rj[i]
+flfpr_rj[i]   ~ dnorm(mu1[i],inv.var1)
+}
+
+# Prior for beta
+beta1 ~ dnorm(0,0.01)
+beta2 ~ dnorm(0,0.01)
+beta3 ~ dnorm(0,0.01)
+beta4 ~ dnorm(0,0.01)
+#beta5 ~ dnorm(0,0.01)
+
+
+# Prior for the inverse variance
+var1   ~ dunif(0.01, 0.99)
+var2   ~ dunif(0.01, 0.99)
+var3   ~ dunif(0.01, 0.99)
+var4   ~ dunif(0.01, 0.99)
+#var5   ~ dunif(0.01, 0.99)
+
+inv.var1   <- 1/var1
+inv.var2   <- 1/var2
+inv.var3   <- 1/var3
+inv.var4   <- 1/var4
+#inv.var5   <- 1/var5
+
+sigma1     <- sqrt(var1)
+sigma2     <- sqrt(var2)
+sigma3     <- sqrt(var3)
+sigma4     <- sqrt(var4)
+#sigma5     <- sqrt(var5)
+
+}"
+
+model <- jags.model(textConnection(model_string), data = list(flfpr_rj=flfpr_rj, seatprop_rj=seatprop_rj, gdp_rj=gdp_rj, fertility_rj=fertility_rj, n=n), n.chains = 4)
+
+update(model, 10000, progress.bar="none"); # Burn-in for 10000 samples
+
+samp <- coda.samples(model, 
+                     variable.names=c("beta1","beta2","beta3", "beta4", "sigma1", "sigma2", "sigma3","sigma4"), 
+                     n.iter=20000, progress.bar="text")
+
+summary(samp)
+traceplot(samp)
+
+# sometimes the gelman plot won't fit on a screen
+# we have to reduce the margins
+par(mar=c(.4,.4,.4,.4))
+gelman.plot(samp)
+saveRDS(samp, "flfpr_fork_highincome_final.RDS")
+
+```
+
+
+```{r}
+##### LOW INCOME ##########
+library(rjags)
+
+# Normalized datasets
+flfpr_rj <- mean_by_year_low_final$flfpr
+seatprop_rj <- mean_by_year_low_final$seatprop
+ger_secondary_rj <- mean_by_year_low_final$ger_secondary
+gdp_rj <- mean_by_year_low_final$gdp
+fertility_rj <- mean_by_year_low_final$fertility
+n <- nrow(mean_by_year_low_final)
+
+# JAGS Little Language
+model_string <- "model{
+
+# Likelihood
+for(i in 1:n){
+mu1[i] <- beta1 + beta2*seatprop_rj[i] + beta3*ger_secondary_rj[i] + beta4*gdp_rj[i]+ beta5*fertility_rj[i]
+flfpr_rj[i]   ~ dnorm(mu1[i],inv.var1)
+}
+
+# Prior for beta
+beta1 ~ dnorm(0,0.01)
+beta2 ~ dnorm(0,0.01)
+beta3 ~ dnorm(0,0.01)
+beta4 ~ dnorm(0,0.01)
+beta5 ~ dnorm(0,0.01)
+#beta6 ~ dnorm(0,0.01)
+
+
+# Prior for the inverse variance
+var1   ~ dunif(0.01, 0.99)
+var2   ~ dunif(0.01, 0.99)
+var3   ~ dunif(0.01, 0.99)
+var4   ~ dunif(0.01, 0.99)
+var5   ~ dunif(0.01, 0.99)
+#var6   ~ dunif(0.01, 0.99)
+
+inv.var1   <- 1/var1
+inv.var2   <- 1/var2
+inv.var3   <- 1/var3
+inv.var4   <- 1/var4
+inv.var5   <- 1/var5
+#inv.var6   <- 1/var6
+
+sigma1     <- sqrt(var1)
+sigma2     <- sqrt(var2)
+sigma3     <- sqrt(var3)
+sigma4     <- sqrt(var4)
+sigma5     <- sqrt(var5)
+#sigma6     <- sqrt(var6)
+
+}"
+
+model <- jags.model(textConnection(model_string), data = list(flfpr_rj=flfpr_rj, seatprop_rj=seatprop_rj, gdp_rj=gdp_rj,ger_secondary_rj=ger_secondary_rj,fertility_rj=fertility_rj ,n=n), n.chains = 5)
+
+update(model, 10000, progress.bar="none"); # Burn-in for 10000 samples
+
+samp <- coda.samples(model, 
+                     variable.names=c("beta1","beta2","beta3", "beta4","beta5", "sigma1", "sigma2", "sigma3","sigma4","sigma5"), 
+                     n.iter=20000, progress.bar="text")
+
+summary(samp)
+traceplot(samp)
+
+# sometimes the gelman plot won't fit on a screen
+# we have to reduce the margins
+par(mar=c(.4,.4,.4,.4))
+gelman.plot(samp)
+saveRDS(samp, "flfpr_fork_lowincome_final.RDS")
+
+```
