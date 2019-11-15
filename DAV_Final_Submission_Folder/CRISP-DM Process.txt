@@ -1,0 +1,57 @@
+CRISP-DM Methodology
+
+CRISP-DM stands for cross-industry process for data mining. The CRISP-DM methodology provides a structured approach to planning a data mining project. It is a robust and well-proven methodology.
+It is the golden thread than runs through almost every client engagement. 
+
+This model is an idealised sequence of events. In practice many of the tasks can be performed in a different order and it will often be necessary to backtrack to previous tasks and repeat certain actions. The model does not try to capture all possible routes through the data mining process.
+
+
+
+    Business understanding
+    Data understanding
+    Data preparation
+    Modeling
+    Evaluation
+    Deployment
+
+
+Stage one – determine business objectives
+
+The first stage of the CRISP-DM process is to understand what you want to accomplish from a business perspective. Your organisation may have competing objectives and constraints that must be properly balanced. The goal of this stage of the process is to uncover important factors that could influence the outcome of the project. Neglecting this step can mean that a great deal of effort is put into producing the right answers to the wrong questions.
+What are the desired outputs of the project?
+
+    Set objectives - This means describing your primary objective from a business perspective. There may also be other related questions that you would like to address. For example, your primary goal might be to keep current customers by predicting when they are prone to move to a competitor. Related business questions might be “Does the channel used affect whether customers stay or go?” or “Will lower ATM fees significantly reduce the number of high-value customers who leave?”
+    Produce project plan - Here you'll describe the plan for achieving the data mining and business goals. The plan should specify the steps to be performed during the rest of the project, including the initial selection of tools and techniques.
+    Business success criteria - Here you'll lay out the criteria that you'll use to determine whether the project has been successful from the business point of view. These should ideally be specific and measurable, for example reduction of customer churn to a certain level, however sometimes it might be necessary to have more subjective criteria such as “give useful insights into the relationships.” If this is the case then it needs to be clear who it is that makes the subjective judgment.
+
+ 
+Assess the current situation
+
+This involves more detailed fact-finding about all of the resources, constraints, assumptions and other factors that you'll need to consider when determining your data analysis goal and project plan.
+
+    Inventory of resources - List the resources available to the project including:
+        Personnel (business experts, data experts, technical support, data mining experts)
+        Data (fixed extracts, access to live, warehoused, or operational data)
+        Computing resources (hardware platforms)
+        Software (data mining tools, other relevant software)
+    Requirements, assumptions and constraints - List all requirements of the project including the schedule of completion, the required comprehensibility and quality of results, and any data security concerns as well as any legal issues. Make sure that you are allowed to use the data. List the assumptions made by the project. These may be assumptions about the data that can be verified during data mining, but may also include non-verifiable assumptions about the business related to the project. It is particularly important to list the latter if they will affect the validity of the results. List the constraints on the project. These may be constraints on the availability of resources, but may also include technological constraints such as the size of data set that it is practical to use for modelling.
+    Risks and contingencies - List the risks or events that might delay the project or cause it to fail. List the corresponding contingency plans - what action will you take if these risks or events take place?
+    Terminology - Compile a glossary of terminology relevant to the project. This will generally have two components:
+        A glossary of relevant business terminology, which forms part of the business understanding available to the project. Constructing this glossary is a useful “knowledge elicitation” and education exercise.
+        A glossary of data mining terminology, illustrated with examples relevant to the business problem in question. 
+    Costs and benefits - Construct a cost-benefit analysis for the project which compares the costs of the project with the potential benefits to the business if it is successful. This comparison should be as specific as possible. For example, you should use financial measures in a commercial situation. 
+
+Determine data mining goals
+
+A business goal states objectives in business terminology. A data mining goal states project objectives in technical terms. For example, the business goal might be “Increase catalogue sales to existing customers.” A data mining goal might be “Predict how many widgets a customer will buy, given their purchases over the past three years, demographic information (age, salary, city, etc.), and the price of the item.” 
+
+    Business success criteria  - describe the intended outputs of the project that enable the achievement of the business objectives.
+    Data mining success criteria - define the criteria for a successful outcome to the project in technical terms—for example, a certain level of predictive accuracy or a propensity-to-purchase profile with a given degree of “lift.” As with business success criteria, it may be necessary to describe these in subjective terms, in which case the person or persons making the subjective judgment should be identified. 
+
+Produce project plan
+
+Describe the intended plan for achieving the data mining goals and thereby achieving the business goals. Your plan should specify the steps to be performed during the rest of the project, including the initial selection of tools and techniques. 
+
+    Project plan - List the stages to be executed in the project, together with their duration, resources required, inputs, outputs, and dependencies. Where possible, try and make explicit the large-scale iterations in the data mining process, for example, repetitions of the modelling and evaluation phases. As part of the project plan, it is also important to analyze dependencies between time schedule and risks. Mark results of these analyses explicitly in the project plan, ideally with actions and recommendations if the risks are manifested. Decide at this point which evaluation strategy will be used in the evaluation phase. Your project plan will be a dynamic document. At the end of each phase you'll review progress and achievements and update the project plan accordingly. Specific review points for these updates should be part of the project plan.
+    Initial assessment of tools and techniques - At the end of the first phase you should undertake an initial assessment of tools and techniques. Here, for example, you select a data mining tool that supports various methods for different stages of the process. It is important to assess tools and techniques early in the process since the selection of tools and techniques may influence the entire project.
+

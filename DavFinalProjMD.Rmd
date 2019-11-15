@@ -872,6 +872,11 @@ traceplot(samp)
 # we have to reduce the margins
 par(mar=c(.4,.4,.4,.4))
 gelman.plot(samp)
+densplot(samp)
+acfplot(samp)
+
+# get the effective sample size
+effectiveSize(samp)
 saveRDS(samp, "flfpr_fork_highincome_final.RDS")
 
 ```
@@ -946,6 +951,11 @@ traceplot(samp)
 # we have to reduce the margins
 par(mar=c(.4,.4,.4,.4))
 gelman.plot(samp)
+densplot(samp)
+acfplot(samp)
+
+# get the effective sample size
+effectiveSize(samp)
 saveRDS(samp, "flfpr_fork_lowincome_final.RDS")
 
 ```
